@@ -5,8 +5,7 @@
   },
   "runArgs": [
     "--net=host",
-    "--env", "DISPLAY",
-    "--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+    "--env", "DISPLAY=host.docker.internal:0"
   ],
   "extensions": [
     "ms-vscode.cpptools",
