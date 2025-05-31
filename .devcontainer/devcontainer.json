@@ -1,0 +1,20 @@
+{
+  "name": "subpar-gazebo-dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--net=host",
+    "--env", "DISPLAY",
+    "--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+  ],
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "bierner.markdown-preview-github-styles"
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}
