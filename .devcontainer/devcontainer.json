@@ -1,5 +1,5 @@
 {
-  "name": "subpar-gazebo-dev",
+  "name": "subpar-dev",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -10,6 +10,7 @@
   ],
   "extensions": [
     "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools",
     "ms-python.python",
     "ms-toolsai.jupyter",
     "bierner.markdown-preview-github-styles"
