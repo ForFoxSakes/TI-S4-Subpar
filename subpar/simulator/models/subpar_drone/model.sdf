@@ -2,29 +2,181 @@
 <sdf version="1.7">
   <model name="subpar_drone">
     <static>false</static>
+
+    <!-- Main body -->
     <link name="body">
+      <pose>0 0 0.2 0 0 0</pose>
       <inertial>
-        <mass>5.0</mass>
+        <mass>2.0</mass>
       </inertial>
-      <collision name="collision">
+      <collision name="collision_body">
         <geometry>
-          <cylinder>
-            <radius>0.1</radius>
-            <length>0.4</length>
-          </cylinder>
+          <box>
+            <size>0.3 0.2 0.1</size>
+          </box>
         </geometry>
       </collision>
-      <visual name="visual">
+      <visual name="visual_body">
         <geometry>
-          <cylinder>
-            <radius>0.1</radius>
-            <length>0.4</length>
-          </cylinder>
+          <box>
+            <size>0.3 0.2 0.1</size>
+          </box>
         </geometry>
         <material>
-          <ambient>0.2 0.2 0.8 1</ambient>
+          <ambient>0.2 0.4 0.8 1</ambient>
+          <diffuse>0.1 0.2 0.5 1</diffuse>
         </material>
       </visual>
     </link>
+
+    <!-- Motor links and joints -->
+    <!-- Helper: corners of box with offsets ±0.15, ±0.1, ±0.05 -->
+    <!-- Motor Z-positie verhoogd met 0.1 om boven/onder body te liggen -->
+
+<!-- Gimbal Frame -->
+<link name="motor_p_p_p_frame">
+  <pose>0.15 0.1 0.15 0 0 0</pose>
+  <inertial><mass>0.001</mass></inertial>
+</link>
+
+<joint name="joint_motor_p_p_p_pitch" type="revolute">
+  <parent>body</parent>
+  <child>motor_p_p_p_frame</child>
+  <axis>
+    <xyz>1 0 0</xyz>
+    <limit><lower>-1.5708</lower><upper>1.5708</upper></limit>
+  </axis>
+</joint>
+
+<!-- Eigenlijke motor (draait om tweede as) -->
+<link name="motor_p_p_p">
+  <pose>0 0 0 0 0 0</pose> <!-- Relatief t.o.v. frame -->
+  <inertial><mass>0.01</mass></inertial>
+  <collision name="collision_motor">
+    <geometry><sphere><radius>0.02</radius></sphere></geometry>
+  </collision>
+  <visual name="visual_motor">
+    <geometry><sphere><radius>0.02</radius></sphere></geometry>
+  </visual>
+</link>
+
+<joint name="joint_motor_p_p_p_yaw" type="revolute">
+  <parent>motor_p_p_p_frame</parent>
+  <child>motor_p_p_p</child>
+  <axis>
+    <xyz>0 1 0</xyz>
+    <limit><lower>-1.5708</lower><upper>1.5708</upper></limit>
+  </axis>
+</joint>
+
+
+
+    <!-- motor_p_p_n -->
+    <link name="motor_p_p_n">
+      <pose>0.15 0.1 0.15 0 0 0</pose>
+      <collision name="collision_motor_p_p_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_p_p_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_p_p_n" type="fixed">
+      <parent>body</parent>
+      <child>motor_p_p_n</child>
+    </joint>
+
+    <!-- motor_p_n_p -->
+    <link name="motor_p_n_p">
+      <pose>0.15 -0.1 0.25 0 0 0</pose>
+      <collision name="collision_motor_p_n_p">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_p_n_p">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_p_n_p" type="fixed">
+      <parent>body</parent>
+      <child>motor_p_n_p</child>
+    </joint>
+
+    <!-- motor_p_n_n -->
+    <link name="motor_p_n_n">
+      <pose>0.15 -0.1 0.15 0 0 0</pose>
+      <collision name="collision_motor_p_n_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_p_n_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_p_n_n" type="fixed">
+      <parent>body</parent>
+      <child>motor_p_n_n</child>
+    </joint>
+
+    <!-- motor_n_p_p -->
+    <link name="motor_n_p_p">
+      <pose>-0.15 0.1 0.25 0 0 0</pose>
+      <collision name="collision_motor_n_p_p">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_n_p_p">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_n_p_p" type="fixed">
+      <parent>body</parent>
+      <child>motor_n_p_p</child>
+    </joint>
+
+    <!-- motor_n_p_n -->
+    <link name="motor_n_p_n">
+      <pose>-0.15 0.1 0.15 0 0 0</pose>
+      <collision name="collision_motor_n_p_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_n_p_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_n_p_n" type="fixed">
+      <parent>body</parent>
+      <child>motor_n_p_n</child>
+    </joint>
+
+    <!-- motor_n_n_p -->
+    <link name="motor_n_n_p">
+      <pose>-0.15 -0.1 0.25 0 0 0</pose>
+      <collision name="collision_motor_n_n_p">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_n_n_p">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_n_n_p" type="fixed">
+      <parent>body</parent>
+      <child>motor_n_n_p</child>
+    </joint>
+
+    <!-- motor_n_n_n -->
+    <link name="motor_n_n_n">
+      <pose>-0.15 -0.1 0.15 0 0 0</pose>
+      <collision name="collision_motor_n_n_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </collision>
+      <visual name="visual_motor_n_n_n">
+        <geometry><sphere><radius>0.02</radius></sphere></geometry>
+      </visual>
+    </link>
+    <joint name="joint_motor_n_n_n" type="fixed">
+      <parent>body</parent>
+      <child>motor_n_n_n</child>
+    </joint>
+
+    <!-- Plugin -->
+    <plugin name="subpar::SubparDronePlugin" filename="libSubparDronePlugin.so"/>
   </model>
 </sdf>

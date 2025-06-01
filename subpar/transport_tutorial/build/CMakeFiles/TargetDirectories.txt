@@ -1,0 +1,4 @@
+/workspaces/TI-S4-Subpar/subpar/transport_tutorial/build/CMakeFiles/subscriber.dir
+/workspaces/TI-S4-Subpar/subpar/transport_tutorial/build/CMakeFiles/publisher.dir
+/workspaces/TI-S4-Subpar/subpar/transport_tutorial/build/CMakeFiles/edit_cache.dir
+/workspaces/TI-S4-Subpar/subpar/transport_tutorial/build/CMakeFiles/rebuild_cache.dir
