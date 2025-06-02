@@ -36,6 +36,8 @@ int main(int argc, char **argv)
     }
     else
     {
+
+    
       std::cout << "📤 Bericht " << i+1 << " gepubliceerd" << std::endl;
     }
 

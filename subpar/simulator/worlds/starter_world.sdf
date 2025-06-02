@@ -1,14 +1,16 @@
 <?xml version="1.0" ?>
 <sdf version="1.7">
   <world name="default">
-    <gravity>0 0 -0.981</gravity> <!-- zet gravity direct onder <world> -->
-
+   <!-- <gravity>0 0 -0.981</gravity>  zet gravity direct onder <world> -->
+<gravity>0 0 0</gravity>
     <physics name="default_physics" type="gz-physics">
       <!-- hier géén <gravity> -->
     </physics>
-
+    <physics type='ode'>
     <include>
-      <uri>model://subpar_drone</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone</uri>
+
+
       <pose>0 0 0.2 0 0 0</pose>
     </include>
   </world>

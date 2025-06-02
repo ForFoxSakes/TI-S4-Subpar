@@ -236,6 +236,12 @@ CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
 
+//Path to a file.
+DL_INCLUDE_DIRS:PATH=/usr/include
+
+//Path to a library.
+DL_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.a
+
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/share/eigen3/cmake
 
@@ -349,7 +355,10 @@ SubparDronePluginProject_IS_TOP_LEVEL:STATIC=ON
 SubparDronePluginProject_SOURCE_DIR:STATIC=/workspaces/TI-S4-Subpar/subpar/simulator
 
 //Dependencies for the target
-SubparDronePlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;
+SubparDronePlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;general;uuid;general;protobuf;general;protobuf;
+
+//Dependencies for the target
+SubparKeyGuiPlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;general;gz-gui7::gz-gui7;general;uuid;general;protobuf;general;protobuf;general;Qt5::Widgets;general;Qt5::Quick;
 
 //Path to a library.
 TINYXML2_LIBRARY_tinyxml2:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
@@ -378,8 +387,26 @@ draco_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/draco
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
 
+//The directory containing a CMake configuration file for gz-cmake3.
+gz-cmake3_DIR:PATH=/usr/share/cmake/gz-cmake3
+
 //The directory containing a CMake configuration file for gz-cmake4.
 gz-cmake4_DIR:PATH=/usr/share/cmake/gz-cmake4
+
+//The directory containing a CMake configuration file for gz-common5-events.
+gz-common5-events_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-events
+
+//The directory containing a CMake configuration file for gz-common5-geospatial.
+gz-common5-geospatial_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-geospatial
+
+//The directory containing a CMake configuration file for gz-common5-graphics.
+gz-common5-graphics_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-graphics
+
+//The directory containing a CMake configuration file for gz-common5-profiler.
+gz-common5-profiler_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-profiler
+
+//The directory containing a CMake configuration file for gz-common5.
+gz-common5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5
 
 //The directory containing a CMake configuration file for gz-common6-av.
 gz-common6-av_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common6-av
@@ -408,8 +435,17 @@ gz-common6_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common6
 //The directory containing a CMake configuration file for gz-fuel_tools10.
 gz-fuel_tools10_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools10
 
+//The directory containing a CMake configuration file for gz-gui7.
+gz-gui7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-gui7
+
 //The directory containing a CMake configuration file for gz-gui9.
 gz-gui9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-gui9
+
+//The directory containing a CMake configuration file for gz-math7-eigen3.
+gz-math7-eigen3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math7-eigen3
+
+//The directory containing a CMake configuration file for gz-math7.
+gz-math7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math7
 
 //The directory containing a CMake configuration file for gz-math8-eigen3.
 gz-math8-eigen3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math8-eigen3
@@ -419,6 +455,9 @@ gz-math8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math8
 
 //The directory containing a CMake configuration file for gz-msgs11.
 gz-msgs11_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-msgs11
+
+//The directory containing a CMake configuration file for gz-msgs9.
+gz-msgs9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-msgs9
 
 //The directory containing a CMake configuration file for gz-physics8-heightmap.
 gz-physics8-heightmap_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics8-heightmap
@@ -432,6 +471,18 @@ gz-physics8-sdf_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics8-sdf
 //The directory containing a CMake configuration file for gz-physics8.
 gz-physics8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics8
 
+//The directory containing a CMake configuration file for gz-plugin2-all.
+gz-plugin2-all_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-all
+
+//The directory containing a CMake configuration file for gz-plugin2-loader.
+gz-plugin2-loader_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-loader
+
+//The directory containing a CMake configuration file for gz-plugin2-register.
+gz-plugin2-register_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-register
+
+//The directory containing a CMake configuration file for gz-plugin2.
+gz-plugin2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2
+
 //The directory containing a CMake configuration file for gz-plugin3-all.
 gz-plugin3-all_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin3-all
 
@@ -443,6 +494,9 @@ gz-plugin3-register_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin3-register
 
 //The directory containing a CMake configuration file for gz-plugin3.
 gz-plugin3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin3
+
+//The directory containing a CMake configuration file for gz-rendering7.
+gz-rendering7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-rendering7
 
 //The directory containing a CMake configuration file for gz-rendering9.
 gz-rendering9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-rendering9
@@ -507,11 +561,11 @@ gz-sensors9-wide_angle_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensor
 //The directory containing a CMake configuration file for gz-sensors9.
 gz-sensors9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors9
 
-//The directory containing a CMake configuration file for gz-sim9-sim.
-gz-sim9-sim_DIR:PATH=gz-sim9-sim_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for gz-sim9.
 gz-sim9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sim9
+
+//The directory containing a CMake configuration file for gz-transport12.
+gz-transport12_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport12
 
 //The directory containing a CMake configuration file for gz-transport14-log.
 gz-transport14-log_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport14-log
@@ -521,6 +575,12 @@ gz-transport14-parameters_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport1
 
 //The directory containing a CMake configuration file for gz-transport14.
 gz-transport14_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport14
+
+//The directory containing a CMake configuration file for gz-utils2-cli.
+gz-utils2-cli_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils2-cli
+
+//The directory containing a CMake configuration file for gz-utils2.
+gz-utils2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils2
 
 //The directory containing a CMake configuration file for gz-utils3-cli.
 gz-utils3-cli_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils3-cli
@@ -545,6 +605,42 @@ pkgcfg_lib_AVFORMAT_avformat:FILEPATH=/usr/lib/x86_64-linux-gnu/libavformat.so
 
 //Path to a library.
 pkgcfg_lib_AVUTIL_avutil:FILEPATH=/usr/lib/x86_64-linux-gnu/libavutil.so
+
+//Path to a library.
+pkgcfg_lib_GZ_MATH_gz-math7:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-math7.so
+
+//Path to a library.
+pkgcfg_lib_GZ_MATH_gz-utils2:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-utils2.so
+
+//Path to a library.
+pkgcfg_lib_GZ_MSGS_gz-math7:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-math7.so
+
+//Path to a library.
+pkgcfg_lib_GZ_MSGS_gz-msgs9:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-msgs9.so
+
+//Path to a library.
+pkgcfg_lib_GZ_MSGS_gz-utils2:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-utils2.so
+
+//Path to a library.
+pkgcfg_lib_GZ_MSGS_protobuf:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotobuf.so
+
+//Path to a library.
+pkgcfg_lib_GZ_TRANSPORT_gz-math7:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-math7.so
+
+//Path to a library.
+pkgcfg_lib_GZ_TRANSPORT_gz-msgs9:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-msgs9.so
+
+//Path to a library.
+pkgcfg_lib_GZ_TRANSPORT_gz-transport12:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-transport12.so
+
+//Path to a library.
+pkgcfg_lib_GZ_TRANSPORT_gz-utils2:FILEPATH=/usr/lib/x86_64-linux-gnu/libgz-utils2.so
+
+//Path to a library.
+pkgcfg_lib_GZ_TRANSPORT_protobuf:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotobuf.so
+
+//Path to a library.
+pkgcfg_lib_GZ_TRANSPORT_uuid:FILEPATH=/usr/lib/x86_64-linux-gnu/libuuid.so
 
 //Path to a library.
 pkgcfg_lib_JSONCPP_jsoncpp:FILEPATH=/usr/lib/x86_64-linux-gnu/libjsoncpp.so
@@ -885,6 +981,10 @@ CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: DL_INCLUDE_DIRS
+DL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: DL_LIBRARIES
+DL_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding AVCODEC
 FIND_PACKAGE_MESSAGE_DETAILS_AVCODEC:INTERNAL=[TRUE][v()]
 //Details about finding AVDEVICE
@@ -895,12 +995,16 @@ FIND_PACKAGE_MESSAGE_DETAILS_AVFORMAT:INTERNAL=[TRUE][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_AVUTIL:INTERNAL=[TRUE][v()]
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.81.0()]
+//Details about finding DL
+FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
 //Details about finding GzAssimp
 FIND_PACKAGE_MESSAGE_DETAILS_GzAssimp:INTERNAL=[1][v5.2.0()]
 //Details about finding JSONCPP
 FIND_PACKAGE_MESSAGE_DETAILS_JSONCPP:INTERNAL=[TRUE][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libGL.so][/usr/include][cfound components: OpenGL ][v()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
 //Details about finding Protobuf
 FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so][/usr/include][v3.12.4()]
 //Details about finding Python3
@@ -917,6 +1021,111 @@ FIND_PACKAGE_MESSAGE_DETAILS_YAML:INTERNAL=[TRUE][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_ZIP:INTERNAL=[TRUE][v()]
 //Details about finding ZeroMQ
 FIND_PACKAGE_MESSAGE_DETAILS_ZeroMQ:INTERNAL=[TRUE][v(4)]
+GZ_MATH_CFLAGS:INTERNAL=-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MATH_CFLAGS_I:INTERNAL=
+GZ_MATH_CFLAGS_OTHER:INTERNAL=-std=c++17
+GZ_MATH_FOUND:INTERNAL=1
+GZ_MATH_INCLUDEDIR:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7
+GZ_MATH_INCLUDE_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MATH_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-math7;-lgz-utils2
+GZ_MATH_LDFLAGS_OTHER:INTERNAL=
+GZ_MATH_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_MATH_LIBRARIES:INTERNAL=gz-math7;gz-utils2
+GZ_MATH_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_MATH_LIBS:INTERNAL=
+GZ_MATH_LIBS_L:INTERNAL=
+GZ_MATH_LIBS_OTHER:INTERNAL=
+GZ_MATH_LIBS_PATHS:INTERNAL=
+GZ_MATH_MODULE_NAME:INTERNAL=gz-math7
+GZ_MATH_PREFIX:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../../
+GZ_MATH_STATIC_CFLAGS:INTERNAL=-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MATH_STATIC_CFLAGS_I:INTERNAL=
+GZ_MATH_STATIC_CFLAGS_OTHER:INTERNAL=-std=c++17
+GZ_MATH_STATIC_INCLUDE_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MATH_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-math7;-lgz-utils2
+GZ_MATH_STATIC_LDFLAGS_OTHER:INTERNAL=
+GZ_MATH_STATIC_LIBDIR:INTERNAL=
+GZ_MATH_STATIC_LIBRARIES:INTERNAL=gz-math7;gz-utils2
+GZ_MATH_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_MATH_STATIC_LIBS:INTERNAL=
+GZ_MATH_STATIC_LIBS_L:INTERNAL=
+GZ_MATH_STATIC_LIBS_OTHER:INTERNAL=
+GZ_MATH_STATIC_LIBS_PATHS:INTERNAL=
+GZ_MATH_VERSION:INTERNAL=7.5.1
+GZ_MATH_gz-math7_INCLUDEDIR:INTERNAL=
+GZ_MATH_gz-math7_LIBDIR:INTERNAL=
+GZ_MATH_gz-math7_PREFIX:INTERNAL=
+GZ_MATH_gz-math7_VERSION:INTERNAL=
+GZ_MSGS_CFLAGS:INTERNAL=-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MSGS_CFLAGS_I:INTERNAL=
+GZ_MSGS_CFLAGS_OTHER:INTERNAL=-pthread;-std=c++17
+GZ_MSGS_FOUND:INTERNAL=1
+GZ_MSGS_INCLUDEDIR:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9
+GZ_MSGS_INCLUDE_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MSGS_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-msgs9;-lprotobuf;-lgz-math7;-lgz-utils2
+GZ_MSGS_LDFLAGS_OTHER:INTERNAL=
+GZ_MSGS_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_MSGS_LIBRARIES:INTERNAL=gz-msgs9;protobuf;gz-math7;gz-utils2
+GZ_MSGS_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_MSGS_LIBS:INTERNAL=
+GZ_MSGS_LIBS_L:INTERNAL=
+GZ_MSGS_LIBS_OTHER:INTERNAL=
+GZ_MSGS_LIBS_PATHS:INTERNAL=
+GZ_MSGS_MODULE_NAME:INTERNAL=gz-msgs9
+GZ_MSGS_PREFIX:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../../
+GZ_MSGS_STATIC_CFLAGS:INTERNAL=-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MSGS_STATIC_CFLAGS_I:INTERNAL=
+GZ_MSGS_STATIC_CFLAGS_OTHER:INTERNAL=-pthread;-std=c++17
+GZ_MSGS_STATIC_INCLUDE_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_MSGS_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-msgs9;-ltinyxml2;-lprotobuf;-lz;-lgz-math7;-lgz-utils2
+GZ_MSGS_STATIC_LDFLAGS_OTHER:INTERNAL=
+GZ_MSGS_STATIC_LIBDIR:INTERNAL=
+GZ_MSGS_STATIC_LIBRARIES:INTERNAL=gz-msgs9;tinyxml2;protobuf;z;gz-math7;gz-utils2
+GZ_MSGS_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_MSGS_STATIC_LIBS:INTERNAL=
+GZ_MSGS_STATIC_LIBS_L:INTERNAL=
+GZ_MSGS_STATIC_LIBS_OTHER:INTERNAL=
+GZ_MSGS_STATIC_LIBS_PATHS:INTERNAL=
+GZ_MSGS_VERSION:INTERNAL=9.5.1
+GZ_MSGS_gz-msgs9_INCLUDEDIR:INTERNAL=
+GZ_MSGS_gz-msgs9_LIBDIR:INTERNAL=
+GZ_MSGS_gz-msgs9_PREFIX:INTERNAL=
+GZ_MSGS_gz-msgs9_VERSION:INTERNAL=
+GZ_TRANSPORT_CFLAGS:INTERNAL=-std=c++17;-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/transport12;-isystem;/usr/include/mit-krb5;-I/usr/include/pgm-5.3;-I/usr/include/libxml2;-I/usr/include/uuid;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_TRANSPORT_CFLAGS_I:INTERNAL=
+GZ_TRANSPORT_CFLAGS_OTHER:INTERNAL=-std=c++17;-pthread;-std=c++17
+GZ_TRANSPORT_FOUND:INTERNAL=1
+GZ_TRANSPORT_INCLUDEDIR:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/transport12
+GZ_TRANSPORT_INCLUDE_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/transport12;/usr/include/mit-krb5;/usr/include/pgm-5.3;/usr/include/libxml2;/usr/include/uuid;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_TRANSPORT_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-transport12;-luuid;-lgz-msgs9;-lprotobuf;-lgz-math7;-lgz-utils2
+GZ_TRANSPORT_LDFLAGS_OTHER:INTERNAL=
+GZ_TRANSPORT_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_TRANSPORT_LIBRARIES:INTERNAL=gz-transport12;uuid;gz-msgs9;protobuf;gz-math7;gz-utils2
+GZ_TRANSPORT_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_TRANSPORT_LIBS:INTERNAL=
+GZ_TRANSPORT_LIBS_L:INTERNAL=
+GZ_TRANSPORT_LIBS_OTHER:INTERNAL=
+GZ_TRANSPORT_LIBS_PATHS:INTERNAL=
+GZ_TRANSPORT_MODULE_NAME:INTERNAL=gz-transport12
+GZ_TRANSPORT_PREFIX:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../../
+GZ_TRANSPORT_STATIC_CFLAGS:INTERNAL=-std=c++17;-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/transport12;-isystem;/usr/include/mit-krb5;-I/usr/include/pgm-5.3;-I/usr/include/libxml2;-I/usr/include/uuid;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_TRANSPORT_STATIC_CFLAGS_I:INTERNAL=
+GZ_TRANSPORT_STATIC_CFLAGS_OTHER:INTERNAL=-std=c++17;-pthread;-std=c++17
+GZ_TRANSPORT_STATIC_INCLUDE_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/transport12;/usr/include/mit-krb5;/usr/include/pgm-5.3;/usr/include/libxml2;/usr/include/uuid;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3
+GZ_TRANSPORT_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-transport12;-lzmq;-lstdc++;-lpthread;-lrt;-lgssapi_krb5;-lkrb5;-lk5crypto;-lcom_err;-lkrb5support;-lsodium;-pthread;-lpgm;-lpthread;-lm;-lnorm;libprotokit.a;-lxml2;-licui18n;-licuuc;-licudata;-lz;-llzma;-lm;-lbsd;-lmd;-luuid;-lgz-msgs9;-ltinyxml2;-lprotobuf;-lz;-lgz-math7;-lgz-utils2
+GZ_TRANSPORT_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;libprotokit.a
+GZ_TRANSPORT_STATIC_LIBDIR:INTERNAL=
+GZ_TRANSPORT_STATIC_LIBRARIES:INTERNAL=gz-transport12;zmq;stdc++;pthread;rt;gssapi_krb5;krb5;k5crypto;com_err;krb5support;sodium;pgm;pthread;m;norm;xml2;icui18n;icuuc;icudata;z;lzma;m;bsd;md;uuid;gz-msgs9;tinyxml2;protobuf;z;gz-math7;gz-utils2
+GZ_TRANSPORT_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
+GZ_TRANSPORT_STATIC_LIBS:INTERNAL=
+GZ_TRANSPORT_STATIC_LIBS_L:INTERNAL=
+GZ_TRANSPORT_STATIC_LIBS_OTHER:INTERNAL=
+GZ_TRANSPORT_STATIC_LIBS_PATHS:INTERNAL=
+GZ_TRANSPORT_VERSION:INTERNAL=12.2.2
+GZ_TRANSPORT_gz-transport12_INCLUDEDIR:INTERNAL=
+GZ_TRANSPORT_gz-transport12_LIBDIR:INTERNAL=
+GZ_TRANSPORT_gz-transport12_PREFIX:INTERNAL=
+GZ_TRANSPORT_gz-transport12_VERSION:INTERNAL=
 JSONCPP_CFLAGS:INTERNAL=-I/usr/include/jsoncpp
 JSONCPP_CFLAGS_I:INTERNAL=
 JSONCPP_CFLAGS_OTHER:INTERNAL=
@@ -1248,6 +1457,9 @@ __pkg_config_arguments_AVCODEC:INTERNAL=libavcodec
 __pkg_config_arguments_AVDEVICE:INTERNAL=libavdevice >= 56.4.100
 __pkg_config_arguments_AVFORMAT:INTERNAL=libavformat
 __pkg_config_arguments_AVUTIL:INTERNAL=libavutil
+__pkg_config_arguments_GZ_MATH:INTERNAL=REQUIRED;gz-math7
+__pkg_config_arguments_GZ_MSGS:INTERNAL=REQUIRED;gz-msgs9
+__pkg_config_arguments_GZ_TRANSPORT:INTERNAL=REQUIRED;gz-transport12
 __pkg_config_arguments_JSONCPP:INTERNAL=jsoncpp
 __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments_SWSCALE:INTERNAL=libswscale
@@ -1260,6 +1472,9 @@ __pkg_config_checked_AVCODEC:INTERNAL=1
 __pkg_config_checked_AVDEVICE:INTERNAL=1
 __pkg_config_checked_AVFORMAT:INTERNAL=1
 __pkg_config_checked_AVUTIL:INTERNAL=1
+__pkg_config_checked_GZ_MATH:INTERNAL=1
+__pkg_config_checked_GZ_MSGS:INTERNAL=1
+__pkg_config_checked_GZ_TRANSPORT:INTERNAL=1
 __pkg_config_checked_JSONCPP:INTERNAL=1
 __pkg_config_checked_PC_CURL:INTERNAL=1
 __pkg_config_checked_SWSCALE:INTERNAL=1
@@ -1276,6 +1491,30 @@ pkgcfg_lib_AVDEVICE_avdevice-ADVANCED:INTERNAL=1
 pkgcfg_lib_AVFORMAT_avformat-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_AVUTIL_avutil
 pkgcfg_lib_AVUTIL_avutil-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_MATH_gz-math7
+pkgcfg_lib_GZ_MATH_gz-math7-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_MATH_gz-utils2
+pkgcfg_lib_GZ_MATH_gz-utils2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_MSGS_gz-math7
+pkgcfg_lib_GZ_MSGS_gz-math7-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_MSGS_gz-msgs9
+pkgcfg_lib_GZ_MSGS_gz-msgs9-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_MSGS_gz-utils2
+pkgcfg_lib_GZ_MSGS_gz-utils2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_MSGS_protobuf
+pkgcfg_lib_GZ_MSGS_protobuf-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_TRANSPORT_gz-math7
+pkgcfg_lib_GZ_TRANSPORT_gz-math7-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_TRANSPORT_gz-msgs9
+pkgcfg_lib_GZ_TRANSPORT_gz-msgs9-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_TRANSPORT_gz-transport12
+pkgcfg_lib_GZ_TRANSPORT_gz-transport12-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_TRANSPORT_gz-utils2
+pkgcfg_lib_GZ_TRANSPORT_gz-utils2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_TRANSPORT_protobuf
+pkgcfg_lib_GZ_TRANSPORT_protobuf-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_GZ_TRANSPORT_uuid
+pkgcfg_lib_GZ_TRANSPORT_uuid-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_JSONCPP_jsoncpp
 pkgcfg_lib_JSONCPP_jsoncpp-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_CURL_curl

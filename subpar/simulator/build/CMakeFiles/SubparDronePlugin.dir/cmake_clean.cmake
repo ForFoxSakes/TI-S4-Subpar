@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SubparDronePlugin_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/SubparDronePlugin_autogen.dir/ParseCache.txt"
+  "SubparDronePlugin_autogen"
+  "CMakeFiles/SubparDronePlugin.dir/SubparDronePlugin_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/SubparDronePlugin.dir/SubparDronePlugin_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o"
   "CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o.d"
   "libSubparDronePlugin.pdb"
