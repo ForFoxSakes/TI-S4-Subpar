@@ -568,11 +568,60 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: ../plugins/Subp
   /usr/include/gz/transport14/gz/transport/detail/Node.hh \
   /usr/include/gz/msgs11/gz/msgs/empty.pb.h \
   /usr/include/gz/msgs11/gz/msgs/details/empty.pb.h \
+  /usr/include/gz/msgs11/gz/msgs/stringmsg.pb.h \
+  /usr/include/gz/msgs11/gz/msgs/details/stringmsg.pb.h \
   /usr/include/gz/msgs11/gz/msgs/double.pb.h \
-  /usr/include/gz/msgs11/gz/msgs/details/double.pb.h
+  /usr/include/gz/msgs11/gz/msgs/details/double.pb.h \
+  /usr/include/c++/11/regex \
+  /usr/include/c++/11/bitset \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_stack.h \
+  /usr/include/c++/11/bits/regex_constants.h \
+  /usr/include/c++/11/bits/regex_error.h \
+  /usr/include/c++/11/bits/regex_automaton.h \
+  /usr/include/c++/11/bits/regex_automaton.tcc \
+  /usr/include/c++/11/bits/regex_scanner.h \
+  /usr/include/c++/11/bits/regex_scanner.tcc \
+  /usr/include/c++/11/bits/regex_compiler.h \
+  /usr/include/c++/11/bits/regex_compiler.tcc \
+  /usr/include/c++/11/bits/regex.h \
+  /usr/include/c++/11/bits/regex.tcc \
+  /usr/include/c++/11/bits/regex_executor.h \
+  /usr/include/c++/11/bits/regex_executor.tcc
 
+
+/usr/include/c++/11/bits/regex_executor.tcc:
+
+/usr/include/c++/11/bits/regex_executor.h:
+
+/usr/include/c++/11/bits/regex.tcc:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
+/usr/include/c++/11/bits/regex_compiler.h:
+
+/usr/include/c++/11/bits/regex_scanner.h:
+
+/usr/include/c++/11/bits/regex_automaton.tcc:
+
+/usr/include/c++/11/bits/regex_automaton.h:
+
+/usr/include/c++/11/bits/regex_constants.h:
+
+/usr/include/c++/11/bits/stl_stack.h:
+
+/usr/include/c++/11/deque:
+
+/usr/include/c++/11/stack:
+
+/usr/include/c++/11/regex:
 
 /usr/include/gz/msgs11/gz/msgs/double.pb.h:
+
+/usr/include/gz/msgs11/gz/msgs/details/stringmsg.pb.h:
 
 /usr/include/gz/msgs11/gz/msgs/details/empty.pb.h:
 
@@ -814,6 +863,8 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: ../plugins/Subp
 
 /usr/include/c++/11/unordered_map:
 
+/usr/include/c++/11/bitset:
+
 /usr/include/gz/msgs11/gz/msgs/Export.hh:
 
 /usr/include/c++/11/bits/concept_check.h:
@@ -821,6 +872,8 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: ../plugins/Subp
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/gz/utils3/gz/utils/ImplPtr.hh:
 
@@ -1084,6 +1137,8 @@ SubparDronePlugin_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/bits/refwrap.h:
 
+/usr/include/gz/msgs11/gz/msgs/stringmsg.pb.h:
+
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/gz/plugin3/gz/plugin/Register.hh:
@@ -1119,6 +1174,8 @@ SubparDronePlugin_autogen/mocs_compilation.cpp:
 /usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/spdlog/common.h:
+
+/usr/include/c++/11/bits/regex_error.h:
 
 /usr/include/c++/11/atomic:
 
@@ -1292,6 +1349,8 @@ SubparDronePlugin_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/stdexcept:
 
+/usr/include/c++/11/bits/regex.h:
+
 /usr/include/google/protobuf/arena_impl.h:
 
 /usr/include/gz/sdformat15/sdf/system_util.hh:
@@ -1342,6 +1401,8 @@ SubparDronePlugin_autogen/mocs_compilation.cpp:
 
 /usr/include/google/protobuf/stubs/logging.h:
 
+/usr/include/c++/11/bits/stl_deque.h:
+
 /usr/include/google/protobuf/stubs/hash.h:
 
 /usr/include/c++/11/bits/stl_vector.h:
@@ -1357,6 +1418,8 @@ SubparDronePlugin_autogen/mocs_compilation.cpp:
 /usr/include/stdlib.h:
 
 /usr/include/google/protobuf/generated_message_table_driven.h:
+
+/usr/include/c++/11/bits/regex_scanner.tcc:
 
 /usr/include/c++/11/bits/stream_iterator.h:
 

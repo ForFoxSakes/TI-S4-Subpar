@@ -1,0 +1,246 @@
+<sdf version="1.10">
+  <model name="motor_module_2">
+    <pose>0 0 0 0 0 0</pose>
+
+      <link name="motor_module_2_base">
+        <pose>0.0 0.0 0.0 0 0 0</pose>
+        <inertial>
+          <inertia>
+            <ixx>2.501</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>2.501</iyy>
+            <iyz>0</iyz>
+            <izz>5</izz>
+          </inertia>
+          <mass>0.1</mass>
+        </inertial>
+        <collision name="base_collision">
+          <pose>0.0 0.0 0.0 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="motor_module_2_pitch_rotor">
+        <pose>0.0 0.0 0 0 0 0</pose>
+        <inertial>
+          <inertia>
+            <ixx>0.032</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.032</iyy>
+            <iyz>0</iyz>
+            <izz>0.00012</izz>
+          </inertia>
+          <mass>0.1</mass>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.5 0.1 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.2 0.8 0.2 1</ambient>
+            <diffuse>0.8 0 0 1</diffuse>
+          </material>
+          <transparency>0.9</transparency>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.1 0.05</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+ 
+      <link name="motor_module_2_yaw_rotor">
+        <!-- <pose>0.0 0.2 0.4 1.5708 0 0</pose> -->
+        <pose>0 0.25 0.25 1.5708 0 0</pose>
+          <inertial>
+            <mass>0.1</mass>
+            <inertia>
+              <ixx>0.05</ixx>
+              <iyy>0.05</iyy>
+              <izz>0.05</izz>
+              <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+            </inertia>
+          </inertial>
+        <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.5 0.1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.2 0.8 0.2 1</ambient>
+            <diffuse>0.8 0 0 1</diffuse>
+          </material>
+          <transparency>0.9</transparency>
+        </visual>
+        <collision name="collision_2">
+          <geometry>
+            <box>
+              <size>0.5 0.1 0.05</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="motor_module_2_thruster">
+        <!-- <pose>0.0 0.2 0.4 1.5708 0 0</pose> -->
+        <pose>0 0 0.25 0 0 0</pose>
+          <inertial>
+            <mass>0.1</mass>
+            <inertia>
+              <ixx>0.05</ixx>
+              <iyy>0.05</iyy>
+              <izz>0.05</izz>
+              <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+            </inertia>
+          </inertial>
+        <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.25</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.2 0.8 0.2 1</ambient>
+          <diffuse>0.8 0 0 1</diffuse>
+        </material>
+        </visual>
+        <collision name="collision_3">
+          <geometry>
+            <sphere>
+              <radius>0.25</radius>
+            </sphere>
+          </geometry>
+        </collision>
+      </link>
+      
+      <link name="motor_module_2_thruster_direction_marker">
+        <!-- <pose>0.0 0.2 0.4 1.5708 0 0</pose> -->
+        <pose>0 0 0.5 0 0 0</pose>
+          <inertial>
+            <mass>0.1</mass>
+            <inertia>
+              <ixx>0.05</ixx>
+              <iyy>0.05</iyy>
+              <izz>0.05</izz>
+              <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+            </inertia>
+          </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.5</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.8 0.2 1</ambient>
+            <diffuse>0.8 0 0 1</diffuse>
+          </material>
+        </visual>
+        <collision name="collision_4">
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.5</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+ 
+      <joint name="motor_module_2_joint_1" type="revolute">
+        <pose>0 0 0 0 0 0</pose>
+        <parent>motor_module_2_base</parent>
+        <child>motor_module_2_pitch_rotor</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+        </axis>
+      </joint>
+
+      <joint name="motor_module_2_joint_2" type="revolute">
+        <pose>0 0 0 0 0 0</pose>
+        <parent>motor_module_2_pitch_rotor</parent>
+        <child>motor_module_2_yaw_rotor</child>
+        <axis>
+          <xyz> 0 0 1</xyz>
+        </axis>
+      </joint>
+
+      <joint name="motor_module_2_joint_3" type="fixed">
+        <pose>0 0 0 0 0 0</pose>
+        <parent>motor_module_2_yaw_rotor</parent>
+        <child>motor_module_2_thruster</child>
+      </joint> 
+
+      <joint name="motor_module_2_joint_4" type="revolute">
+        <pose>0 0 0 0 0 0</pose>
+        <parent>motor_module_2_thruster</parent>
+        <child>motor_module_2_thruster_direction_marker</child>
+        <axis>
+    <xyz>0 0 -1</xyz>           
+    <limit>
+      <lower>-1e16</lower>
+      <upper>1e16</upper>
+      <effort>1000</effort>
+      <velocity>100</velocity>
+    </limit>
+  </axis>
+        
+      </joint> 
+      
+      <plugin
+        filename="gz-sim-joint-position-controller-system"
+        name="gz::sim::systems::JointPositionController">
+        <joint_name>motor_module_2_joint_1</joint_name>
+        <topic>motor_module_2_joint_1</topic>
+        <p_gain>1</p_gain>
+        <i_gain>0.1</i_gain>
+        <d_gain>0.5</d_gain>
+        <i_max>1</i_max>
+        <i_min>-1</i_min>
+        <cmd_max>1000</cmd_max>
+        <cmd_min>-1000</cmd_min>
+      </plugin>
+              
+      <plugin
+        filename="gz-sim-joint-position-controller-system"
+        name="gz::sim::systems::JointPositionController">
+        <joint_name>motor_module_2_joint_2</joint_name>
+        <topic>motor_module_2_joint_2</topic>
+        <p_gain>1</p_gain>
+        <i_gain>0.1</i_gain>
+        <d_gain>0.5</d_gain>
+        <i_max>1</i_max>
+        <i_min>-1</i_min>
+        <cmd_max>1000</cmd_max>
+        <cmd_min>-1000</cmd_min>
+      </plugin>
+      <plugin
+        name="subpar::SubparPublisherPlugin"
+        filename="libSubparDronePlugin.so">
+      </plugin>
+
+<plugin
+  filename="gz-sim-thruster-system"
+  name="gz::sim::systems::Thruster">
+  <namespace>motor_2_thruster</namespace>
+  <joint_name>motor_module_2_joint_4</joint_name> <!-- ✅ nu wél -->
+  <use_angvel_cmd>false</use_angvel_cmd>
+  <thrust_coefficient>1</thrust_coefficient>
+  <fluid_density>1000</fluid_density>
+  <propeller_diameter>0.2</propeller_diameter>
+</plugin>
+      <!-- <plugin name="subpar::SubparKeyInputPlugin" filename="libSubparKeyInputPlugin.so"/> -->
+      <!-- <plugin filename="libSubparKeyGuiPlugin.so" name="subpar::KeyGuiPlugin"/> -->
+  </model>
+</sdf>
