@@ -1691,6 +1691,24 @@ CMakeFiles/SubparKeyGuiPlugin.dir/plugins/SubparKeyGuiPlugin.cc.o: ../plugins/Su
   /usr/include/gz/msgs11/gz/msgs/double.pb.h \
   /usr/include/gz/msgs11/gz/msgs/details/double.pb.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/gz/gui9/gz/gui/Application.hh \
   /usr/include/gz/gui9/gz/gui/GuiEvents.hh \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent \
   /usr/include/gz/common6/gz/common/KeyEvent.hh \
@@ -1749,6 +1767,26 @@ CMakeFiles/SubparKeyGuiPlugin.dir/qrc_SubparKeyGuiPlugin.cpp.o: qrc_SubparKeyGui
 
 /usr/include/gz/common6/gz/common/events/Export.hh:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
+
 /usr/include/gz/msgs11/gz/msgs/empty.pb.h:
 
 /usr/include/gz/msgs11/gz/msgs/details/statistic.pb.h:
@@ -1784,6 +1822,8 @@ CMakeFiles/SubparKeyGuiPlugin.dir/qrc_SubparKeyGuiPlugin.cpp.o: qrc_SubparKeyGui
 /usr/include/google/protobuf/has_bits.h:
 
 /usr/include/google/protobuf/map.h:
+
+/usr/include/gz/gui9/gz/gui/Application.hh:
 
 /usr/include/gz/msgs11/gz/msgs/Export.hh:
 
@@ -2139,6 +2179,8 @@ qrc_SubparKeyGuiPlugin.cpp:
 
 /usr/include/c++/11/bits/concept_check.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h:
 
 /usr/include/string.h:
@@ -2311,6 +2353,8 @@ qrc_SubparKeyGuiPlugin.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/gz/transport14/gz/transport/Export.hh:
@@ -2383,11 +2427,15 @@ qrc_SubparKeyGuiPlugin.cpp:
 
 SubparKeyGuiPlugin_autogen/WETUBSRGIL/moc_SubparKeyGuiPlugin.cpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtQuickControls2/qtquickcontrols2global.h:
 
 /usr/include/c++/11/ctime:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
 
 /usr/include/c++/11/iosfwd:
 
@@ -2468,6 +2516,8 @@ SubparKeyGuiPlugin_autogen/WETUBSRGIL/moc_SubparKeyGuiPlugin.cpp:
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/c++/11/chrono:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
 
 /usr/include/gz/transport14/gz/transport/NodeShared.hh:
 
@@ -2554,6 +2604,8 @@ SubparKeyGuiPlugin_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfuture.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
