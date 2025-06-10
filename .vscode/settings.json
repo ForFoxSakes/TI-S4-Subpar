@@ -68,5 +68,6 @@
         "variant": "cpp",
         "bitset": "cpp",
         "regex": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/workspaces/TI-S4-Subpar/subpar/simulator"
 }

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+300bbe9f26566527251d636f2e4fe63d CMakeFiles/SubparDronePlugin_autogen
+e36e438b9620bc018f6a5bbf78c3720b CMakeFiles/SubparKeyGuiPlugin_autogen
+b70283dc373b6727a30391351cf8d7e5 qrc_SubparKeyGuiPlugin.cpp
