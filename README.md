@@ -1,14 +1,14 @@
-# Subpar 🐠
+# Subpar 
 
 Een onderzeeërsimulator in Gazebo, gecombineerd met documentatie, verslagen en analyses voor het TI-S4 project.
 
-## 🧭 Inhoud
+##  Inhoud
 
 - `simulator/`: Submarine sim met Gazebo wereld(en), modellen en code
 - `docs/`: Markdown-bestanden, verslagen, reflecties en bronnen
 - `.devcontainer/`: Containeromgeving om alles makkelijk te draaien in VS Code
 
-## 🚀 DevContainer gebruiken
+##  DevContainer gebruiken
 
 1. Open repo in Visual Studio Code
 2. Kies “Reopen in Container”
@@ -18,7 +18,3 @@ Een onderzeeërsimulator in Gazebo, gecombineerd met documentatie, verslagen en 
 4. Voor documentatie en notebooks:
    - Navigeer naar `docs/`
    - Start Jupyter: `jupyter lab`
-
-## 🤿 Waarom Subpar?
-
-Het is een ironische verwijzing naar onder water én een subtiele sneer naar de prestaties van de simulator 😄
