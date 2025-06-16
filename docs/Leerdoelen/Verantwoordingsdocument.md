@@ -29,14 +29,11 @@
 
 Onderwerp | Graag invullen |
 --- | --- | 
-*Peilmoment* | `peilmoment 1` |
-Onderwerp | Graag invullen |
---- | --- | 
-*Peilmoment* | `peilmoment 1` |
+*Peilmoment* | `Peilmoment 2` |
 *Naam student* | `Matthijs Vos` | 
 *Studentnummer* | `1651350` | 
-*Datum* | `TBH` | 25-03-2025 
-*Datum* | `TBH` | 25-03-2025 
+*Datum* | `TBH` | 11-06-2025 
+*Datum* | `TBH` | 11-06-2025 
 
 
 
@@ -59,16 +56,16 @@ Succes met de uitwerking van de verantwoording!
 
 *Waar ik het meest trots op ben:*
     
-    Ik ben trots op het algemene oppakken en gestructureerd houden van het project in de eerste periode. Verder houd ik de workload onder controle, maar merk wel dat het snel meer kan worden 
+    Toch uit de terugslagen deels mij weer opgepakt. Ik zat vorige maand niet in een goede staat. heel geisoleerd en dat zorge voor veel negatieviteit.
     
 
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
 
-    Het is nog een uidaging de planning om de twee werkdagen heen te plannen. Ik merk dat ik daar verder vooruit moet plannen
+    Het beginnen met contact opnemen. Voor mij is de confrontatie heel moeilijk en daar raak ik snal in paniek van en sluit ik mijzelf af van alles. 
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
 
-    Ik zou graag nog meer rondom de structuur van het SDFormat doorhebben, zodat ik een goede basis kan bouwen voor de Submarine Simulatie
+    Een gestructureerde manier om deze achterstand aan te pakken.
 ---
 
 ## Leeruitkomsten
@@ -94,6 +91,9 @@ Indicatoren
 | `Stakeholder Analyse`| `Belanghebbenden van het project geïdentificeerd, geanalyseerd en geclassificeerd op basis van hun belangen, invloed en betrokkenheid bij het project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/1.%20Requirement%20Analyse.md) |
 |`Testplan`| `Teststrategie opgezet, testgevallen geïdentificeerd en Testresultaten genoteerd` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/9.%20Acceptatie%20Testen.md) |
 |`Ontwikkeldocument`|  `Benodigdheden voor Ontwikkeldocument vastgesteld en verzameld` | [link]() |
+|`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Lora_mesh_achtergrondrapport.md) |
+
+
 
 ### Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
  

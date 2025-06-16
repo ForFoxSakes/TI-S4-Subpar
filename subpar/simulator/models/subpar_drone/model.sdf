@@ -4,36 +4,36 @@
     <pose>0 0 0 0 0 0</pose>
 
     <include>
-      <uri>file://subpar/simulator/models/ground_plane.sdf</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/ground_plane.sdf</uri>
       <name>ground</name>
       <pose>0 0 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file://subpar/simulator/models/subpar_drone/motors/motor_module_1.sdf</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/motors/motor_module_1.sdf</uri>
       <name>motor_module_1</name>
       <pose>0.5 1 0.5 0 0 0</pose>
     </include>
     
     <include>
-      <uri>file://subpar/simulator/models/subpar_drone/motors/motor_module_2.sdf</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/motors/motor_module_2.sdf</uri>
       <name>motor_module_2</name>
       <pose>-0.5 1 0.5 0 0 0</pose>
     </include>
 
     <include>
-      <uri>file://subpar/simulator/models/subpar_drone/motors/motor_module_3.sdf</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/motors/motor_module_3.sdf</uri>
       <name>motor_module_3</name>
       <pose>0.5 -1 0.5 0 0 0</pose>
     </include>
 
     <include>
-      <uri>file://subpar/simulator/models/subpar_drone/motors/motor_module_4.sdf</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/motors/motor_module_4.sdf</uri>
       <name>motor_module_4</name>
       <pose>-0.5 -1 0.5 0 0 0</pose>
     </include>
 
     <include>
-      <uri>file://subpar/simulator/models/subpar_drone/body.sdf</uri>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/body.sdf</uri>
       <name>body</name>
       <pose>0 0 .1 0 0 0</pose>
     </include>
