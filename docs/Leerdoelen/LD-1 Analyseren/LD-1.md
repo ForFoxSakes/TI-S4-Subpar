@@ -36,16 +36,46 @@ Geen
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Requirements Analyse` | `Requirements analyse opgesteld vanuit de stakeholderanalyse en interviews` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/1.%20Requirement%20Analyse.md) |
 | `Stakeholder Analyse` | `Belanghebbenden van het project geïdentificeerd, geanalyseerd en geclassificeerd op basis van hun belangen, invloed en betrokkenheid bij het project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/2.%20Systeem%20Design.md) |
-| `Testplan` | `Teststrategie opgezet, testgevallen geïdentificeerd en Testresultaten genoteerd` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#10-Testen) |
-| `Ontwikkeldocument` | `Benodigdheden voor Ontwikkeldocument vastgesteld en verzameld` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#10-Testen) |
+| `Acceptatie Test` | `Teststrategie opgezet om te valideren of het systeem voldoet aan de verwachtingen van de stakeholders` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/9.%20Acceptatie%20Testen.md) |
 |`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
 
+---
 ### Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
  
- #### `Ontwikkeldocument`
- Om het ontwikkeldocument op te zetten is er een analyse nodig geweest naar wat er in het algemeen nodig is voor het project. In het begin van deze fase is er nog niet veel informatie beschikbaar. Maar er zijn al wel mogelijk de requirements vast te stellen in het ontwikkeldocument. Hiervoor heb ik gekeken wat deze requirements zijn door naar de leerdoelen te kijken en hoe het project verder in elkaar zit.
+#### **Requirements Analyse**
+In deze analyse is de scope vastgesteld waar het project aan moet voldoen om een realistische weergave van de onderzeedrone te bieden. Dit wordt verder onderbouwd met functionele en niet-functionele requirements voor de verschillende stakeholders.
 
+Daarnaast zijn er use cases uitgewerkt voor meerdere actoren en scenario’s.
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+#### **Stakeholder Analyse**
+De stakeholderanalyse brengt de behoeften en belangen van de betrokken partijen in kaart via een Power-Interest Matrix. Hieruit komen vooral de brandweer en ontwikkelaars naar voren als hoofd-stakeholders. Hun algemene eisen zijn verder uitgewerkt in de requirement analyse:
 
---
+Brandweer (eindgebruikers & trainers)
+Realistische simulatie, gebruiksvriendelijke interface, trainingsscenario’s
+
+Ontwikkelaars (firmware & simulatie)
+Simulatie moet firmware correct nabootsen, logging- en debuggingtools
+
+#### **Acceptatietest**
+Er zijn acceptatietests opgesteld om te toetsen of het project voldoet aan de gestelde requirements. Deze zijn opgedeeld in:
+
+Functionele tests – Controleren of de functionaliteiten juist werken
+
+Gebruikerstesten – Eindgebruikers testen het systeem op bruikbaarheid en intuïtiviteit
+
+Prestatie- en belastingstesten – Evaluatie van systeemprestaties onder verschillende omstandigheden
+
+Veiligheidstesten – Beoordeling van de beveiliging en risico's
+
+De tests zijn nog niet uitgevoerd, maar er is wel een analyse gedaan naar wat nodig is om tot een succesvol en bruikbaar eindproduct te komen.
+
+### Feedback Project Opdrachten
+
+#### **Requirements Analyse/Stakeholder Analyse/Acceptatietest**
+18-03 Er heeft een gesprek plaatsgevonden met de Product Owner (Jan Halsema) waarin de requirements zijn besproken. Deze zijn goedgekeurd, met als belangrijke kanttekening dat er vanuit de Product Owner meer nadruk moest komen te liggen op de eindgebruiker in plaats van de ontwikkelaar.
+
+Als reactie op deze feedback is afgesproken om in de ontwikkelvolgorde voorrang te geven aan de functionele requirements voor de brandweer, zodat hun behoeften eerder worden ingevuld dan die van de ontwikkelaars.
+
+Ook was de voetnote gegeven dat de tests wel uitgebreid waren en mogelijk niet haalbaar voor een groep met een enkel lid. 
+
+---
