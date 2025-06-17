@@ -225,10 +225,6 @@
         <cmd_max>1000</cmd_max>
         <cmd_min>-1000</cmd_min>
       </plugin>
-      <plugin
-        name="subpar::SubparPublisherPlugin"
-        filename="libSubparDronePlugin.so">
-      </plugin>
 
 <plugin
   filename="gz-sim-thruster-system"

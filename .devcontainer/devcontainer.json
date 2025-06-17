@@ -19,8 +19,9 @@
   },
   "containerEnv": {
     "GAZEBO_MODEL_PATH": "/workspaces/TI-S4-Subpar/subpar/simulator/models",
-    "GAZEBO_PLUGIN_PATH": "/workspaces/TI-S4-Subpar/subpar/simulator/build",
+    "GAZEBO_PLUGIN_PATH": "/workspaces/TI-S4-Subpar/subpar/simulator/plugin",
     "LD_LIBRARY_PATH": "/workspaces/TI-S4-Subpar/subpar/simulator/build"
+
   }
 }
 // Note: The `runArgs` for `DISPLAY` assumes you are running on a Linux host with X11 forwarding enabled.

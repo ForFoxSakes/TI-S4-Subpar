@@ -166,8 +166,8 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /usr/include/gz/utils3/gz/utils/SuppressWarning.hh \
- /usr/include/gz/utils3/gz/utils/detail/SuppressWarning.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/SuppressWarning.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/detail/SuppressWarning.hh \
  /usr/include/gz/plugin3/gz/plugin/Export.hh \
  /usr/include/gz/plugin3/gz/plugin/detail/Export.hh \
  /usr/include/gz/plugin3/gz/plugin/detail/Common.hh \
@@ -183,10 +183,10 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/gz/sim9/gz/sim/System.hh \
  /usr/include/gz/sim9/gz/sim/config.hh \
  /usr/include/gz/sim9/gz/sim/EntityComponentManager.hh \
- /usr/include/gz/msgs11/gz/msgs/serialized.pb.h \
- /usr/include/gz/msgs11/gz/msgs/Export.hh \
- /usr/include/gz/msgs11/gz/msgs/detail/Export.hh \
- /usr/include/gz/msgs11/gz/msgs/details/serialized.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/serialized.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/detail/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/serialized.pb.h \
  /usr/include/c++/11/limits /usr/include/google/protobuf/port_def.inc \
  /usr/include/google/protobuf/port_undef.inc \
  /usr/include/google/protobuf/io/coded_stream.h /usr/include/assert.h \
@@ -300,16 +300,16 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/google/protobuf/stubs/stl_util.h \
  /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/11/cassert \
- /usr/include/gz/msgs11/gz/msgs/header.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/header.pb.h \
- /usr/include/gz/msgs11/gz/msgs/time.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/time.pb.h \
- /usr/include/gz/msgs11/gz/msgs/world_stats.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/world_stats.pb.h \
- /usr/include/gz/msgs11/gz/msgs/log_playback_stats.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/log_playback_stats.pb.h \
- /usr/include/gz/msgs11/gz/msgs/serialized_map.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/serialized_map.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/header.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/header.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/time.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/time.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/world_stats.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/world_stats.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/log_playback_stats.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/log_playback_stats.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/serialized_map.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/serialized_map.pb.h \
  /usr/include/google/protobuf/map_entry.h \
  /usr/include/google/protobuf/reflection_ops.h \
  /usr/include/google/protobuf/map_field_inl.h \
@@ -359,28 +359,26 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
  /usr/include/gz/common6/gz/common/Filesystem.hh \
- /usr/include/gz/utils3/gz/utils/ImplPtr.hh \
- /usr/include/gz/utils3/gz/utils/detail/DefaultOps.hh \
- /usr/include/gz/utils3/gz/utils/Export.hh \
- /usr/include/gz/utils3/gz/utils/detail/Export.hh \
- /usr/include/gz/utils3/gz/utils/detail/ImplPtr.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/ImplPtr.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/detail/DefaultOps.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/detail/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/detail/ImplPtr.hh \
  /usr/include/gz/common6/gz/common/SystemPaths.hh \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
  /usr/include/gz/common6/gz/common/URI.hh \
  /usr/include/gz/utils3/gz/utils/log/Logger.hh \
- /usr/include/gz/utils3/gz/utils/config.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2/gz/utils/config.hh \
  /usr/include/gz/utils3/gz/utils/log/Export.hh \
  /usr/include/gz/utils3/gz/utils/log/detail/Export.hh \
- /usr/include/gz/math8/gz/math/graph/Graph.hh \
- /usr/include/gz/math8/gz/math/config.hh \
- /usr/include/gz/math8/gz/math/detail/Error.hh \
- /usr/include/gz/math8/gz/math/Export.hh \
- /usr/include/gz/math8/gz/math/detail/Export.hh \
- /usr/include/gz/math8/gz/math/graph/Edge.hh \
- /usr/include/gz/math8/gz/math/graph/Vertex.hh \
- /usr/include/gz/math8/gz/math/Helpers.hh \
- /usr/include/gz/utils3/gz/utils/NeverDestroyed.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/graph/Graph.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/config.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/graph/Edge.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/graph/Vertex.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Helpers.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/detail/Export.hh \
  /usr/include/gz/sim9/gz/sim/Entity.hh \
  /usr/include/gz/sim9/gz/sim/Export.hh \
  /usr/include/gz/sim9/gz/sim/detail/Export.hh \
@@ -395,16 +393,16 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/gz/common6/gz/common/events/Export.hh \
  /usr/include/gz/common6/gz/common/events/detail/Export.hh \
  /usr/include/gz/common6/gz/common/events/Types.hh \
- /usr/include/gz/transport14/gz/transport/parameters/Registry.hh \
- /usr/include/gz/msgs11/gz/msgs/parameter_declarations.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/parameter_declarations.pb.h \
- /usr/include/gz/msgs11/gz/msgs/parameter_declaration.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/parameter_declaration.pb.h \
- /usr/include/gz/transport14/gz/transport/config.hh \
- /usr/include/gz/transport14/gz/transport/parameters/result.hh \
- /usr/include/gz/transport14/gz/transport/parameters/Export.hh \
- /usr/include/gz/transport14/gz/transport/parameters/detail/Export.hh \
- /usr/include/gz/transport14/gz/transport/parameters/Interface.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/parameters/Registry.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/parameter_declarations.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/parameter_declarations.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/parameter_declaration.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/parameter_declaration.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/config.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/parameters/result.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/parameters/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/parameters/detail/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/parameters/Interface.hh \
  /usr/include/c++/11/variant /usr/include/gz/sdformat15/sdf/Element.hh \
  /usr/include/c++/11/any /usr/include/gz/sdformat15/sdf/Error.hh \
  /usr/include/gz/sdformat15/sdf/config.hh \
@@ -420,13 +418,13 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /usr/include/gz/math8/gz/math/Angle.hh \
- /usr/include/gz/math8/gz/math/Color.hh \
- /usr/include/gz/math8/gz/math/Vector3.hh \
- /usr/include/gz/math8/gz/math/Pose3.hh \
- /usr/include/gz/math8/gz/math/Quaternion.hh \
- /usr/include/gz/math8/gz/math/Matrix3.hh \
- /usr/include/gz/math8/gz/math/Vector2.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Angle.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Color.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Vector3.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Pose3.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Quaternion.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Matrix3.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Vector2.hh \
  /usr/include/gz/sdformat15/sdf/PrintConfig.hh \
  /usr/include/gz/sdformat15/sdf/Types.hh \
  /usr/include/gz/sim9/gz/sim/Model.hh \
@@ -442,48 +440,46 @@ CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o: \
  /usr/include/gz/sdformat15/sdf/InterfaceLink.hh \
  /usr/include/gz/sdformat15/sdf/InterfaceModelPoseGraph.hh \
  /usr/include/gz/sdformat15/sdf/CustomInertiaCalcProperties.hh \
- /usr/include/gz/math8/gz/math/Inertial.hh \
- /usr/include/gz/math8/gz/math/MassMatrix3.hh \
- /usr/include/gz/math8/gz/math/Material.hh \
- /usr/include/gz/math8/gz/math/MaterialType.hh \
- /usr/include/gz/math8/gz/math/Matrix6.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Inertial.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/MassMatrix3.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Material.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/MaterialType.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Matrix6.hh \
  /usr/include/gz/sdformat15/sdf/Mesh.hh \
- /usr/include/gz/math8/gz/math/AxisAlignedBox.hh \
- /usr/include/gz/math8/gz/math/Line3.hh \
- /usr/include/gz/transport14/gz/transport/Node.hh \
- /usr/include/gz/transport14/gz/transport/AdvertiseOptions.hh \
- /usr/include/gz/transport14/gz/transport/Export.hh \
- /usr/include/gz/transport14/gz/transport/detail/Export.hh \
- /usr/include/gz/transport14/gz/transport/NodeOptions.hh \
- /usr/include/gz/transport14/gz/transport/NodeShared.hh \
- /usr/include/gz/transport14/gz/transport/HandlerStorage.hh \
- /usr/include/gz/transport14/gz/transport/TransportTypes.hh \
- /usr/include/gz/transport14/gz/transport/Publisher.hh \
- /usr/include/gz/msgs11/gz/msgs/discovery.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/discovery.pb.h \
- /usr/include/gz/transport14/gz/transport/RepHandler.hh \
- /usr/include/gz/transport14/gz/transport/Uuid.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/AxisAlignedBox.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7/gz/math/Line3.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/Node.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/AdvertiseOptions.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/detail/Export.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/NodeOptions.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/NodeShared.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/HandlerStorage.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/TransportTypes.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/Publisher.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/discovery.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/discovery.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/RepHandler.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/Uuid.hh \
  /usr/include/uuid/uuid.h /usr/include/x86_64-linux-gnu/sys/time.h \
- /usr/include/gz/transport14/gz/transport/ReqHandler.hh \
- /usr/include/gz/transport14/gz/transport/SubscriptionHandler.hh \
- /usr/include/gz/msgs11/gz/msgs/Factory.hh \
- /usr/include/gz/msgs11/gz/msgs/config.hh \
- /usr/include/gz/msgs11/gz/msgs/MessageFactory.hh \
- /usr/include/gz/msgs11/gz/msgs/detail/dynamic_message_cast.hh \
- /usr/include/gz/transport14/gz/transport/MessageInfo.hh \
- /usr/include/gz/transport14/gz/transport/SubscribeOptions.hh \
- /usr/include/gz/transport14/gz/transport/TopicStorage.hh \
- /usr/include/gz/transport14/gz/transport/TopicStatistics.hh \
- /usr/include/gz/msgs11/gz/msgs/statistic.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/statistic.pb.h \
- /usr/include/gz/transport14/gz/transport/TopicUtils.hh \
- /usr/include/gz/transport14/gz/transport/detail/Node.hh \
- /usr/include/gz/msgs11/gz/msgs/empty.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/empty.pb.h \
- /usr/include/gz/msgs11/gz/msgs/stringmsg.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/stringmsg.pb.h \
- /usr/include/gz/msgs11/gz/msgs/double.pb.h \
- /usr/include/gz/msgs11/gz/msgs/details/double.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/ReqHandler.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/SubscriptionHandler.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/Factory.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/config.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/MessageInfo.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/SubscribeOptions.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/TopicStorage.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/TopicStatistics.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/statistic.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/statistic.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/TopicUtils.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12/gz/transport/detail/Node.hh \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/empty.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/empty.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/stringmsg.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/stringmsg.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/double.pb.h \
+ /usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9/gz/msgs/details/double.pb.h \
  /usr/include/c++/11/regex /usr/include/c++/11/bitset \
  /usr/include/c++/11/stack /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \

@@ -31,7 +31,8 @@ Beschrijving :
 #### Interpretatie :
 Dit kan aangetoond worden door het ontwikkeldocument te tonen en hoe deze overeen komt met het product in bepaalde aspecten. Dan verder onderbouwen hoe sommige keuzen toekomstgericht zijn gemaakt 
 
-**Dit is eentje met Nick te bespreken. Het is moeilijk om dit diep inhoudelijk te verantworden.**
+
+**Dit is eentje met Nick te bespreken. Het is moeilijk om dit diep inhoudelijk te verantworden. Mogelijk dat er een vervangende opdracht voor komt. Wat wel gedaan kan worden is deel van mijn werk scrumboard te laten zien en voor de omgevingsfactoren en maatschappelijke etische aspecten zouden dit nog toegevoegd kunnen worden vanuit de deepdive, klimaatexamen zou je ook nog online kunnen doen.**
 
 ### Doelgericht interacteren 
 Nog niet overtuigend aangetoond, heeft nog aandacht nodig
@@ -42,7 +43,7 @@ Nog niet overtuigend aangetoond, heeft nog aandacht nodig
 #### Interpretatie :
 Hier ben ik nog onduidelijk over. Hoe kan ik deze realiseren. Wat is er nodig en wat ozuden de deliverables zijn
 
-**Dit richt grotendeels op de gesprekken die met de Productowner zijn geweest, dit is lastig te verantwoorden in de huidige situatie**
+**Dit richt grotendeels op de gesprekken die met de Productowner zijn geweest, dit is lastig te verantwoorden in de huidige situatie Dit kan ook bij de deep dive. Maar mogelijk ook de documentatie van de code. Het gaat om alle interactie met doelgroepen**
 
 ### Persoonlijk Leiderschap
 Nog niet overtuigend aangetoond, heeft nog aandacht nodig
@@ -51,7 +52,7 @@ Nog niet overtuigend aangetoond, heeft nog aandacht nodig
 >De student bereidt zich voor op studie- en loopbaankeuzes. De student evalueert hierbij persoonlijke ambities en kwaliteiten in relatie tot de gewenste positionering in het werkveld. De student kan deze effectief communiceren in bv sollicitatie brief of gesprek.
 
 #### Interpretatie :
-Ook nog redelijk onduidelijk over. Hoe kan ik deze realiseren behalve dat ik de solicitatiebrief al heb. Ik heb wel vooruitgangsgespreken voor mijn promotie op werk, ik zou hier een voorbereiding voor kunnen maken?
+**Ook nog redelijk onduidelijk over. Hoe kan ik deze realiseren behalve dat ik de solicitatiebrief al heb. Ik heb wel vooruitgangsgespreken voor mijn promotie op werk, ik zou hier een voorbereiding voor kunnen maken?**
 
 
 
@@ -64,4 +65,9 @@ Beschrijving :
 #### Interpretatie :
 Dit is de deep dive. Het onderwerp was eerst een een parser maken voor SDF en het SDFormat begrijpen. Maar dat is al met https://github.com/gazebosim/sdformat/tree/sdf15 C++ gedaan door sdf zelf. Ik ga wel zelf deze implementeren in mijn robot though
 
-**Een eigen deep dive kan ook nog over LoRa om mijzelf een beetje werk te besparen.**
+**Een eigen deep dive kan ook nog over LoRa om mijzelf een beetje werk te besparen. Wat ook nog toegevoegd kan worden is de probleme ndie je voor het project zelf tegenkwam**
+
+
+
+#### Voor leeruitkomst Beheren : 
+Docker / Devcontainers zijn ook een vorm van beheren. Dit kan nog toegevoegd worden

@@ -91,7 +91,7 @@ Indicatoren
 | `Stakeholder Analyse`| `Belanghebbenden van het project geïdentificeerd, geanalyseerd en geclassificeerd op basis van hun belangen, invloed en betrokkenheid bij het project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/1.%20Requirement%20Analyse.md) |
 |`Testplan`| `Teststrategie opgezet, testgevallen geïdentificeerd en Testresultaten genoteerd` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/9.%20Acceptatie%20Testen.md) |
 |`Ontwikkeldocument`|  `Benodigdheden voor Ontwikkeldocument vastgesteld en verzameld` | [link]() |
-|`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Lora_mesh_achtergrondrapport.md) |
+|`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
 
 
 
@@ -108,9 +108,9 @@ Voor het testplan heb ik een teststrategie opgesteld, met de focus op het valide
  Om het ontwikkeldocument op te zetten is er een analyse nodig geweest naar wat er in het algemeen nodig is voor het project. In het begin van deze fase is er nog niet veel informatie beschikbaar. Maar er zijn al wel mogelijk de requirements vast te stellen in het ontwikkeldocument. Hiervoor heb ik gekeken wat deze requirements zijn door naar de leerdoelen te kijken en hoe het project verder in elkaar zit.
 
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+#### Lora Mesh Onderzoek
+Voor de deep dive heb ik een onderzoek gedaan naar de mogelijkheden van LoRa Mesh voor smartcity doeleinden. Hoe vergelijkt het met LoRaWAN , hoe is het toe te passen en wat zou ik testen. Deze deep dive was als oefening ingeplanned bij collegas om voor de presentatie te oefenen. Maar is uiteindelijk een adviesrapport geworden voor ee nvervolgonderzoek.
 
---
 
 ### Leeruitkomst 2 Ontwerpen
 
@@ -153,40 +153,26 @@ Indicatoren:
 - Advies presentatie
 ---
 
-### **Leeruitkomst  Persoonlijke opdrachten:**
+## **Leeruitkomst  Persoonlijke opdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 |`Smartcity-IoT Analyse` | `Analyse uitgevoerd betreft de luchtkwaliteit rondom gemeente Hengelo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
+|`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
+
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
 #### Smartcity-IoT Analyse 
 In deze analyse heb ik data van luchtkwaliteitssensoren geanalyseerd om te bepalen of de windrichting invloed heeft op de luchtkwaliteit in Hengelo. Dit onderzoek is uitgevoerd op verzoek van de gemeente, met als doel inzicht te krijgen in de mogelijke impact van industrie op woonwijken. Op basis van de analyse van weer- en luchtkwaliteitsdata heb ik een onderbouwd advies opgesteld, waarin de resultaten helder zijn vertaald naar praktische aanbevelingen. Hiermee toon ik aan dat ik vanuit een grondige analyse tot een goed onderbouwd advies kan komen, zoals vereist in deze leeruitkomst.
 
---
+#### Lora Mesh Onderzoek
+Voor de deep dive heb ik een onderzoek gedaan naar de mogelijkheden van LoRa Mesh voor smartcity doeleinden. Hoe vergelijkt het met LoRaWAN , hoe is het toe te passen en wat zou ik testen. Deze deep dive was als oefening ingeplanned bij collegas om voor de presentatie te oefenen. Maar is uiteindelijk een adviesrapport geworden voor ee nvervolgonderzoek.
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
 
-**Leeruitkomst 3 Projectopdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Adviesrapport` | `` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
-
-### Leeruitkomst 4 Realiseren
+## Leeruitkomst 4 Realiseren
 
 Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedded systeem, inclusief grafische representatie. Hierbij wordt gewerkt volgens een voorgeschreven methode waarin testen centraal staat, ten behoeve van het uitvoeren van tests op verschillende ontwikkelniveaus. Testresultaten, omstandigheden en afhankelijkheden worden helder gedocumenteerd, omwille van het reproduceren van de testresultaten. 
 
@@ -206,10 +192,10 @@ Indicatoren:
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Broncode simulatie`| `De brondcode geleverd van de uit te voeren simulatie` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#13-Bijlagen) |
 | `Projectcode` | `Alle code met betrekking tot het project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#13-Bijlagen) |
-| `Vision opdrachten` | `Opdrachten Vision van College Computer Vision I (Basis beeldverwerking)` | [link naar ...](http://) |
-| `Algoritmiek opdrachten` | `Algoritmiek opdrachten van College Algoritmen & Datastructuren (C++ / Python)` | [link naar ...](http://) |
-| `C++ STL Opdrachten` | `Opdrachten van het College Labmda's ` | [link naar ...](http://) |
-| `C++<->Python opdrachten` | `Opdrachten van het College Koppeling Python ↔ C++ (Interfacing)` | [link naar ...](http://) |
+| `Vision opdrachten` | `Opdrachten Vision van College Computer Vision I (Basis beeldverwerking)` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
+| `Algoritmiek opdrachten` | `Algoritmiek opdrachten van College Algoritmen & Datastructuren (C++ / Python)` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/CPP) |
+| `C++ STL Opdrachten` | `Opdrachten van het College Labmda's ` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
+| `C++<->Python opdrachten` | `Opdrachten van het College Koppeling Python ↔ C++ (Interfacing)` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/ALDS) |
 | `Creational/Structural design pattern opdrachten` | `Opdrachten van College Structural Design Patterns` | [link naar ...](http://) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -388,7 +374,7 @@ Indicatoren:
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+|`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 

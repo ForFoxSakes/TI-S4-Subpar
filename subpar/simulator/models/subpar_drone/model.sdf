@@ -61,6 +61,11 @@
         <parent>body</parent>
         <child>motor_module_4</child>  
       </joint>
+<plugin name="subpar::SubparPublisherPlugin" filename="SubparDronePlugin"/>
+
+
+
+
 
   </model>
 </sdf>

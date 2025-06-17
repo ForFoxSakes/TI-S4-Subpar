@@ -27,6 +27,7 @@ namespace subpar
                    gz::sim::EntityComponentManager &_ecm,
                    gz::sim::EventManager &) override
     {
+
       this->entity = entity;
       gz::sim::Model model(this->entity);
       this->modelName = model.Name(_ecm);
@@ -144,3 +145,4 @@ GZ_ADD_PLUGIN(subpar::SubparPublisherPlugin,
               gz::sim::System,
               gz::sim::ISystemConfigure,
               gz::sim::ISystemPreUpdate)
+GZ_ADD_PLUGIN_ALIAS(subpar::SubparPublisherPlugin, "SubparDronePlugin")

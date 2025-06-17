@@ -236,12 +236,6 @@ CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
 
-//Path to a file.
-DL_INCLUDE_DIRS:PATH=/usr/include
-
-//Path to a library.
-DL_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.a
-
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/share/eigen3/cmake
 
@@ -355,10 +349,7 @@ SubparDronePluginProject_IS_TOP_LEVEL:STATIC=ON
 SubparDronePluginProject_SOURCE_DIR:STATIC=/workspaces/TI-S4-Subpar/subpar/simulator
 
 //Dependencies for the target
-SubparDronePlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;general;uuid;general;protobuf;general;protobuf;
-
-//Dependencies for the target
-SubparKeyGuiPlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;general;gz-gui7::gz-gui7;general;uuid;general;protobuf;general;protobuf;general;Qt5::Widgets;general;Qt5::Quick;
+SubparDronePlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;general;gz-transport12;general;uuid;general;gz-msgs9;general;protobuf;general;gz-math7;general;gz-utils2;general;gz-msgs9;general;protobuf;general;gz-math7;general;gz-utils2;general;gz-math7;general;gz-utils2;
 
 //Path to a library.
 TINYXML2_LIBRARY_tinyxml2:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
@@ -387,26 +378,8 @@ draco_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/draco
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
 
-//The directory containing a CMake configuration file for gz-cmake3.
-gz-cmake3_DIR:PATH=/usr/share/cmake/gz-cmake3
-
 //The directory containing a CMake configuration file for gz-cmake4.
 gz-cmake4_DIR:PATH=/usr/share/cmake/gz-cmake4
-
-//The directory containing a CMake configuration file for gz-common5-events.
-gz-common5-events_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-events
-
-//The directory containing a CMake configuration file for gz-common5-geospatial.
-gz-common5-geospatial_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-geospatial
-
-//The directory containing a CMake configuration file for gz-common5-graphics.
-gz-common5-graphics_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-graphics
-
-//The directory containing a CMake configuration file for gz-common5-profiler.
-gz-common5-profiler_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-profiler
-
-//The directory containing a CMake configuration file for gz-common5.
-gz-common5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5
 
 //The directory containing a CMake configuration file for gz-common6-av.
 gz-common6-av_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common6-av
@@ -435,17 +408,8 @@ gz-common6_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common6
 //The directory containing a CMake configuration file for gz-fuel_tools10.
 gz-fuel_tools10_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools10
 
-//The directory containing a CMake configuration file for gz-gui7.
-gz-gui7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-gui7
-
 //The directory containing a CMake configuration file for gz-gui9.
 gz-gui9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-gui9
-
-//The directory containing a CMake configuration file for gz-math7-eigen3.
-gz-math7-eigen3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math7-eigen3
-
-//The directory containing a CMake configuration file for gz-math7.
-gz-math7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math7
 
 //The directory containing a CMake configuration file for gz-math8-eigen3.
 gz-math8-eigen3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math8-eigen3
@@ -455,9 +419,6 @@ gz-math8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math8
 
 //The directory containing a CMake configuration file for gz-msgs11.
 gz-msgs11_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-msgs11
-
-//The directory containing a CMake configuration file for gz-msgs9.
-gz-msgs9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-msgs9
 
 //The directory containing a CMake configuration file for gz-physics8-heightmap.
 gz-physics8-heightmap_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics8-heightmap
@@ -471,18 +432,6 @@ gz-physics8-sdf_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics8-sdf
 //The directory containing a CMake configuration file for gz-physics8.
 gz-physics8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics8
 
-//The directory containing a CMake configuration file for gz-plugin2-all.
-gz-plugin2-all_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-all
-
-//The directory containing a CMake configuration file for gz-plugin2-loader.
-gz-plugin2-loader_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-loader
-
-//The directory containing a CMake configuration file for gz-plugin2-register.
-gz-plugin2-register_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-register
-
-//The directory containing a CMake configuration file for gz-plugin2.
-gz-plugin2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2
-
 //The directory containing a CMake configuration file for gz-plugin3-all.
 gz-plugin3-all_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin3-all
 
@@ -494,9 +443,6 @@ gz-plugin3-register_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin3-register
 
 //The directory containing a CMake configuration file for gz-plugin3.
 gz-plugin3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin3
-
-//The directory containing a CMake configuration file for gz-rendering7.
-gz-rendering7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-rendering7
 
 //The directory containing a CMake configuration file for gz-rendering9.
 gz-rendering9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-rendering9
@@ -564,9 +510,6 @@ gz-sensors9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors9
 //The directory containing a CMake configuration file for gz-sim9.
 gz-sim9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sim9
 
-//The directory containing a CMake configuration file for gz-transport12.
-gz-transport12_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport12
-
 //The directory containing a CMake configuration file for gz-transport14-log.
 gz-transport14-log_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport14-log
 
@@ -575,12 +518,6 @@ gz-transport14-parameters_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport1
 
 //The directory containing a CMake configuration file for gz-transport14.
 gz-transport14_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport14
-
-//The directory containing a CMake configuration file for gz-utils2-cli.
-gz-utils2-cli_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils2-cli
-
-//The directory containing a CMake configuration file for gz-utils2.
-gz-utils2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils2
 
 //The directory containing a CMake configuration file for gz-utils3-cli.
 gz-utils3-cli_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils3-cli
@@ -981,10 +918,6 @@ CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DL_INCLUDE_DIRS
-DL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DL_LIBRARIES
-DL_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding AVCODEC
 FIND_PACKAGE_MESSAGE_DETAILS_AVCODEC:INTERNAL=[TRUE][v()]
 //Details about finding AVDEVICE
@@ -995,16 +928,12 @@ FIND_PACKAGE_MESSAGE_DETAILS_AVFORMAT:INTERNAL=[TRUE][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_AVUTIL:INTERNAL=[TRUE][v()]
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.81.0()]
-//Details about finding DL
-FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
 //Details about finding GzAssimp
 FIND_PACKAGE_MESSAGE_DETAILS_GzAssimp:INTERNAL=[1][v5.2.0()]
 //Details about finding JSONCPP
 FIND_PACKAGE_MESSAGE_DETAILS_JSONCPP:INTERNAL=[TRUE][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libGL.so][/usr/include][cfound components: OpenGL ][v()]
-//Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
 //Details about finding Protobuf
 FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so][/usr/include][v3.12.4()]
 //Details about finding Python3
@@ -1531,5 +1460,5 @@ pkgcfg_lib_YAML_yaml-ADVANCED:INTERNAL=1
 pkgcfg_lib_ZIP_zip-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_ZeroMQ_zmq
 pkgcfg_lib_ZeroMQ_zmq-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu
 

@@ -1,5 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file>SubparKeyGuiPlugin.qml</file>
-  </qresource>
-</RCC>

@@ -1,6 +1,7 @@
 /workspaces/TI-S4-Subpar/build/CMakeFiles/SubparDronePlugin.dir
-/workspaces/TI-S4-Subpar/build/CMakeFiles/SubparKeyGuiPlugin.dir
 /workspaces/TI-S4-Subpar/build/CMakeFiles/edit_cache.dir
 /workspaces/TI-S4-Subpar/build/CMakeFiles/rebuild_cache.dir
-/workspaces/TI-S4-Subpar/build/CMakeFiles/SubparDronePlugin_autogen.dir
-/workspaces/TI-S4-Subpar/build/CMakeFiles/SubparKeyGuiPlugin_autogen.dir
+/workspaces/TI-S4-Subpar/build/CMakeFiles/list_install_components.dir
+/workspaces/TI-S4-Subpar/build/CMakeFiles/install.dir
+/workspaces/TI-S4-Subpar/build/CMakeFiles/install/local.dir
+/workspaces/TI-S4-Subpar/build/CMakeFiles/install/strip.dir
