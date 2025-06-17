@@ -13,22 +13,29 @@ Indicatoren
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Data Analyse - Impact Weercondities` | `Uitgebreidde Data analyse met adviesrapport gemaakt` | [link naar ...](http:///workspaces/TI-S4-Subpar/docs/Leerdoelen/LD-1 Analyseren/Data analyse - Impact weercondities luchtkwaliteit Breemarsweg Hengelo 04-03-2025.pdf) |
+| `Data Analyse - Impact Weercondities` | `Uitgebreidde Data analyse met adviesrapport gemaakt` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+#### **Data Analyse - Impact Weercondities**
+Voor deze analyse heb ik verschillende analyses uitgevoerd op de data die afkomstig is van de luchtkwaliteitsensoren aan de Breemarsweg in Hengelo. In deze analyse valideer ik eerst de data uit de verschillende bronnen met behulp van standaarddeviatie, variatiecoëfficiënt, gemiddelde absolute afwijking en Z-score stabiliteit. Hieruit blijkt dat de sensoren een hoge mate van betrouwbaarheid in hun metingen laten zien.
 
---
+Daarna is de dataset gekoppeld aan winddata per windrichting, en zijn de piekmomenten van de PM-metingen in kaart gebracht. Ook is er een heatmap gemaakt waarin de winddata is afgezet tegen de luchtkwaliteitsmetingen over de meetmaanden.
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+Tot slot zijn zowel de hoge PM-waarden als de gemiddelde PM-waarden weergegeven in een windroos om trends te herkennen. Hieruit blijkt dat vooral westelijke en zuidoostelijke winden disproportioneel bijdragen aan verhoogde fijnstofconcentraties en uitschieters.
 
---
+
+### Feedback Persoonlijke Opdrachten
+
+####  **Data Analyse - Impact Weercondities**
+Geen
+
+---
 
 ### **Leeruitkomst 1 Projectopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Requirements Analyse` | `Requirements analyse opgesteld vanuit de stakeholderanalyse en interviews` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#4-Requirements) |
-| `Stakeholder Analyse` | `Belanghebbenden van het project geïdentificeerd, geanalyseerd en geclassificeerd op basis van hun belangen, invloed en betrokkenheid bij het project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#3-Stakeholderanalyse) |
+| `Requirements Analyse` | `Requirements analyse opgesteld vanuit de stakeholderanalyse en interviews` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/1.%20Requirement%20Analyse.md) |
+| `Stakeholder Analyse` | `Belanghebbenden van het project geïdentificeerd, geanalyseerd en geclassificeerd op basis van hun belangen, invloed en betrokkenheid bij het project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/2.%20Systeem%20Design.md) |
 | `Testplan` | `Teststrategie opgezet, testgevallen geïdentificeerd en Testresultaten genoteerd` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#10-Testen) |
 | `Ontwikkeldocument` | `Benodigdheden voor Ontwikkeldocument vastgesteld en verzameld` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#10-Testen) |
 |`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
