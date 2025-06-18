@@ -24,14 +24,12 @@
       <direction>-0.5 0.1 -1</direction>
     </light>
 
-    <!-- Één enkele GUI-sectie -->
     <gui>
 
       <plugin filename="KeyPublisher"
               name="gz::gui::KeyPublisher"/>
     </gui>
 
-    <!-- Jouw subpar_drone-model -->
     <include>
       <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/model.sdf</uri>
       <name>drone</name>
