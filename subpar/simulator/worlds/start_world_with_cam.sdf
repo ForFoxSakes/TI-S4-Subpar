@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<sdf version="1.10">
+  <world name="default">
+
+    <!-- Physics & gravity -->
+    <gravity>0 0 -0.981</gravity>
+    <physics name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+
+    <!-- Directional sunlight -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -1</direction>
+    </light>
+
+    <gui>
+
+      <plugin filename="KeyPublisher"
+              name="gz::gui::KeyPublisher"/>
+    </gui>
+
+    <include>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/model.sdf</uri>
+      <name>drone</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Grondvlak -->
+    <include>
+      <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/ground_plane.sdf</uri>
+      <name>ground_plane</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+
+  </world>
+</sdf>
