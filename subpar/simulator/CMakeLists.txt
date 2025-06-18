@@ -1,34 +1,35 @@
 cmake_minimum_required(VERSION 3.10)
-project(SubparDronePluginProject)
+project(SubparDronePluginProject LANGUAGES CXX)
 
-# Policies
-cmake_policy(SET CMP0100 NEW)
+# Vind de benodigde Gazebo Sim- en transport-/msgs-/math-packages
+find_package(gz-sim9        REQUIRED)   # core simulation
+find_package(gz-transport12 REQUIRED)   # advertise/subscribe API
+find_package(gz-msgs11      REQUIRED)   # alle protobuf‐factories
+find_package(gz-math7       REQUIRED)   # wiskundige hulpfuncties (M_PI, etc)
+find_package(gz-plugin3     REQUIRED)   # plugin‐registry
 
-# Dependencies
-find_package(gz-sim9 REQUIRED)
-find_package(gz-plugin3 REQUIRED)
-pkg_check_modules(GZ_TRANSPORT REQUIRED gz-transport12)
-pkg_check_modules(GZ_MSGS REQUIRED gz-msgs9)
-pkg_check_modules(GZ_MATH REQUIRED gz-math7)
-
-# Plugin: SubparDronePlugin
+# Maak de shared library van je plugin
 add_library(SubparDronePlugin SHARED
   plugins/SubparDronePlugin.cc
 )
 
-target_include_directories(SubparDronePlugin PRIVATE
-  ${GZ_TRANSPORT_INCLUDE_DIRS}
-  ${GZ_MSGS_INCLUDE_DIRS}
-  ${GZ_MATH_INCLUDE_DIRS}
+# Zorg dat we C++17 gebruiken
+set_target_properties(SubparDronePlugin PROPERTIES
+  CXX_STANDARD           17
+  POSITION_INDEPENDENT_CODE ON
 )
 
-target_link_libraries(SubparDronePlugin
+# Link tegen de geïmporteerde Gazebo‐targets
+target_link_libraries(SubparDronePlugin PRIVATE
   gz-sim9::gz-sim9
+  gz-transport12::gz-transport12
+  gz-msgs11::gz-msgs11
+  gz-math7::gz-math7
   gz-plugin3::gz-plugin3
-  ${GZ_TRANSPORT_LIBRARIES}
-  ${GZ_MSGS_LIBRARIES}
-  ${GZ_MATH_LIBRARIES}
 )
 
-# (optioneel) install
-install(TARGETS SubparDronePlugin LIBRARY DESTINATION lib)
+# (optioneel) installeer de plugin
+install(TARGETS SubparDronePlugin
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+)

@@ -12,8 +12,7 @@
 		[
 			"add_library",
 			"install",
-			"target_link_libraries",
-			"target_include_directories"
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -27,25 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 34,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 25,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 19,
+				"line" : 23,
 				"parent" : 0
 			}
 		]
@@ -136,43 +129,6 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
-					"path" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/transport12"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/include/mit-krb5"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/include/pgm-5.3"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/include/libxml2"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/msgs9"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/math7"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/utils2"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../../include/gz/cmake3"
-				},
-				{
-					"backtrace" : 4,
-					"isSystem" : true,
-					"path" : "/usr/include/uuid"
-				},
-				{
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/include/gz/sim9"
@@ -196,6 +152,11 @@
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/include/gz/common6"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/uuid"
 				},
 				{
 					"backtrace" : 3,
@@ -286,9 +247,40 @@
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/include/gz/sdformat15"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/transport12"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/utils2"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/msgs9"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/math7"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3,
+					3,
+					3
+				],
+				"standard" : "17"
+			},
 			"sourceIndexes" : 
 			[
 				0
@@ -329,62 +321,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-lgz-transport12",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-luuid",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-msgs9",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lprotobuf",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-math7",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-utils2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-msgs9",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lprotobuf",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-math7",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-utils2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-math7",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-utils2",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-transport12.so.12.2.2",
 				"role" : "libraries"
 			},
 			{
@@ -545,14 +482,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
-				"role" : "libraries"
-			},
-			{
+				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-msgs11.so.11.1.0",
 				"role" : "libraries"
 			},
@@ -577,37 +507,28 @@
 				"role" : "libraries"
 			},
 			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-msgs9.so.9.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.5.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-msgs9",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "-lprotobuf",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-msgs9",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lprotobuf",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-math7",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgz-utils2",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
 				"role" : "libraries"
 			}
 		],

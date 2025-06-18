@@ -61,11 +61,7 @@
         <parent>body</parent>
         <child>motor_module_4</child>  
       </joint>
-<plugin name="subpar::SubparPublisherPlugin" filename="SubparDronePlugin"/>
-
-
-
-
+<plugin name="subpar::SubparPublisherPlugin" filename="/workspaces/TI-S4-Subpar/subpar/simulator/build/libSubparDronePlugin.so"/>
 
   </model>
 </sdf>

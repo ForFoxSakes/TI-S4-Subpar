@@ -223,16 +223,17 @@
           <cmd_min>-1000</cmd_min>
         </plugin>
 
-  <plugin
-    filename="gz-sim-thruster-system"
-    name="gz::sim::systems::Thruster">
-    <namespace>motor_1_thruster</namespace>
-    <joint_name>motor_module_1_joint_4</joint_name> 
-    <use_angvel_cmd>false</use_angvel_cmd>
-    <thrust_coefficient>1</thrust_coefficient>
-    <fluid_density>1000</fluid_density>
-    <propeller_diameter>0.2</propeller_diameter>
-  </plugin>
+<plugin
+  filename="gz-sim-thruster-system"
+  name="gz::sim::systems::Thruster">
+  <namespace>motor_1_thruster</namespace>  <!-- Change number for each module -->
+  <joint_name>motor_module_1_joint_4</joint_name>  <!-- Change number for each module -->
+  <use_angvel_cmd>false</use_angvel_cmd>
+  <input_topic>/model/motor_1_thruster/joint/motor_module_1_joint_4/cmd_thrust</input_topic>  <!-- ADD THIS LINE -->
+  <thrust_coefficient>1</thrust_coefficient>
+  <fluid_density>1000</fluid_density>
+  <propeller_diameter>0.2</propeller_diameter>
+</plugin>
         <!-- <plugin name="subpar::SubparKeyInputPlugin" filename="libSubparKeyInputPlugin.so"/> -->
         <!-- <plugin filename="libSubparKeyGuiPlugin.so" name="subpar::KeyGuiPlugin"/> -->
     </model>

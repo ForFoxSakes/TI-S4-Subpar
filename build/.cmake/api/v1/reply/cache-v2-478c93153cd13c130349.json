@@ -3551,7 +3551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3"
+			"value" : "-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs11;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math8;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils3;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake4"
 		},
 		{
 			"name" : "GZ_MSGS_CFLAGS_I",
@@ -3599,7 +3599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9"
+			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs11"
 		},
 		{
 			"name" : "GZ_MSGS_INCLUDE_DIRS",
@@ -3611,7 +3611,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3"
+			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs11;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math8;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils3;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake4"
 		},
 		{
 			"name" : "GZ_MSGS_LDFLAGS",
@@ -3623,7 +3623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-msgs9;-lprotobuf;-lgz-math7;-lgz-utils2"
+			"value" : "-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lgz-msgs11;-lprotobuf;-lgz-math8;-lgz-utils3;-ltinyxml2"
 		},
 		{
 			"name" : "GZ_MSGS_LDFLAGS_OTHER",
@@ -3659,7 +3659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "gz-msgs9;protobuf;gz-math7;gz-utils2"
+			"value" : "gz-msgs11;protobuf;gz-math8;gz-utils3;tinyxml2"
 		},
 		{
 			"name" : "GZ_MSGS_LIBRARY_DIRS",
@@ -3671,7 +3671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "GZ_MSGS_LIBS",
@@ -3731,7 +3731,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "gz-msgs9"
+			"value" : "gz-msgs11"
 		},
 		{
 			"name" : "GZ_MSGS_PREFIX",
@@ -3755,7 +3755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3"
+			"value" : "-pthread;-std=c++17;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs11;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math8;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils3;-I/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake4"
 		},
 		{
 			"name" : "GZ_MSGS_STATIC_CFLAGS_I",
@@ -3791,7 +3791,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs9;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math7;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils2;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake3"
+			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/msgs11;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/math8;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/utils3;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//include/gz/cmake4"
 		},
 		{
 			"name" : "GZ_MSGS_STATIC_LDFLAGS",
@@ -3803,7 +3803,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-lgz-msgs9;-ltinyxml2;-lprotobuf;-lz;-lgz-math7;-lgz-utils2"
+			"value" : "-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lgz-msgs11;-lprotobuf;-lz;-lgz-math8;-lgz-utils3;-ltinyxml2"
 		},
 		{
 			"name" : "GZ_MSGS_STATIC_LDFLAGS_OTHER",
@@ -3839,7 +3839,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "gz-msgs9;tinyxml2;protobuf;z;gz-math7;gz-utils2"
+			"value" : "gz-msgs11;protobuf;z;gz-math8;gz-utils3;tinyxml2"
 		},
 		{
 			"name" : "GZ_MSGS_STATIC_LIBRARY_DIRS",
@@ -3851,7 +3851,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "GZ_MSGS_STATIC_LIBS",
@@ -3911,7 +3911,55 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9.5.1"
+			"value" : "11.1.0"
+		},
+		{
+			"name" : "GZ_MSGS_gz-msgs11_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GZ_MSGS_gz-msgs11_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GZ_MSGS_gz-msgs11_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GZ_MSGS_gz-msgs11_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		},
 		{
 			"name" : "GZ_MSGS_gz-msgs9_INCLUDEDIR",
@@ -6143,7 +6191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;gz-sim9::gz-sim9;general;gz-plugin3::gz-plugin3;general;gz-transport12;general;uuid;general;gz-msgs9;general;protobuf;general;gz-math7;general;gz-utils2;general;gz-msgs9;general;protobuf;general;gz-math7;general;gz-utils2;general;gz-math7;general;gz-utils2;"
+			"value" : "general;gz-sim9::gz-sim9;general;gz-transport12::gz-transport12;general;gz-msgs11::gz-msgs11;general;gz-math7::gz-math7;general;gz-plugin3::gz-plugin3;"
 		},
 		{
 			"name" : "TINYXML2_CFLAGS",
@@ -8347,7 +8395,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "REQUIRED;gz-msgs9"
+			"value" : "REQUIRED;gz-msgs11"
 		},
 		{
 			"name" : "__pkg_config_arguments_GZ_TRANSPORT",
@@ -8674,6 +8722,18 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/fmt"
 		},
 		{
+			"name" : "gz-cmake3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gz-cmake3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/share/cmake/gz-cmake3"
+		},
+		{
 			"name" : "gz-cmake4_DIR",
 			"properties" : 
 			[
@@ -8806,6 +8866,18 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-gui9"
 		},
 		{
+			"name" : "gz-math7_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gz-math7."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-math7"
+		},
+		{
 			"name" : "gz-math8-eigen3_DIR",
 			"properties" : 
 			[
@@ -8840,6 +8912,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-msgs11"
+		},
+		{
+			"name" : "gz-msgs9_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gz-msgs9."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-msgs9"
 		},
 		{
 			"name" : "gz-physics8-heightmap_DIR",
@@ -9202,6 +9286,18 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-sim9"
 		},
 		{
+			"name" : "gz-transport12_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gz-transport12."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-transport12"
+		},
+		{
 			"name" : "gz-transport14-log_DIR",
 			"properties" : 
 			[
@@ -9236,6 +9332,30 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-transport14"
+		},
+		{
+			"name" : "gz-utils2-cli_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gz-utils2-cli."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-utils2-cli"
+		},
+		{
+			"name" : "gz-utils2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gz-utils2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/gz-utils2"
 		},
 		{
 			"name" : "gz-utils3-cli_DIR",
@@ -9398,6 +9518,38 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libgz-math7.so"
 		},
 		{
+			"name" : "pkgcfg_lib_GZ_MSGS_gz-math8",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgz-math8.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GZ_MSGS_gz-msgs11",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgz-msgs11.so"
+		},
+		{
 			"name" : "pkgcfg_lib_GZ_MSGS_gz-msgs9",
 			"properties" : 
 			[
@@ -9430,6 +9582,22 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libgz-utils2.so"
 		},
 		{
+			"name" : "pkgcfg_lib_GZ_MSGS_gz-utils3",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgz-utils3.so"
+		},
+		{
 			"name" : "pkgcfg_lib_GZ_MSGS_protobuf",
 			"properties" : 
 			[
@@ -9444,6 +9612,22 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GZ_MSGS_tinyxml2",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so"
 		},
 		{
 			"name" : "pkgcfg_lib_GZ_TRANSPORT_gz-math7",
@@ -9679,7 +9863,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib/x86_64-linux-gnu/pkgconfig/../../..//lib/x86_64-linux-gnu"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "sdformat15_DIR",

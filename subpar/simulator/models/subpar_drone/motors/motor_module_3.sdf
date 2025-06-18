@@ -229,10 +229,10 @@
 <plugin
   filename="gz-sim-thruster-system"
   name="gz::sim::systems::Thruster">
-  <namespace>motor_3_thruster</namespace>
-  <joint_name>motor_module_3_joint_4</joint_name> <!-- ✅ nu wél -->
+  <namespace>motor_3_thruster</namespace>  <!-- Change number for each module -->
+  <joint_name>motor_module_3_joint_4</joint_name>  <!-- Change number for each module -->
   <use_angvel_cmd>false</use_angvel_cmd>
-  <thrust_coefficient>1</thrust_coefficient>
+ <input_topic>/model/motor_3_thruster/joint/motor_module_3_joint_4/cmd_thrust</input_topic> <thrust_coefficient>1</thrust_coefficient>
   <fluid_density>1000</fluid_density>
   <propeller_diameter>0.2</propeller_diameter>
 </plugin>

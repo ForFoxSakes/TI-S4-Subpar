@@ -93,6 +93,7 @@ SubparDronePlugin_EXTERNAL_OBJECTS =
 libSubparDronePlugin.so: CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.o
 libSubparDronePlugin.so: CMakeFiles/SubparDronePlugin.dir/build.make
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-sim9.so.9.1.0
+libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-transport12.so.12.2.2
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-fuel_tools10.so.10.0.1
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-gui9.so.9.0.1
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-plugin3-loader.so.3.1.0
@@ -130,15 +131,18 @@ libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-transport14-parameters.so.14.1.0
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-transport14.so.14.1.0
-libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-msgs11.so.11.1.0
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libsdformat15.so.15.3.0
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-math8.so.8.2.0
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-utils3.so.3.1.1
+libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-msgs9.so.9.5.1
+libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-math7.so.7.5.1
+libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1
 libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+libSubparDronePlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 libSubparDronePlugin.so: CMakeFiles/SubparDronePlugin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/TI-S4-Subpar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libSubparDronePlugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SubparDronePlugin.dir/link.txt --verbose=$(VERBOSE)
