@@ -174,6 +174,32 @@ SubparDronePlugin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparDronePlugin.dir/build.make CMakeFiles/SubparDronePlugin.dir/build
 .PHONY : SubparDronePlugin/fast
 
+#=============================================================================
+# Target rules for targets named SubparStabilizerPlugin
+
+# Build rule for target.
+SubparStabilizerPlugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SubparStabilizerPlugin
+.PHONY : SubparStabilizerPlugin
+
+# fast build rule for target.
+SubparStabilizerPlugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/build
+.PHONY : SubparStabilizerPlugin/fast
+
+#=============================================================================
+# Target rules for targets named subscriber
+
+# Build rule for target.
+subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
+
 plugins/SubparDronePlugin.o: plugins/SubparDronePlugin.cc.o
 .PHONY : plugins/SubparDronePlugin.o
 
@@ -198,6 +224,54 @@ plugins/SubparDronePlugin.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparDronePlugin.dir/build.make CMakeFiles/SubparDronePlugin.dir/plugins/SubparDronePlugin.cc.s
 .PHONY : plugins/SubparDronePlugin.cc.s
 
+plugins/SubparStabilizerPlugin.o: plugins/SubparStabilizerPlugin.cc.o
+.PHONY : plugins/SubparStabilizerPlugin.o
+
+# target to build an object file
+plugins/SubparStabilizerPlugin.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/plugins/SubparStabilizerPlugin.cc.o
+.PHONY : plugins/SubparStabilizerPlugin.cc.o
+
+plugins/SubparStabilizerPlugin.i: plugins/SubparStabilizerPlugin.cc.i
+.PHONY : plugins/SubparStabilizerPlugin.i
+
+# target to preprocess a source file
+plugins/SubparStabilizerPlugin.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/plugins/SubparStabilizerPlugin.cc.i
+.PHONY : plugins/SubparStabilizerPlugin.cc.i
+
+plugins/SubparStabilizerPlugin.s: plugins/SubparStabilizerPlugin.cc.s
+.PHONY : plugins/SubparStabilizerPlugin.s
+
+# target to generate assembly for a file
+plugins/SubparStabilizerPlugin.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/plugins/SubparStabilizerPlugin.cc.s
+.PHONY : plugins/SubparStabilizerPlugin.cc.s
+
+subscriber/subscriber.o: subscriber/subscriber.cc.o
+.PHONY : subscriber/subscriber.o
+
+# target to build an object file
+subscriber/subscriber.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/subscriber/subscriber.cc.o
+.PHONY : subscriber/subscriber.cc.o
+
+subscriber/subscriber.i: subscriber/subscriber.cc.i
+.PHONY : subscriber/subscriber.i
+
+# target to preprocess a source file
+subscriber/subscriber.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/subscriber/subscriber.cc.i
+.PHONY : subscriber/subscriber.cc.i
+
+subscriber/subscriber.s: subscriber/subscriber.cc.s
+.PHONY : subscriber/subscriber.s
+
+# target to generate assembly for a file
+subscriber/subscriber.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/subscriber/subscriber.cc.s
+.PHONY : subscriber/subscriber.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +285,17 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... SubparDronePlugin"
+	@echo "... SubparStabilizerPlugin"
+	@echo "... subscriber"
 	@echo "... plugins/SubparDronePlugin.o"
 	@echo "... plugins/SubparDronePlugin.i"
 	@echo "... plugins/SubparDronePlugin.s"
+	@echo "... plugins/SubparStabilizerPlugin.o"
+	@echo "... plugins/SubparStabilizerPlugin.i"
+	@echo "... plugins/SubparStabilizerPlugin.s"
+	@echo "... subscriber/subscriber.o"
+	@echo "... subscriber/subscriber.i"
+	@echo "... subscriber/subscriber.s"
 .PHONY : help
 
 

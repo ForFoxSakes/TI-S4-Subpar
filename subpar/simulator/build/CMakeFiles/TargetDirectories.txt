@@ -1,4 +1,6 @@
 /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles/SubparDronePlugin.dir
+/workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles/SubparStabilizerPlugin.dir
+/workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles/subscriber.dir
 /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles/edit_cache.dir
 /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles/rebuild_cache.dir
 /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles/list_install_components.dir

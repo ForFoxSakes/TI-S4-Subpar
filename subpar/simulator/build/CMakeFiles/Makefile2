@@ -64,6 +64,8 @@ CMAKE_BINARY_DIR = /workspaces/TI-S4-Subpar/subpar/simulator/build
 
 # The main recursive "all" target.
 all: CMakeFiles/SubparDronePlugin.dir/all
+all: CMakeFiles/SubparStabilizerPlugin.dir/all
+all: CMakeFiles/subscriber.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +74,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/SubparDronePlugin.dir/clean
+clean: CMakeFiles/SubparStabilizerPlugin.dir/clean
+clean: CMakeFiles/subscriber.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +103,58 @@ SubparDronePlugin: CMakeFiles/SubparDronePlugin.dir/rule
 CMakeFiles/SubparDronePlugin.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparDronePlugin.dir/build.make CMakeFiles/SubparDronePlugin.dir/clean
 .PHONY : CMakeFiles/SubparDronePlugin.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SubparStabilizerPlugin.dir
+
+# All Build rule for target.
+CMakeFiles/SubparStabilizerPlugin.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles --progress-num=3,4 "Built target SubparStabilizerPlugin"
+.PHONY : CMakeFiles/SubparStabilizerPlugin.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SubparStabilizerPlugin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SubparStabilizerPlugin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles 0
+.PHONY : CMakeFiles/SubparStabilizerPlugin.dir/rule
+
+# Convenience name for target.
+SubparStabilizerPlugin: CMakeFiles/SubparStabilizerPlugin.dir/rule
+.PHONY : SubparStabilizerPlugin
+
+# clean rule for target.
+CMakeFiles/SubparStabilizerPlugin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SubparStabilizerPlugin.dir/build.make CMakeFiles/SubparStabilizerPlugin.dir/clean
+.PHONY : CMakeFiles/SubparStabilizerPlugin.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/subscriber.dir
+
+# All Build rule for target.
+CMakeFiles/subscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles --progress-num=5,6 "Built target subscriber"
+.PHONY : CMakeFiles/subscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/subscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/subscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TI-S4-Subpar/subpar/simulator/build/CMakeFiles 0
+.PHONY : CMakeFiles/subscriber.dir/rule
+
+# Convenience name for target.
+subscriber: CMakeFiles/subscriber.dir/rule
+.PHONY : subscriber
+
+# clean rule for target.
+CMakeFiles/subscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
+.PHONY : CMakeFiles/subscriber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

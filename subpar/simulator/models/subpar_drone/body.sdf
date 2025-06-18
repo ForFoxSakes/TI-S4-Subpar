@@ -33,8 +33,54 @@
         <mass>1.0</mass>
       </inertial>
 
+      <!-- Front camera sensor -->
+      <sensor name="front_camera" type="camera">
+        <!-- Positie: 0.6m voor de body, 0.25m boven de basis -->
+        <pose>0.6 0 0.25 0 0 0</pose>
+        <camera>
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+        </camera>
+        <always_on>1</always_on>
+        <update_rate>1</update_rate>
+        <visualize>true</visualize>
+        <topic>front_camera</topic>
+      </sensor>
+
+
+    <sensor name="imu_sensor" type="imu">
+      <always_on>1</always_on>
+      <update_rate>1</update_rate>
+      <visualize>true</visualize>
+      <topic>/imu</topic>
+      <plugin filename="gz-sensors9-system" name="gz::sensors::systems::Sensors"/>
+      <!-- Noise model -->
+      <imu>
+        <angular_velocity>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.001</stddev>    <!-- pas aan voor meer/minder ruis -->
+          </noise>
+        </angular_velocity>
+        <linear_acceleration>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.1</stddev>
+          </noise>
+        </linear_acceleration>
+      </imu>
+    </sensor>
+
 
     </link>
   </model>
-
 </sdf>

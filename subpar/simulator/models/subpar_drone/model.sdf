@@ -62,6 +62,8 @@
         <child>motor_module_4</child>  
       </joint>
 <plugin name="subpar::SubparPublisherPlugin" filename="/workspaces/TI-S4-Subpar/subpar/simulator/build/libSubparDronePlugin.so"/>
-
+<plugin filename="gz-sim-imu-system"
+        name="gz::sim::systems::Imu">
+</plugin>
   </model>
 </sdf>

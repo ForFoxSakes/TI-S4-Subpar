@@ -2,14 +2,62 @@
 <sdf version="1.10">
   <world name="default">
 
-    <!-- Physics & gravity -->
+    <!-- 1) Physics & gravity -->
     <gravity>0 0 -0.981</gravity>
     <physics name="default_physics" type="ode">
       <max_step_size>0.001</max_step_size>
-      <real_time_factor>1</real_time_factor>
+      <real_time_factor>1.0</real_time_factor>
     </physics>
 
-    <!-- Directional sunlight -->
+    <!-- 2) Sensors system plugin -->
+    <plugin filename="gz-sim-sensors-system"
+            name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <!-- 3) Scene styling -->
+    <scene>
+      <ambient>1.0 1.0 1.0</ambient>
+      <background>0.8 0.8 0.8</background>
+      <grid>true</grid>
+    </scene>
+
+    <!-- 4) GUI: alleen wat je hier instelt -->
+    <gz:policies>
+      <include_gui_default_plugins>true</include_gui_default_plugins>
+    </gz:policies>
+    <gui >
+
+      <plugin filename="MinimalScene" name="3D View">
+        <gz-gui>
+          <title>3D View</title>
+          <property key="showTitleBar" type="bool">false</property>
+          <property key="state"       type="string">docked</property>
+        </gz-gui>
+        <engine>ogre2</engine>
+        <scene>scene</scene>
+        <ambient_light>0.4 0.4 0.4</ambient_light>
+        <background_color>0.8 0.8 0.8</background_color>
+        <camera_pose>-3 0 3 0 0.5 0</camera_pose>
+      </plugin>
+
+      <!-- Front camera-feed, ingebouwd in de drone-body -->
+      <plugin filename="ImageDisplay" name="Front Camera">
+        <gz-gui>
+          <property key="state" type="string">docked</property>
+        </gz-gui>
+        <topic>front_camera</topic>
+      </plugin>
+
+      <!-- Play/Pause controls -->
+      <plugin filename="WorldControl" name="WorldControl"/>
+
+      <!-- Keyboard input -->
+      <plugin filename="KeyPublisher"
+              name="gz::gui::KeyPublisher"/>
+    </gui>
+
+    <!-- 5) Sunlight -->
     <light name="sun" type="directional">
       <cast_shadows>true</cast_shadows>
       <pose>0 0 10 0 0 0</pose>
@@ -24,25 +72,43 @@
       <direction>-0.5 0.1 -1</direction>
     </light>
 
-    <gui>
-
-      <plugin filename="KeyPublisher"
-              name="gz::gui::KeyPublisher"/>
-    </gui>
-
+    <!-- 6) Drone-model (met front_camera in de body) -->
     <include>
       <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/subpar_drone/model.sdf</uri>
       <name>drone</name>
       <pose>0 0 0 0 0 0</pose>
     </include>
 
-    <!-- Grondvlak -->
+    <!-- 7) Ground plane -->
     <include>
       <uri>file:///workspaces/TI-S4-Subpar/subpar/simulator/models/ground_plane.sdf</uri>
       <name>ground_plane</name>
       <pose>0 0 0 0 0 0</pose>
     </include>
-
+    <plugin filename="libignition-gazebo-systems-pid.so"
+            name="ignition::gazebo::systems::Pid">
+  <pid>
+    <name>hover</name>
+    <link_name>body::base_link</link_name>
+    <target>1.0</target>
+    <p>50</p><i>0.1</i><d>20</d>
+    <topic>/pid/hover/cmd</topic>
+  </pid>
+  <pid>
+    <name>roll</name>
+    <link_name>body::base_link</link_name>
+    <target>0.0</target>
+    <p>10</p><i>0.01</i><d>5</d>
+    <topic>/pid/roll/cmd</topic>
+  </pid>
+  <pid>
+    <name>pitch</name>
+    <link_name>body::base_link</link_name>
+    <target>0.0</target>
+    <p>10</p><i>0.01</i><d>5</d>
+    <topic>/pid/pitch/cmd</topic>
+  </pid>
+    </plugin>
 
   </world>
 </sdf>

@@ -2,34 +2,56 @@ cmake_minimum_required(VERSION 3.10)
 project(SubparDronePluginProject LANGUAGES CXX)
 
 # Vind de benodigde Gazebo Sim- en transport-/msgs-/math-packages
-find_package(gz-sim9        REQUIRED)   # core simulation
-find_package(gz-transport12 REQUIRED)   # advertise/subscribe API
-find_package(gz-msgs11      REQUIRED)   # alle protobuf‐factories
-find_package(gz-math7       REQUIRED)   # wiskundige hulpfuncties (M_PI, etc)
-find_package(gz-plugin3     REQUIRED)   # plugin‐registry
+find_package(gz-sim9        REQUIRED)
+find_package(gz-transport14 REQUIRED)
+find_package(gz-msgs11      REQUIRED)
+find_package(gz-math8       REQUIRED)
+find_package(gz-plugin3     REQUIRED)
 
-# Maak de shared library van je plugin
+# Plugin: Publisher (control)
 add_library(SubparDronePlugin SHARED
   plugins/SubparDronePlugin.cc
 )
-
-# Zorg dat we C++17 gebruiken
 set_target_properties(SubparDronePlugin PROPERTIES
   CXX_STANDARD           17
   POSITION_INDEPENDENT_CODE ON
 )
-
-# Link tegen de geïmporteerde Gazebo‐targets
 target_link_libraries(SubparDronePlugin PRIVATE
   gz-sim9::gz-sim9
-  gz-transport12::gz-transport12
+  gz-transport14::gz-transport14
   gz-msgs11::gz-msgs11
-  gz-math7::gz-math7
+  gz-math8::gz-math8
   gz-plugin3::gz-plugin3
 )
 
-# (optioneel) installeer de plugin
-install(TARGETS SubparDronePlugin
+# Plugin: Stabilizer (PID control)
+add_library(SubparStabilizerPlugin SHARED
+  plugins/SubparStabilizerPlugin.cc
+)
+set_target_properties(SubparStabilizerPlugin PROPERTIES
+  CXX_STANDARD           17
+  POSITION_INDEPENDENT_CODE ON
+)
+target_link_libraries(SubparStabilizerPlugin PRIVATE
+  gz-sim9::gz-sim9
+  gz-transport14::gz-transport14
+  gz-msgs11::gz-msgs11
+  gz-plugin3::gz-plugin3
+)
+# Subscriber executable
+add_executable(subscriber
+  subscriber/subscriber.cc
+)
+set_target_properties(subscriber PROPERTIES
+  CXX_STANDARD           17
+  POSITION_INDEPENDENT_CODE ON
+)
+target_link_libraries(subscriber PRIVATE
+  gz-transport14::gz-transport14
+  gz-msgs11::gz-msgs11
+)
+# (optioneel) installeer de plugins
+install(TARGETS SubparDronePlugin SubparStabilizerPlugin
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
 )
