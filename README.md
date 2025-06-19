@@ -1,7 +1,7 @@
 # 1. Inleiding
 
 Een simulatiesysteem voor een onderzeedrone dat door de brandweer wordt gebruikt voor trainingen en door ontwikkelaars voor firmwaretesten. De simulatie biedt een veilige en realistische virtuele omgeving waarin zowel de beweging van de drone als omgevingsfactoren zoals waterstroming, temperatuur en zichtbaarheid nauwkeurig worden nagebootst. Dit zorgt voor hoge trainingswaarde en betrouwbare testresultaten voor firmware-ontwikkelaars.  
-Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`【66†source】【65†source】
+Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 
 ## 2. Systeemarchitectuur & Modules
 
@@ -15,7 +15,7 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`【
 - **Security Manager**
 - **Data Storage**
 
-Communicatieprotocollen: RESTful API's, WebSockets, MQTT, gRPC en JSON【63†source】
+Communicatieprotocollen: RESTful API's, WebSockets, MQTT, gRPC en JSON
 
 ### 2.2 Modules (samenvatting)
 | Module                   | Type         | Locatie/File                                 |
@@ -114,14 +114,14 @@ Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber
 - Volledige React UI voor visualisatie en besturing.
 - Backend data-opslag en rapportage genereren.
 
-Bron: Systeem Design & Module Design documenten【64†source】【62†source】
+Bron: Systeem Design & Module Design documenten
 
 ## 5. Teststrategie & acceptatiecriteria
 
-- **Functionele tests:** Scenario-executie, firmwaretesten (FT‑001 t/m FT‑003)【61†source】
-- **Gebruikerstesten:** UI-intuïtiviteit (UT‑001, UT‑002)【61†source】
-- **Prestatie-/belastingtesten:** Realtime simulatie onder belasting (PT‑001, PT‑002)【61†source】
-- **Veiligheidstesten:** Autorisatie en data-encryptie (VT‑001, VT‑002)【61†source】
+- **Functionele tests:** Scenario-executie, firmwaretesten (FT‑001 t/m FT‑003)
+- **Gebruikerstesten:** UI-intuïtiviteit (UT‑001, UT‑002)
+- **Prestatie-/belastingtesten:** Realtime simulatie onder belasting (PT‑001, PT‑002)
+- **Veiligheidstesten:** Autorisatie en data-encryptie (VT‑001, VT‑002)
 
 **Acceptatiecriteria:**
 - ≥90% functionele tests succesvol.
