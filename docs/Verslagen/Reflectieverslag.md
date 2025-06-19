@@ -12,7 +12,7 @@ Dit is al redelijk duidelijk waar dit heen ging. Het niet kunnen oplossen van de
 
 Uiteindelijk uitte dit zich in paniekaanvallen en andere slechte symptomen. Hierbij moet ik mijn vriendin bedanken dat ze tegen mijn ego inging en met mij naar de voordeur van de hogeschool reisde. De realiteit is ook eigenlijk dat als je eenmaal daar aankomt, de schaamte helemaal niet zo groot is als je het maakt - nog wel aanwezig, maar als je in de eigen put zit, voelde het onmogelijk om de 'facts te facen'. Dit bracht de bal weer aan het rollen. Ik zeg niet dat hierbij alle problemen de deur uit zijn, want de afgelopen drie weken heb ik mij uit de naad moeten werken om iets van een minimaal product op te leveren.
 
-Dit was een samenvatting van de periode in het semester waar ik moeite mee heb gehad, en die mij ook bijna alle vooruitgang had gekost. Dit document is geen uitlaatklep en ik zoek ook geen medelijden. Ik wil in dit document laten zien dat ik toekomstgericht kan denken en handelen.
+**Dit was een samenvatting van de periode in het semester waar ik moeite mee heb gehad, en die mij ook bijna alle vooruitgang had gekost. Dit document is geen uitlaatklep en ik zoek ook geen medelijden. Ik wil in dit document laten zien dat ik toekomstgericht kan denken en handelen.**
 
 ---
 
