@@ -6,21 +6,21 @@ opvolging van Robin's consultancy taken, volledige technische overzicht van Smar
 ## Voorbereiding
 
 ### Inventarisatie Huidige Situatie
-Een gedegen overzicht van de originele functieomschrijving versus huidige werkzaamheden vormt de basis. Actiepunten:
+Een gedegen overzicht van de originele functieomschrijving versus huidige werkzaamheden vormt de basis. 
 - Documenteer concrete voorbeelden van Robin's taken die  worden uitgevoerd
 - Inventariseer technische verantwoordelijkheden voor SmartCity die zijn overgenomen
 - Verzamel meetbare resultaten en successen van het afgelopen jaar
 - Bereken percentage tijd besteed aan taken buiten oorspronkelijke functie
 
 ### Marktonderzoek
-Online onderzoek naar salarismarges voor vergelijkbare functies biedt inzicht in wat gebruikelijk is. Actiepunten:
+Online onderzoek naar salarismarges voor vergelijkbare functies biedt inzicht in wat gebruikelijk is. 
 - Zoek naar vergelijkbare functies in dezelfde sector en regio
 - Bepaal de ondergrens (minimum acceptabele bedrag)
 - Stel het streefbedrag vast (vaak 10 procent boven de wens als startbod)
 - Verzamel informatie over secundaire arbeidsvoorwaarden
 
 ### Argumentatie Opbouwen
-Concrete voorbeelden vormen de kern van overtuigende arguments. Actiepunten:
+Concrete voorbeelden vormen de kern van overtuigende arguments. 
 - Verzamel behaalde resultaten in Robin's consultancy taken
 - Documenteer opgeloste technische problemen voor SmartCity
 - Noteer toegevoegde waarde met kwantificeerbare gegevens
