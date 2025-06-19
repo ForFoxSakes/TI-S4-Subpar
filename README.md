@@ -16,7 +16,7 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 - **Data Storage**
 
 
-### 2.2 Modules (samenvatting)
+### 2.2 Doelopzet Modules (samenvatting)
 | Module                   | Type         | Locatie/File                                 |
 |--------------------------|--------------|-----------------------------------------------|
 | Simulatie Engine         | Gazebo-plugin| `plugins/simulation_engine.cc`               |
@@ -30,7 +30,7 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 
 Bron: Module Design Document【62†source】
 
-## 3. Huuidige status Code & Implementatie
+## 3. Huidige status Code & Implementatie
 
 Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber.cc`, inclusief hun functionaliteit.
 
