@@ -111,4 +111,3 @@ private:
 }  // namespace gui
 }  // namespace gz
 
-#include "GuiPlugin.moc"

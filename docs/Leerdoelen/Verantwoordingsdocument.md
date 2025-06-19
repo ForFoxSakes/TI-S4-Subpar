@@ -190,18 +190,17 @@ Indicatoren:
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Broncode simulatie`| `De brondcode geleverd van de uit te voeren simulatie` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#13-Bijlagen) |
-| `Projectcode` | `Alle code met betrekking tot het project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Ontwikkeldocument.md#13-Bijlagen) |
-| `Vision opdrachten` | `Opdrachten Vision van College Computer Vision I (Basis beeldverwerking)` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
-| `Algoritmiek opdrachten` | `Algoritmiek opdrachten van College Algoritmen & Datastructuren (C++ / Python)` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/CPP) |
-| `C++ STL Opdrachten` | `Opdrachten van het College Labmda's ` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
-| `C++<->Python opdrachten` | `Opdrachten van het College Koppeling Python ↔ C++ (Interfacing)` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/ALDS) |
-| `Creational/Structural design pattern opdrachten` | `Opdrachten van College Structural Design Patterns` | [link naar ...](http://) |
+| `Projectcode` | `Alle code met betrekking tot het project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/tree/main/subpar/simulator) |
+| `Vision opdrachten` | `Opdrachten Vision van College Computer Vision I (Basis beeldverwerking)` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
+| `Algoritmiek opdrachten` | `Algoritmiek opdrachten van College Algoritmen & Datastructuren (C++ / Python)` | [link ](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/CPP) |
+| `C++ STL Opdrachten` | `Opdrachten van het College Labmda's ` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
+| `C++<->Python opdrachten` | `Opdrachten van het College Koppeling Python ↔ C++ (Interfacing)` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/ALDS) |
+
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
 --
-
+### Feedback
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --

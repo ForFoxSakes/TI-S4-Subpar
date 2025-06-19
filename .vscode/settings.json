@@ -69,5 +69,6 @@
         "bitset": "cpp",
         "regex": "cpp"
     },
-    "cmake.sourceDirectory": "/workspaces/TI-S4-Subpar/subpar/simulator"
+    "cmake.sourceDirectory": "/workspaces/TI-S4-Subpar/subpar/simulator",
+    "C_Cpp.errorSquiggles": "disabled"
 }

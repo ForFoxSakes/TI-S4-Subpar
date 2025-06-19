@@ -32,13 +32,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 23,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -247,26 +247,6 @@
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/include/gz/sdformat15"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "/usr/include/gz/transport12"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "/usr/include/gz/utils2"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "/usr/include/gz/msgs9"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "/usr/include/gz/math7"
 				}
 			],
 			"language" : "CXX",
@@ -320,12 +300,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-transport12.so.12.2.2",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools10.so.10.0.1",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools10.so.10.1.0",
 				"role" : "libraries"
 			},
 			{
@@ -378,7 +353,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-rendering9.so.9.1.0",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-rendering9.so.9.2.0",
 				"role" : "libraries"
 			},
 			{
@@ -478,6 +453,7 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-transport14.so.14.1.0",
 				"role" : "libraries"
 			},
@@ -495,10 +471,19 @@
 				"role" : "libraries"
 			},
 			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libsdformat15.so.15.3.0",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-math8.so.8.2.0",
 				"role" : "libraries"
 			},
@@ -507,28 +492,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-msgs9.so.9.5.1",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.5.1",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
 				"role" : "libraries"
 			}
 		],

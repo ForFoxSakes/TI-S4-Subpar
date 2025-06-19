@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 32,
+				"line" : 54,
 				"parent" : 0
 			}
 		]
@@ -34,6 +34,18 @@
 			],
 			"targetId" : "SubparDronePlugin::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libSubparStabilizerPlugin.so"
+			],
+			"targetId" : "SubparStabilizerPlugin::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
 			"type" : "target"
 		}
 	],

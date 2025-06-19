@@ -16,14 +16,20 @@ Indicatoren
 | `Data Analyse - Impact Weercondities` | `Uitgebreidde Data analyse met adviesrapport gemaakt` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
 
 #### **Data Analyse - Impact Weercondities**
+
 Voor deze analyse heb ik verschillende analyses uitgevoerd op de data die afkomstig is van de luchtkwaliteitsensoren aan de Breemarsweg in Hengelo. In deze analyse valideer ik eerst de data uit de verschillende bronnen met behulp van standaarddeviatie, variatiecoëfficiënt, gemiddelde absolute afwijking en Z-score stabiliteit. Hieruit blijkt dat de sensoren een hoge mate van betrouwbaarheid in hun metingen laten zien.
 
 Daarna is de dataset gekoppeld aan winddata per windrichting, en zijn de piekmomenten van de PM-metingen in kaart gebracht. Ook is er een heatmap gemaakt waarin de winddata is afgezet tegen de luchtkwaliteitsmetingen over de meetmaanden.
 
 Tot slot zijn zowel de hoge PM-waarden als de gemiddelde PM-waarden weergegeven in een windroos om trends te herkennen. Hieruit blijkt dat vooral westelijke en zuidoostelijke winden disproportioneel bijdragen aan verhoogde fijnstofconcentraties en uitschieters.
 
+#### Herstel
+
+Op basis van de analyse heb ik een aantal functionele eisen opgesteld voor een toekomstige Digital Twin van het meetsysteem. De opdrachtgever wil inzicht krijgen in de relatie tussen fijnstofconcentraties en weersomstandigheden. Daarom moet het systeem fijnstofmetingen kunnen koppelen aan meteorologische data zoals windrichting en windsnelheid. Daarnaast is het belangrijk dat de data eerst gevalideerd wordt, zodat uitschieters en foutieve waarden buiten beschouwing blijven. Ook moet het systeem verschillende databronnen kunnen combineren, zoals lokale sensormetingen en KNMI-data. Tot slot is het van belang dat de meetresultaten bruikbaar zijn voor langere termijnanalyses en het opstellen van vervolgonderzoek. Deze vereisten vormen een eerste basis voor het ontwerp van een digitale representatie van het systeem, waarmee toekomstige patronen en effecten beter in kaart kunnen worden gebracht.
+
 
 ### Feedback Persoonlijke Opdrachten
+Initieel was er de indruk dat de leeropdracht analyseren ook echt om een analyse ging. Maar na advies van Bart was verwezen dat het meer gaat om het kunnen deducerent van requirements. Dit is vervolgens aangepast hoe de requirements zijn gehaald uit de vraag van de opdrachtgever.
 
 ####  **Data Analyse - Impact Weercondities**
 Geen
@@ -43,9 +49,7 @@ Geen
 ### Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
  
 #### **Requirements Analyse**
-In deze analyse is de scope vastgesteld waar het project aan moet voldoen om een realistische weergave van de onderzeedrone te bieden. Dit wordt verder onderbouwd met functionele en niet-functionele requirements voor de verschillende stakeholders.
-
-Daarnaast zijn er use cases uitgewerkt voor meerdere actoren en scenario’s.
+Op basis van de stakeholderanalyse heb ik functionele en niet-functionele eisen opgesteld voor de simulatie van de onderzeedrone. De behoeften van de brandweer en ontwikkelaars stonden centraal, zoals het trainen in realistische scenario’s en het testen van firmware zonder fysieke hardware. Door deze eisen systematisch af te leiden uit belangen en invloed van stakeholders, is een eerste basis gelegd voor het ontwerp van een Digital Twin die aansluit op de doelstellingen van de opdrachtgever.
 
 #### **Stakeholder Analyse**
 De stakeholderanalyse brengt de behoeften en belangen van de betrokken partijen in kaart via een Power-Interest Matrix. Hieruit komen vooral de brandweer en ontwikkelaars naar voren als hoofd-stakeholders. Hun algemene eisen zijn verder uitgewerkt in de requirement analyse:
@@ -77,5 +81,7 @@ De tests zijn nog niet uitgevoerd, maar er is wel een analyse gedaan naar wat no
 Als reactie op deze feedback is afgesproken om in de ontwikkelvolgorde voorrang te geven aan de functionele requirements voor de brandweer, zodat hun behoeften eerder worden ingevuld dan die van de ontwikkelaars.
 
 Ook was de voetnote gegeven dat de tests wel uitgebreid waren en mogelijk niet haalbaar voor een groep met een enkel lid. 
+
+10-06 Er is met Teun Pieter gepraat over welke dingen er nou nodig zijn voor de productowner voor mij om te slagen. Gezien het beperkte contact was het advies de focus te leggen op wat ik heb en daar proberen de leerdoelen uit te halen. De goede basis lag er maar nu moet er gewoon gefocussed worden om dingen af te tekenen en feedback te krijgen.
 
 ---

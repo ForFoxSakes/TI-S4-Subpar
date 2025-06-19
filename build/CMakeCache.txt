@@ -321,6 +321,12 @@ SubparDronePluginProject_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 SubparDronePluginProject_SOURCE_DIR:STATIC=/workspaces/TI-S4-Subpar/subpar/simulator
 
+//Dependencies for the target
+SubparDronePlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-transport14::gz-transport14;general;gz-msgs11::gz-msgs11;general;gz-math8::gz-math8;general;gz-plugin3::gz-plugin3;
+
+//Dependencies for the target
+SubparStabilizerPlugin_LIB_DEPENDS:STATIC=general;gz-sim9::gz-sim9;general;gz-transport14::gz-transport14;general;gz-msgs11::gz-msgs11;general;gz-plugin3::gz-plugin3;
+
 //Path to a library.
 TINYXML2_LIBRARY_tinyxml2:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
 
@@ -479,9 +485,6 @@ gz-sensors9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors9
 
 //The directory containing a CMake configuration file for gz-sim9.
 gz-sim9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sim9
-
-//The directory containing a CMake configuration file for gz-transport12.
-gz-transport12_DIR:PATH=gz-transport12_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for gz-transport14-log.
 gz-transport14-log_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport14-log
