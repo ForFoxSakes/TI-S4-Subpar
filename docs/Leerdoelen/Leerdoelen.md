@@ -153,7 +153,7 @@ In deze analyse heb ik data van luchtkwaliteitssensoren geanalyseerd om te bepal
 Voor de deep dive heb ik een onderzoek gedaan naar de mogelijkheden van LoRa Mesh voor smartcity doeleinden. Hoe vergelijkt het met LoRaWAN , hoe is het toe te passen en wat zou ik testen. Deze deep dive was als oefening ingeplanned bij collegas om voor de presentatie te oefenen. Maar is uiteindelijk een adviesrapport geworden voor ee nvervolgonderzoek.
 
 ### Feedback
-
+Vanuit mijn werk was in overleg na de prsentatie interesse getoond in de opstelling,  en het argument bij mijn advies was dat het niet diep genoeg was. Dit was ook het geval bij sommig feedback bij de presentatie. Mijn doel was meer dat ik wilde kijken of het een mogelijkheid was en hoe het opweegd tegen LoRaWAN en of het de problemen waar wij bij LoRaWAN tegenaan lopen zou oplossen.
 
 ## Leeruitkomst 4 Realiseren
 
@@ -185,7 +185,6 @@ Voor ALDS heb ik gewerkt aan algoritmes en datastructuren en onderzocht hoe ze z
 
 ### Ontwikkelomgeving (Devcontainer met Docker en debugger)
 Ik heb een ontwikkelomgeving opgezet in Visual Studio Code met behulp van een devcontainer. Daarbij heb ik Docker gebruikt om de juiste omgeving te configureren, en een C++ debugger toegevoegd om mijn code goed te kunnen testen. Ik heb vastgelegd welke instellingen ik heb gebruikt, hoe ik de omgeving werkend heb gekregen en hoe ik tests uitvoer. Zo kan ik mijn werkwijze makkelijk opnieuw toepassen of delen met anderen.
-
 
 ---
 
@@ -243,6 +242,10 @@ De opdracht is goed uitgevoerd en werkt zoals bedoeld. Alles ziet er netjes uit 
 Leuk gedaan! 
 
 - Bart Bozon
+
+#### Vision opdracht
+Eerste feedback was dat er nog wat creativiteit ontbrak bij de CSV opgave. Dit heb ik opgelost door een image remapping functie toe te voegen die een lachspiegel effect creeerd, ook heb ik de edge detection die ik initieel toegepast heb in ee nstandaardfunctie van CSV gevonden en toegepast. Deze had een beter effect.
+
 ---
 
 
@@ -250,11 +253,6 @@ Leuk gedaan!
 
 Student zet een professionele ontwikkelomgeving op voor desktop development. Daarbij houdt hij rekening met de samenwerking tussen verschillende programmeertalen. De desktop debugging wordt op een gestructureerde manier uitgevoerd. De tests worden uitgevoerd volgens een vooraf beschreven testplan en moeten desgewenst op een later moment reproduceerbaar zijn. De student werkt volgens een voorgeschreven methodiek en maakt gebruik van geschikte tooling software debugging.
 
-Indicatoren:
-- Ontwikkeldocument
-- Opdrachten ontwikkelomgeving
-- Opdrachten debugging/tooling
-- Testverslag
 ---
 
 **Leeruitkomst 5 Projectopdrachten:**
@@ -278,7 +276,10 @@ Voor de opdrachten rondom debugging en tooling heb ik een debuggingomgeving opge
 
 --
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+#### Feedback
+18/06 Nick Goris:
+Zowel de ontwikkelomgeving als de debugging/tooling zijn volgens de opdracht uitgevoerd.
+
 
 --
 ## Leeruitkomst 6 Toekomstgericht organiseren
