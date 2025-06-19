@@ -10,17 +10,17 @@ namespace gz {
 namespace gui {
 namespace plugins {
 
-class HelloUnderwaterPlugin : public Plugin,
+class GuiPlugin : public Plugin,
                               public QObject
 {
   Q_OBJECT
   // Register as a GUI plugin
-  GZ_ADD_PLUGIN(HelloUnderwaterPlugin,
+  GZ_ADD_PLUGIN(GuiPlugin,
                 Plugin)
-  GZ_CLONABLE_PLUGIN(HelloUnderwaterPlugin)
+  GZ_CLONABLE_PLUGIN(GuiPlugin)
 
 public:
-  HelloUnderwaterPlugin() : Plugin(), transportNode(), pitch(0), yaw(0), thrust(0) {}
+  GuiPlugin() : Plugin(), transportNode(), pitch(0), yaw(0), thrust(0) {}
 
   void LoadConfig(const tinyxml2::XMLElement * /*_pluginElem*/) override
   {
@@ -48,14 +48,14 @@ public:
     {
       std::string topicJ1 = "motor_module_" + std::to_string(i) + "_joint_1";
       this->transportNode.Subscribe(topicJ1,
-        &HelloUnderwaterPlugin::OnJoint1, this);
+        &GuiPlugin::OnJoint1, this);
       std::string topicJ2 = "motor_module_" + std::to_string(i) + "_joint_2";
       this->transportNode.Subscribe(topicJ2,
-        &HelloUnderwaterPlugin::OnJoint2, this);
+        &GuiPlugin::OnJoint2, this);
     }
     // Subscribe to thrust
     this->transportNode.Subscribe("/thrust_input",
-      &HelloUnderwaterPlugin::OnThrust, this);
+      &GuiPlugin::OnThrust, this);
   }
 
 protected:
@@ -111,4 +111,4 @@ private:
 }  // namespace gui
 }  // namespace gz
 
-#include "HelloUnderwaterPlugin.moc"
+#include "GuiPlugin.moc"
