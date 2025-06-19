@@ -1,13 +1,13 @@
 # Voorbereiding Vooruitgangsgesprek - Praktische Gids
 
 ## Doelstelling
-Formele erkenning van uitgebreide rol, overname van Robin's consultancy taken, volledige technische overzicht van SmartCity en passende salarisaanpassing.
+opvolging van Robin's consultancy taken, volledige technische overzicht van SmartCity en passend.
 
 ## Voorbereiding
 
 ### Inventarisatie Huidige Situatie
 Een gedegen overzicht van de originele functieomschrijving versus huidige werkzaamheden vormt de basis. Actiepunten:
-- Documenteer concrete voorbeelden van Robin's taken die reeds worden uitgevoerd
+- Documenteer concrete voorbeelden van Robin's taken die  worden uitgevoerd
 - Inventariseer technische verantwoordelijkheden voor SmartCity die zijn overgenomen
 - Verzamel meetbare resultaten en successen van het afgelopen jaar
 - Bereken percentage tijd besteed aan taken buiten oorspronkelijke functie
@@ -66,4 +66,3 @@ Concrete vervolgstappen worden gevraagd en een evaluatiemoment wordt ingepland. 
 - Randstad: Arbeidsvoorwaardengesprek aanpak - https://www.randstad.nl/werknemers/loopbaan/salarisonderhandeling/
 - Manpower: Salarisonderhandeling strategie - https://www.manpowergroup.nl/nl/insights/salarisonderhandeling/
 - CNV: Voorbereiding salarisonderhandeling - https://www.cnv.nl/arbeidsvoorwaarden/salaris/salarisonderhandeling/
-- NN: Salarisonderhandeling nieuwe baan - https://www.nn.nl/werkgevers/hr-themas/belonen/salarisonderhandeling.htm
