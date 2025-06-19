@@ -91,5 +91,10 @@ Kijk eventueel ook naar de `ranges` uit de standaardbibliotheek voor modernere s
 De opdracht is goed uitgevoerd en werkt zoals bedoeld. Alles ziet er netjes uit en er zijn geen opvallende problemen.
 \~Nick
 
+#### Gazebo Opdracht 
+1 mrt op 12:14
+Leuk gedaan! 
+
+- Bart Bozon
 ---
 
