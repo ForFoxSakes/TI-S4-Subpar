@@ -1,7 +1,7 @@
 # 1. Inleiding
 
 Een simulatiesysteem voor een onderzeedrone dat door de brandweer wordt gebruikt voor trainingen en door ontwikkelaars voor firmwaretesten. De simulatie biedt een veilige en realistische virtuele omgeving waarin zowel de beweging van de drone als omgevingsfactoren zoals waterstroming, temperatuur en zichtbaarheid nauwkeurig worden nagebootst. Dit zorgt voor hoge trainingswaarde en betrouwbare testresultaten voor firmware-ontwikkelaars.  
-Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`【66†source】【65†source】
+Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 
 ## 2. Systeemarchitectuur & Modules
 
@@ -15,7 +15,7 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`【
 - **Security Manager**
 - **Data Storage**
 
-Communicatieprotocollen: RESTful API's, WebSockets, MQTT, gRPC en JSON【63†source】
+Communicatieprotocollen: RESTful API's, WebSockets, MQTT, gRPC en JSON
 
 ### 2.2 Modules (samenvatting)
 | Module                   | Type         | Locatie/File                                 |
@@ -35,18 +35,18 @@ Bron: Module Design Document【62†source】
 
 Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber.cc`, inclusief hun functionaliteit.
 
-### 3.1 HelloUnderwaterPlugin
-**Locatie:** `simulator/plugins/HelloUnderwaterPlugin.cc`
+### 3.1 GuiPlugin
+**Locatie:** `simulator/plugins/GuiPlugin.cc`
 
-- **Doel:** Basisplugin voor joint-aansturing via topics.
+- **Doel:** Basisplugin voor joint en thruster status via topics.
 - **LoadConfig:** Leest XML-configuratie uit SDF.
 - **Initialize & SubscribeTopics():**  
   - `/subpar/joint1/cmd` → `OnJoint1()`  
   - `/subpar/joint2/cmd` → `OnJoint2()`  
   - `/subpar/thrust/cmd`  → `OnThrust()`
 - **Callbacks:**  
-  - `OnJoint1()/OnJoint2()`: Verwerken hoekcommando’s  
-  - `OnThrust()`: Verwerkt thrust-commando (double) en past kracht toe
+  - `OnJoint1()/OnJoint2()`: Verwerken hoek status en post op GUI
+  - `OnThrust()`: Verwerkt thrust-status (double) en post op GUI
 
 ### 3.2 SubparDronePlugin
 **Locatie:** `simulator/plugins/SubparDronePlugin.cc`
@@ -86,7 +86,7 @@ Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber
 ### 3.4 Subscriber Node
 **Locatie:** `simulator/subscriber/subscriber.cc`
 
-- **Opzet:** C++-subscriber op `/imu_data`.
+- **Opzet:** subscriber op sensor `/imu_data`.
 - **Codevoorbeeld:**
   ```cpp
   gz::transport::Node node;
@@ -100,28 +100,30 @@ Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber
   gz::transport::waitForShutdown();
   ```
 
-> **Conclusie:** Deze plugins vormen een gelaagd besturingssysteem: van basis joint-aansturing (HelloUnderwater) tot volledige drone-logica (SubparDrone) en stabilisatie (SubparStabilizer), aangevuld met real-time sensor-uitlezing via de subscriber.
+> **Conclusie:** Deze plugins vormen een basis besturingssysteem: van basis gui posting (GuiPlugin) tot  dronelogica (SubparDrone) en stabilisatie (SubparStabilizer), aangevuld met real-time sensor-uitlezing via de subscriber.
 
 ## 4. Volgende stappen & planning
 
 **Kortetermijn**:
+- GUI Plugin uitwerken om status weer te geven
+- Stabilisatie setup implementeren in huidige simulatie
+
+**Langetermijn**:
 - Firmware Interface implementeren (laden en debuggen).
 - Scenario Manager en ROS-servicekoppelingen uitbreiden.
 - Logging & Analytics integratie voltooien.
-
-**Langetermijn**:
 - Security Manager (authenticatie, autorisatie).
 - Volledige React UI voor visualisatie en besturing.
 - Backend data-opslag en rapportage genereren.
 
-Bron: Systeem Design & Module Design documenten【64†source】【62†source】
+Bron: Systeem Design & Module Design documenten
 
 ## 5. Teststrategie & acceptatiecriteria
 
-- **Functionele tests:** Scenario-executie, firmwaretesten (FT‑001 t/m FT‑003)【61†source】
-- **Gebruikerstesten:** UI-intuïtiviteit (UT‑001, UT‑002)【61†source】
-- **Prestatie-/belastingtesten:** Realtime simulatie onder belasting (PT‑001, PT‑002)【61†source】
-- **Veiligheidstesten:** Autorisatie en data-encryptie (VT‑001, VT‑002)【61†source】
+- **Functionele tests:** Scenario-executie, firmwaretesten (FT‑001 t/m FT‑003)
+- **Gebruikerstesten:** UI-intuïtiviteit (UT‑001, UT‑002)
+- **Prestatie-/belastingtesten:** Realtime simulatie onder belasting (PT‑001, PT‑002)
+- **Veiligheidstesten:** Autorisatie en data-encryptie (VT‑001, VT‑002)
 
 **Acceptatiecriteria:**
 - ≥90% functionele tests succesvol.
