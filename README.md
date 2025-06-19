@@ -15,7 +15,6 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 - **Security Manager**
 - **Data Storage**
 
-Communicatieprotocollen: RESTful API's, WebSockets, MQTT, gRPC en JSON
 
 ### 2.2 Modules (samenvatting)
 | Module                   | Type         | Locatie/File                                 |
