@@ -1,4 +1,4 @@
-# 📘 LoRa Mesh vs. LoRaWAN – Achtergrondrapport voor sensornetwerken in de buitenruimte
+#  LoRa Mesh vs. LoRaWAN – Achtergrondrapport voor sensornetwerken in de buitenruimte
 
 ## 1. Inleiding
 De ontwikkeling van Smart City-omgevingen leidt tot een toenemende behoefte aan gedistribueerde, energie-efficiënte netwerken voor het verzamelen van gegevens uit de fysieke leefomgeving. Of het nu gaat om het monitoren van bodemvocht in stedelijke plantsoenen, het detecteren van vulgraden in ondergrondse afvalcontainers, of het meten van fijnstof in drukke verkeersaders – in al deze toepassingen vormt draadloze connectiviteit een cruciale schakel. Sensoren moeten over grote afstanden en onder moeilijke omstandigheden kunnen communiceren. De gekozen netwerkarchitectuur bepaalt daarbij in hoge mate de haalbaarheid, betrouwbaarheid en levensduur van de oplossing.
