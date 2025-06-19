@@ -8,7 +8,7 @@ Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffen
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Data Analyse - Impact Weercondities` | `Uitgebreidde Data analyse met adviesrapport gemaakt` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
+| `Data Analyse - Impact Weercondities` | `Uitgebreide Data analyse met adviesrapport gemaakt` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
 
 ---
 
@@ -19,7 +19,7 @@ Daarna is de dataset gekoppeld aan winddata per windrichting, en zijn de piekmom
 Tot slot zijn zowel de hoge PM-waarden als de gemiddelde PM-waarden weergegeven in een windroos om trends te herkennen. Hieruit blijkt dat vooral westelijke en zuidoostelijke winden disproportioneel bijdragen aan verhoogde fijnstofconcentraties en uitschieters.
 
 ##### Feedback 
-Initieel was er de indruk dat de leeropdracht analyseren ook echt om een analyse ging. Maar na advies van Bart was verwezen dat het meer gaat om het kunnen deduceren van requirements. Ik heb vervolgens de onderbouwing aangepast naar hoe de requirements zijn gehaald uit de vraag van de opdrachtgever hieronder.
+19-06-2025 Initieel was er de indruk dat de leeropdracht analyseren ook echt om een analyse ging. Maar na advies van Bart was verwezen dat het meer gaat om het kunnen deduceren van requirements. Ik heb vervolgens de onderbouwing aangepast naar hoe de requirements zijn gehaald uit de vraag van de opdrachtgever hieronder.
 
 ##### Verwerking ontvangen feedback
 Op basis van de analyse heb ik een aantal functionele eisen opgesteld. De opdrachtgever wil inzicht krijgen in de relatie tussen fijnstofconcentraties en weersomstandigheden. Daarom moet het systeem fijnstofmetingen kunnen koppelen aan meteorologische data zoals windrichting en windsnelheid. Daarnaast is het belangrijk dat de data eerst gevalideerd wordt, zodat uitschieters en foutieve waarden buiten beschouwing blijven. Ook moet het systeem verschillende databronnen kunnen combineren, zoals lokale sensormetingen en KNMI-data. De requirements vormen een eerste basis van de analyse.
@@ -30,20 +30,20 @@ Op basis van de analyse heb ik een aantal functionele eisen opgesteld. De opdrac
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Requirements Analyse` | `Requirements analyse opgesteld vanuit de stakeholderanalyse en interviews` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/1.%20Requirement%20Analyse.md) |
-| `Stakeholder Analyse` | `Belanghebbenden van het project geïdentificeerd, geanalyseerd en geclassificeerd op basis van hun belangen, invloed en betrokkenheid bij het project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/2.%20Systeem%20Design.md) |
-| `Acceptatie Test` | `Teststrategie opgezet om te valideren of het systeem voldoet aan de verwachtingen van de stakeholders` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/9.%20Acceptatie%20Testen.md) |
+| `Requirements Analyse` | `Requirements opgesteld vanuit stakeholderanalyse en interviews` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/1.%20Requirement%20Analyse.md) |
+| `Stakeholder Analyse` | `Belanghebbenden geïdentificeerd en geclassificeerd` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/2.%20Systeem%20Design.md) |
+| `Acceptatie Test` | `Omschrijving van acceptatiecriteria en testcases` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/9.%20Acceptatie%20Testen.md) |
 |`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
 
 ---
 
 #### **Requirements Analyse**
-Op basis van de stakeholderanalyse heb ik functionele en niet-functionele eisen opgesteld voor de simulatie van de onderzeedrone. De behoeften van de brandweer en ontwikkelaars stonden centraal, zoals het trainen in realistische scenario’s en het testen van firmware zonder fysieke hardware. Door deze eisen systematisch af te leiden uit belangen en invloed van stakeholders, is een eerste basis gelegd voor het ontwerp van een Digital Twin die aansluit op de doelstellingen van de opdrachtgever.
+Op basis van de stakeholderanalyse heb ik functionele en niet-functionele eisen afgeleid. Centraal stonden de behoeften van de brandweer (realistische simulatie, gebruiksvriendelijke interface) en ontwikkelaars (nauwkeurige firmware-emulatie, debuggingtools).
 
 ---
 
 #### **Stakeholder Analyse**
-De stakeholderanalyse brengt de behoeften en belangen van de betrokken partijen in kaart via een Power-Interest Matrix. Hieruit komen vooral de brandweer en ontwikkelaars naar voren als hoofd-stakeholders. Hun algemene eisen zijn verder uitgewerkt in de requirement analyse:
+Via een Power-Interest Matrix identificeerde ik de brandweer en ontwikkelaars als hoofd-stakeholders. Hun eisen zijn verwerkt in de Requirements Analyse.
 
 Brandweer (eindgebruikers & trainers)
 Realistische simulatie, gebruiksvriendelijke interface, trainingsscenario’s
@@ -56,13 +56,13 @@ Simulatie moet firmware correct nabootsen, logging- en debuggingtools
 #### **Acceptatietest**
 Er zijn acceptatietests opgesteld om te toetsen of het project voldoet aan de gestelde requirements. Deze zijn opgedeeld in:
 
-Functionele tests – Controleren of de functionaliteiten juist werken
+Functionele tests – controleren of de functionaliteiten juist werken
 
-Gebruikerstesten – Eindgebruikers testen het systeem op bruikbaarheid en intuïtiviteit
+Gebruikerstesten – eindgebruikers beoordelen bruikbaarheid
 
-Prestatie- en belastingstesten – Evaluatie van systeemprestaties onder verschillende omstandigheden
+Prestatie- en belastingstesten – monitoren van systeemprestaties onder variërende condities
 
-Veiligheidstesten – Beoordeling van de beveiliging en risico's
+Veiligheidstesten –  beoordeling van beveiliging en risico’s
 
 De tests zijn nog niet uitgevoerd, maar er is wel een analyse gedaan naar wat nodig is om tot een succesvol en bruikbaar eindproduct te komen.
 
@@ -71,13 +71,13 @@ De tests zijn nog niet uitgevoerd, maar er is wel een analyse gedaan naar wat no
 ### Feedback 
 
 #### **Requirements Analyse/Stakeholder Analyse/Acceptatietest**
-18-03 Er heeft een gesprek plaatsgevonden met de Product Owner (Jan Halsema) waarin de requirements zijn besproken. Deze zijn goedgekeurd, met als belangrijke kanttekening dat er vanuit de Product Owner meer nadruk moest komen te liggen op de eindgebruiker in plaats van de ontwikkelaar.
+18-03-2025 Er heeft een gesprek plaatsgevonden met de Product Owner (Jan Halsema) waarin de requirements zijn besproken. Deze zijn goedgekeurd, met als belangrijke kanttekening dat er vanuit de Product Owner meer nadruk moest komen te liggen op de eindgebruiker in plaats van de ontwikkelaar.
 
 Als reactie op deze feedback is afgesproken om in de ontwikkelvolgorde voorrang te geven aan de functionele requirements voor de brandweer, zodat hun behoeften eerder worden ingevuld dan die van de ontwikkelaars.
 
 Ook was de voetnote gegeven dat de tests wel uitgebreid waren en mogelijk niet haalbaar voor een groep met een enkel lid. 
 
-10-06 Er is met Teun Pieter gepraat over welke dingen er nou nodig zijn voor de productowner voor mij om te slagen. Gezien het beperkte contact was het advies de focus te leggen op wat ik heb en daar proberen de leerdoelen uit te halen. De goede basis lag er maar nu moet er gewoon gefocussed worden om dingen af te tekenen en feedback te krijgen. Hieruit is het document [Plan voor leerdoelen](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/oud/Plan%20voor%20Leerdoelen.md) uitgekomen
+10-06-2025 Er is met Teun Pieter gepraat over welke dingen er nou nodig zijn voor de productowner voor mij om te slagen. Gezien het beperkte contact was het advies de focus te leggen op wat ik heb en daar proberen de leerdoelen uit te halen. De goede basis lag er maar nu moet er gewoon gefocussed worden om dingen af te tekenen en feedback te krijgen. Hieruit is het document [Plan voor leerdoelen](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/oud/Plan%20voor%20Leerdoelen.md) uitgekomen
 
 ---
 
@@ -92,22 +92,23 @@ Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Systeemontwerp` | `Er is vanuit de requirements een systeemontwerp opgezet` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/2.%20Systeem%20Design.md) |
-| `Architectuurontwerp` | `Verder bouwend op het systeemontwerp is een architectuurontwerp opgezet` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/3.%20Architectuur%20Design.md) |
-| `Moduleontwerp` | `Vanuit het systeemontwerp en architectuurontwerp is een moduleontwerp gebouwd` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/4.%20Module%20Design.md) |
-| `Teststrategie` | `Er is vanuit de requirements een teststrategie opgezet` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/9.%20Acceptatie%20Testen.md) |
-| `Testplan opgesteld voor Lora Mesh`| `Vanuit de deep dive een testplan opgezet om de effictiviteit van LoRaMesh te testen` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md#6-technische-testopstelling-ttgo-lora32-en-rhmesh)|
+| `Systeemontwerp` | `Hoofdstructuur van de simulatie uitgewerkt` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/2.%20Systeem%20Design.md) |
+| `Architectuurontwerp` | `	Technische lagen en interacties gespecificeerd` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/3.%20Architectuur%20Design.md) |
+| `Moduleontwerp` | `Modules gedefinieerd met taken, interfaces en teststrategieën` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/4.%20Module%20Design.md) |
+| `Teststrategie` | `	Uitgewerkt kader voor unit-, integratie- en systeemtests` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/9.%20Acceptatie%20Testen.md) |
+| `Testplan opgesteld voor Lora Mesh`| `Omschrijving van acceptatiecriteria en testcases` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md#6-technische-testopstelling-ttgo-lora32-en-rhmesh)|
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+---
+
 
 ### Systeemontwerp 
 Op basis van de opgestelde requirements heb ik de hoofdstructuur van de simulatie uitgewerkt in een systeemontwerp. Hierin zijn de belangrijkste componenten en hun verantwoordelijkheden beschreven, waaronder de simulatie-engine, hardware-emulatie en gebruikersinterface. Dit ontwerp vormt het fundament voor de verdere technische uitwerking van de Digital Twin.
 
 ### Architectuurdesign
-In het architectuurdesign heb ik de technische lagen en interacties binnen het systeem gespecificeerd, inclusief gekozen technologieën en communicatieprotocollen. Door de architectuur modulair op te bouwen en te koppelen aan Gazebo, is een schaalbare en onderhoudbare Digital Twin gerealiseerd die aansluit op de requirements en toekomstige uitbreidingen ondersteunt.
+In het architectuurdesign heb ik de technische lagen en interacties binnen het systeem gespecificeerd. Later in het project is tot de conclusie gekomen dat er meer afhankelijk heid is vanaf Gazebo, hier is het ontwerp in de architectuur naar aangepast.
 
 ### Moduleontwerp
-Op basis van het architectuurdesign zijn de systeemcomponenten verder uitgewerkt tot afzonderlijke modules, met specifieke taken, interfaces en teststrategieën. Door deze modules af te bakenen volgens het V-model, is een duidelijke structuur ontstaan voor implementatie en validatie van de Digital Twin-functionaliteit.'
+Elke module is afgebakend volgens het V-model, met duidelijke interfaces en bijbehorende teststrategieën.
 
 ### Acceptatietesten
 De acceptatietesten zijn opgesteld om te toetsen of de simulatie voldoet aan de functionele en niet-functionele eisen vanuit de stakeholderanalyse. Door samen met eindgebruikers te testen op gebruiksvriendelijkheid, prestaties en veiligheid, wordt gevalideerd of de Digital Twin bruikbaar en betrouwbaar is in de praktijk.
@@ -116,11 +117,11 @@ De acceptatietesten zijn opgesteld om te toetsen of de simulatie voldoet aan de 
 --
 ### Feedback
 
-18-03 Jan Halsema : 
+18-03-2025 Jan Halsema : 
 Zorg dat je conclusies en planningen op elke pagina helder worden afgesloten
 Denk na over prioritering: wat is essentieel, wat kan eventueel later
 
-10-06 Teun-Pieter:
+10-06-2025 Teun-Pieter:
 Het is belangrijk voor de productowner dat, als deze requirements binnen de afgesproken periode niet gehaald worden dat er wel een advies komt van de volgende stappen. Dit heb ik uitgewerkt in [project_outline](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/project_outline.md)
 
 
@@ -136,22 +137,20 @@ Student adviseert de opdrachtgever, na analyse van de vereisten en doelstellinge
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-|`Smartcity-IoT Analyse` | `Analyse uitgevoerd betreft de luchtkwaliteit rondom gemeente Hengelo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
-|`Lora Mesh onderzoek`|  `Voor de Deep Dive heb ik onderzoek gedaan naar Lora Mesh, dit heb ik gelijk toegepast op mijn werk als advies voor vervolgonderzoek naar de mogelijkheden` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
-|`Advies vervolg project`|  `Vanuit het projectkader advies gegeven naar de volgende stappen in het submarine project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/presentation_outline.md) |
+|`Smartcity-IoT Analyse` | `Analyse luchtkwaliteit rondom gemeente Hengelo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
+|`Lora Mesh onderzoek`|  `Onderzoek naar LoRa Mesh voor smart-city, vertaald naar adviesrapport` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
+|`Advies vervolg project`|  `	Advies opgesteld voor de volgende stappen in het onderzeedrone-project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/presentation_outline.md) |
 
-
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+--- 
 
 #### Smartcity-IoT Analyse 
-In deze analyse heb ik data van luchtkwaliteitssensoren geanalyseerd om te bepalen of de windrichting invloed heeft op de luchtkwaliteit in Hengelo. Dit onderzoek is uitgevoerd op verzoek van de gemeente, met als doel inzicht te krijgen in de mogelijke impact van industrie op woonwijken. Op basis van de analyse van weer- en luchtkwaliteitsdata heb ik een onderbouwd advies opgesteld, waarin de resultaten helder zijn vertaald naar praktische aanbevelingen. Hiermee toon ik aan dat ik vanuit een grondige analyse tot een goed onderbouwd advies kan komen, zoals vereist in deze leeruitkomst.
+In opdracht van de gemeente heb ik de relatie tussen windrichting en fijnstofconcentraties in Hengelo onderzocht. Op basis van mijn bevindingen heb ik concrete aanbevelingen geformuleerd voor luchtkwaliteitsmonitoring en risicobeperking.
 
 #### Lora Mesh Onderzoek
-Voor de deep dive heb ik een onderzoek gedaan naar de mogelijkheden van LoRa Mesh voor smartcity doeleinden. Hoe vergelijkt het met LoRaWAN , hoe is het toe te passen en wat zou ik testen. Deze deep dive was als oefening ingeplanned bij collegas om voor de presentatie te oefenen. Maar is uiteindelijk een adviesrapport geworden voor ee nvervolgonderzoek.
+Ik vergeleek LoRa Mesh met LoRaWAN op techniek, toepasbaarheid en schaalbaarheid. De belangrijkste uitkomst is vertaald naar een adviesrapport en uitgegroeid naar een onderzoeksproject richting de mogelijkheden van LoRa Mesh binnen SmartCity-IoT.
 
 ### Feedback
-Vanuit mijn werk was in overleg na de prsentatie interesse getoond in de opstelling,  en het argument bij mijn advies was dat het niet diep genoeg was. Dit was ook het geval bij sommig feedback bij de presentatie. Mijn doel was meer dat ik wilde kijken of het een mogelijkheid was en hoe het opweegd tegen LoRaWAN en of het de problemen waar wij bij LoRaWAN tegenaan lopen zou oplossen.
+Vanuit mijn werk was in overleg na de presentatie interesse getoond in de opstelling, en het argument bij mijn advies was dat het niet diep genoeg was. Dit was ook het geval bij sommige feedback bij de presentatie. Mijn doel was meer dat ik wilde kijken of het een mogelijkheid was en hoe het opweegt tegen LoRaWAN en of het de problemen waar wij bij LoRaWAN tegenaan lopen zou oplossen.
 
 ## Leeruitkomst 4 Realiseren
 
@@ -163,26 +162,23 @@ Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedd
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Projectcode` | `Alle code met betrekking tot het project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/tree/main/subpar/simulator) |
-| `Vision opdrachten` | `Opdrachten Vision van College Computer Vision I (Basis beeldverwerking)` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
+| `Projectcode` | `	Alle code van de onderzee simulator` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/tree/main/subpar/simulator) |
+| `Vision opdrachten` | `Basis beeldverwerking met neuraal netwerk` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
 | `Standardlibrary C++` | `Opdrachten van STD C++` | [link ](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/CPP) |
-| `C++ STL Opdrachten` | `Opdrachten van het College Labmda's ` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
-| `ALDS` | `Opgaven ALDS` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/ALDS) |
-| `Gazebo Opdrachten` | `Opdrachten met betrikking tot maken van een Gazebo model en viewer` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/tree/main/src) |
-| ` Ontwikkelomgeving ` | `(Devcontainer met Docker en debugger)` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/blob/main/.devcontainer/devcontainer.json) |
+| `ALDS` | `Algoritmes & datastructuren` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/ALDS) |
+| `Gazebo Opdrachten` | `Modellen en viewerconfiguratie in Gazebo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/tree/main/src) |
+| ` Ontwikkelomgeving ` | `Devcontainer met Docker en VSCode-debugger` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/blob/main/.devcontainer/devcontainer.json) |
 
 
 
 ### Vision opdrachten
-Voor de vision-opgaven heb ik gewerkt aan beeldherkenning met behulp van een neuraal netwerk. Ik heb verschillende modellen ontworpen, getest en vergeleken op nauwkeurigheid. Daarbij heb ik testresultaten vastgelegd en gezorgd dat de omstandigheden reproduceerbaar zijn, zoals gebruikte datasets, trainingsinstellingen en validatiemethoden. Door telkens kleine aanpassingen te testen, kreeg ik inzicht in wat werkt en waarom.
-
-Bij het verder werken aan de vision-opgaven heb ik meer gelet op overfitting, trainingstijd en visuele output. Ik heb meerdere versies van het netwerk vergeleken, met aangepaste lagen of filters, en gekeken wat het effect was op de resultaten. Die uitkomsten heb ik vergeleken in grafieken en meetwaarden, zodat de testresultaten goed te volgen zijn en makkelijk opnieuw getest kunnen worden.
+Voor de vision opdrachten is de basis van beelverwerking uitgelegd. Voor de eerste opdracht zijn gaussian filters toegevoegd en Hough lines gebruikt om een flatgebouw te herkennen. Vervolgens is er een begin gemaakt met neurale netwerken op de mnist dataset. De laatste opdracht is niet volledig want het kostte mij te lang om de camera goed werkend te krijgen. Wel zijn de eerste drie assignments gemaakt.
 
 ### ALDS
-Voor ALDS heb ik gewerkt aan algoritmes en datastructuren en onderzocht hoe ze zich gedragen bij verschillende invoer. Ik heb keuzes gemaakt op basis van prestaties en geheugenverbruik, en testgevallen opgesteld om dat te onderbouwen. De uitkomsten van die tests heb ik vastgelegd, zodat duidelijk is wat de invloed was van bijvoorbeeld datastructuur of sorteermethode.
+Voor ALDS heb ik gewerkt aan algoritmes en datastructuren en onderzocht hoe ze zich gedragen bij verschillende invoer. Ik heb keuzes gemaakt op basis van prestaties en geheugenverbruik, en testgevallen opgesteld om dat te onderbouwen. De uitkomsten van die tests heb ik vastgelegd, zodat duidelijk is wat de invloed was van bijvoorbeeld datastructuur of sorteermethode. Er een begin gemaakt aan het Dijkstra Algoritme met grafen, een interresant onderwerp, maar dit wat ook net voor de valreep niet voltooid.
 
 ### Ontwikkelomgeving (Devcontainer met Docker en debugger)
-Ik heb een ontwikkelomgeving opgezet in Visual Studio Code met behulp van een devcontainer. Daarbij heb ik Docker gebruikt om de juiste omgeving te configureren, en een C++ debugger toegevoegd om mijn code goed te kunnen testen. Ik heb vastgelegd welke instellingen ik heb gebruikt, hoe ik de omgeving werkend heb gekregen en hoe ik tests uitvoer. Zo kan ik mijn werkwijze makkelijk opnieuw toepassen of delen met anderen.
+In VSCode heb ik een Docker-devcontainer opgezet met Gazebo en een C++-debugger. Ik documenteerde alle stappen en configuraties, zodat het probleem van 'it worked on my device' niet voor hoort te komen.
 
 ---
 
@@ -233,12 +229,11 @@ Kijk eventueel ook naar de `ranges` uit de standaardbibliotheek voor modernere s
 ### Devcontainer
 
 De opdracht is goed uitgevoerd en werkt zoals bedoeld. Alles ziet er netjes uit en er zijn geen opvallende problemen.
-\~Nick
+\ Nick Goris
 
 #### Gazebo Opdracht 
 1 mrt op 12:14
 Leuk gedaan! 
-
 - Bart Bozon
 
 #### Vision opdracht
@@ -324,7 +319,7 @@ Indicatoren:
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Contact met Docenten` | `Gezien de afwijkende stuctuur van mijn opdracht was er vel interactie nodig om een goede structuur te kunnen ontwikkelen voor dit project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Contract.md) |
+| `Contact met Docenten` | `Gezien de afwijkende stuctuur van mijn opdracht was er veel interactie nodig om een goede structuur te kunnen ontwikkelen voor dit project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Contract.md) |
 | `Salvagen van semester` | `Tegen het einde van het project proberen er het beste van te maken` | [link]()|
 
 
