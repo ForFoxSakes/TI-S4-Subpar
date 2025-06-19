@@ -1,12 +1,7 @@
-### Leeruitkomst 1 Analyseren
+## Leeruitkomst 1 Analyseren
 
 Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffende een 'Digital Twin' van een bestaand embedded systeem. Op basis hiervan en rekening houdend met de mogelijke gebruikers deduceert de student requirements volgens een voorgeschreven methode. Deze requirements dienen na validatie door de opdrachtgever als basis voor het ontwerp.
 
-Indicatoren
-- Requirements analyse
-- Stakeholder analyse
-- Testplan
-- Ontwikkeldocument (eerste deel)
 ---
 
 ### **Leeruitkomst 1 Persoonlijke opdrachten:**
@@ -15,24 +10,20 @@ Indicatoren
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Data Analyse - Impact Weercondities` | `Uitgebreidde Data analyse met adviesrapport gemaakt` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
 
+---
+### Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
 #### **Data Analyse - Impact Weercondities**
-#### Onderbouwing 
+##### Onderbouwing 
 Voor deze analyse heb ik verschillende analyses uitgevoerd op de data die afkomstig is van de luchtkwaliteitsensoren aan de Breemarsweg in Hengelo. In deze analyse valideer ik eerst de data uit de verschillende bronnen met behulp van standaarddeviatie, variatiecoëfficiënt, gemiddelde absolute afwijking en Z-score stabiliteit. Hieruit blijkt dat de sensoren een hoge mate van betrouwbaarheid in hun metingen laten zien.
-
 Daarna is de dataset gekoppeld aan winddata per windrichting, en zijn de piekmomenten van de PM-metingen in kaart gebracht. Ook is er een heatmap gemaakt waarin de winddata is afgezet tegen de luchtkwaliteitsmetingen over de meetmaanden.
-
 Tot slot zijn zowel de hoge PM-waarden als de gemiddelde PM-waarden weergegeven in een windroos om trends te herkennen. Hieruit blijkt dat vooral westelijke en zuidoostelijke winden disproportioneel bijdragen aan verhoogde fijnstofconcentraties en uitschieters.
 
-#### Herstel
+##### Feedback 
+Initieel was er de indruk dat de leeropdracht analyseren ook echt om een analyse ging. Maar na advies van Bart was verwezen dat het meer gaat om het kunnen deduceren van requirements. Ik heb vervolgens de onderbouwing aangepast naar hoe de requirements zijn gehaald uit de vraag van de opdrachtgever hieronder.
 
-Op basis van de analyse heb ik een aantal functionele eisen opgesteld. De opdrachtgever wil inzicht krijgen in de relatie tussen fijnstofconcentraties en weersomstandigheden. Daarom moet het systeem fijnstofmetingen kunnen koppelen aan meteorologische data zoals windrichting en windsnelheid. Daarnaast is het belangrijk dat de data eerst gevalideerd wordt, zodat uitschieters en foutieve waarden buiten beschouwing blijven. Ook moet het systeem verschillende databronnen kunnen combineren, zoals lokale sensormetingen en KNMI-data. Tot slot is het van belang dat de meetresultaten bruikbaar zijn voor langere termijnanalyses en het opstellen van vervolgonderzoek. Deze vereisten vormen een eerste basis voor het ontwerp van een digitale representatie van het systeem, waarmee toekomstige patronen en effecten beter in kaart kunnen worden gebracht.
-
-
-### Feedback Persoonlijke Opdrachten
-Initieel was er de indruk dat de leeropdracht analyseren ook echt om een analyse ging. Maar na advies van Bart was verwezen dat het meer gaat om het kunnen deducerent van requirements. Dit is vervolgens aangepast hoe de requirements zijn gehaald uit de vraag van de opdrachtgever.
-
-####  **Data Analyse - Impact Weercondities**
-Geen
+##### Verwerking ontvangen feedback
+Op basis van de analyse heb ik een aantal functionele eisen opgesteld. De opdrachtgever wil inzicht krijgen in de relatie tussen fijnstofconcentraties en weersomstandigheden. Daarom moet het systeem fijnstofmetingen kunnen koppelen aan meteorologische data zoals windrichting en windsnelheid. Daarnaast is het belangrijk dat de data eerst gevalideerd wordt, zodat uitschieters en foutieve waarden buiten beschouwing blijven. Ook moet het systeem verschillende databronnen kunnen combineren, zoals lokale sensormetingen en KNMI-data. De requirements vormen een eerste basis van de analyse.
 
 ---
 
@@ -51,6 +42,8 @@ Geen
 #### **Requirements Analyse**
 Op basis van de stakeholderanalyse heb ik functionele en niet-functionele eisen opgesteld voor de simulatie van de onderzeedrone. De behoeften van de brandweer en ontwikkelaars stonden centraal, zoals het trainen in realistische scenario’s en het testen van firmware zonder fysieke hardware. Door deze eisen systematisch af te leiden uit belangen en invloed van stakeholders, is een eerste basis gelegd voor het ontwerp van een Digital Twin die aansluit op de doelstellingen van de opdrachtgever.
 
+---
+
 #### **Stakeholder Analyse**
 De stakeholderanalyse brengt de behoeften en belangen van de betrokken partijen in kaart via een Power-Interest Matrix. Hieruit komen vooral de brandweer en ontwikkelaars naar voren als hoofd-stakeholders. Hun algemene eisen zijn verder uitgewerkt in de requirement analyse:
 
@@ -59,6 +52,8 @@ Realistische simulatie, gebruiksvriendelijke interface, trainingsscenario’s
 
 Ontwikkelaars (firmware & simulatie)
 Simulatie moet firmware correct nabootsen, logging- en debuggingtools
+
+---
 
 #### **Acceptatietest**
 Er zijn acceptatietests opgesteld om te toetsen of het project voldoet aan de gestelde requirements. Deze zijn opgedeeld in:
@@ -73,7 +68,9 @@ Veiligheidstesten – Beoordeling van de beveiliging en risico's
 
 De tests zijn nog niet uitgevoerd, maar er is wel een analyse gedaan naar wat nodig is om tot een succesvol en bruikbaar eindproduct te komen.
 
-### Feedback Project Opdrachten
+---
+
+### Feedback 
 
 #### **Requirements Analyse/Stakeholder Analyse/Acceptatietest**
 18-03 Er heeft een gesprek plaatsgevonden met de Product Owner (Jan Halsema) waarin de requirements zijn besproken. Deze zijn goedgekeurd, met als belangrijke kanttekening dat er vanuit de Product Owner meer nadruk moest komen te liggen op de eindgebruiker in plaats van de ontwikkelaar.
@@ -82,17 +79,14 @@ Als reactie op deze feedback is afgesproken om in de ontwikkelvolgorde voorrang 
 
 Ook was de voetnote gegeven dat de tests wel uitgebreid waren en mogelijk niet haalbaar voor een groep met een enkel lid. 
 
-10-06 Er is met Teun Pieter gepraat over welke dingen er nou nodig zijn voor de productowner voor mij om te slagen. Gezien het beperkte contact was het advies de focus te leggen op wat ik heb en daar proberen de leerdoelen uit te halen. De goede basis lag er maar nu moet er gewoon gefocussed worden om dingen af te tekenen en feedback te krijgen.
+10-06 Er is met Teun Pieter gepraat over welke dingen er nou nodig zijn voor de productowner voor mij om te slagen. Gezien het beperkte contact was het advies de focus te leggen op wat ik heb en daar proberen de leerdoelen uit te halen. De goede basis lag er maar nu moet er gewoon gefocussed worden om dingen af te tekenen en feedback te krijgen. Hieruit is het document [Plan voor leerdoelen](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/oud/Plan%20voor%20Leerdoelen.md) uitgekomen
 
 ---
 
-### Leeruitkomst 2 Ontwerpen
+## Leeruitkomst 2 Ontwerpen
 
 Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden een 'Digital Twin', inclusief grafische representatie, van een bestaand embedded systeem. Dit ontwerp omvat ook een ontwerp voor teststrategieën.
 
-Indicatoren:
-- Testverslag
-- Ontwikkeldocument
 ---
 
 
@@ -104,6 +98,7 @@ Indicatoren:
 | `Architectuurontwerp` | `Verder bouwend op het systeemontwerp is een architectuurontwerp opgezet` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/3.%20Architectuur%20Design.md) |
 | `Moduleontwerp` | `Vanuit het systeemontwerp en architectuurontwerp is een moduleontwerp gebouwd` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/4.%20Module%20Design.md) |
 | `Teststrategie` | `Er is vanuit de requirements een teststrategie opgezet` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/9.%20Acceptatie%20Testen.md) |
+| `Testplan opgesteld voor Lora Mesh`| `Vanuit de deep dive een testplan opgezet om de effictiviteit van LoRaMesh te testen` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md#6-technische-testopstelling-ttgo-lora32-en-rhmesh)|
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -122,25 +117,21 @@ De acceptatietesten zijn opgesteld om te toetsen of de simulatie voldoet aan de 
 
 --
 ### Feedback
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
-#### Aandachtspunten van Jan Halsema 
-
-18-03 : 
+18-03 Jan Halsema : 
 Zorg dat je conclusies en planningen op elke pagina helder worden afgesloten
 Denk na over prioritering: wat is essentieel, wat kan eventueel later
 
---
+10-06 Teun-Pieter:
+Het is belangrijk voor de productowner dat, als deze requirements binnen de afgesproken periode niet gehaald worden dat er wel een advies komt van de volgende stappen. Dit heb ik uitgewerkt in [project_outline](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/project_outline.md)
+
 
 ---
 
-### Leeruitkomst 3 Adviseren
+## Leeruitkomst 3 Adviseren
 
 Student adviseert de opdrachtgever, na analyse van de vereisten en doelstellingen, over de inzet van een digital twin. Het advies is helder onderbouwd en gepresenteerd, zodat het begrijpelijk is voor alle stakeholders/betrokkenen. Het voorgestelde ontwerp is goed gedocumenteerd en het advies volgt een voorgeschreven methode, zodat de implementatie efficiënt kan worden voortgezet.
 
-Indicatoren:
-- Adviesrapport
-- Advies presentatie
 ---
 
 ## **Leeruitkomst  Persoonlijke opdrachten:**
@@ -164,19 +155,10 @@ Voor de deep dive heb ik een onderzoek gedaan naar de mogelijkheden van LoRa Mes
 ### Feedback
 
 
-### Leeruitkomst 4 Realiseren
+## Leeruitkomst 4 Realiseren
 
 Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedded systeem, inclusief grafische representatie. Hierbij wordt gewerkt volgens een voorgeschreven methode waarin testen centraal staat, ten behoeve van het uitvoeren van tests op verschillende ontwikkelniveaus. Testresultaten, omstandigheden en afhankelijkheden worden helder gedocumenteerd, omwille van het reproduceren van de testresultaten. 
 
-Indicatoren:
-- Broncode simulatie
-- Projectcode
-- Vision opdrachten
-- Algoritmiek opdrachten
-- C++ STL opdrachten
-- C++<->Python opdrachten
-- Creational/Structural design pattern opdrachten
----
 
 **Leeruitkomst 4 Projectopdrachten:**
 
@@ -192,7 +174,6 @@ Indicatoren:
 | ` Ontwikkelomgeving ` | `(Devcontainer met Docker en debugger)` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/blob/main/.devcontainer/devcontainer.json) |
 
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
 ### Vision opdrachten
 Voor de vision-opgaven heb ik gewerkt aan beeldherkenning met behulp van een neuraal netwerk. Ik heb verschillende modellen ontworpen, getest en vergeleken op nauwkeurigheid. Daarbij heb ik testresultaten vastgelegd en gezorgd dat de omstandigheden reproduceerbaar zijn, zoals gebruikte datasets, trainingsinstellingen en validatiemethoden. Door telkens kleine aanpassingen te testen, kreeg ik inzicht in wat werkt en waarom.
@@ -265,7 +246,7 @@ Leuk gedaan!
 ---
 
 
-### Leeruitkomst 5 Beheren
+## Leeruitkomst 5 Beheren
 
 Student zet een professionele ontwikkelomgeving op voor desktop development. Daarbij houdt hij rekening met de samenwerking tussen verschillende programmeertalen. De desktop debugging wordt op een gestructureerde manier uitgevoerd. De tests worden uitgevoerd volgens een vooraf beschreven testplan en moeten desgewenst op een later moment reproduceerbaar zijn. De student werkt volgens een voorgeschreven methodiek en maakt gebruik van geschikte tooling software debugging.
 
@@ -300,7 +281,7 @@ Voor de opdrachten rondom debugging en tooling heb ik een debuggingomgeving opge
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
-### Leeruitkomst 6 Toekomstgericht organiseren
+## Leeruitkomst 6 Toekomstgericht organiseren
 
 De student kan een probleem vertalen naar een product door randvoorwaarden en requirements op te stellen in overleg met de opdrachtgever. Het project wordt gestructureerd opgezet, uitgevoerd en opgeleverd, met aandacht voor omgevingsfactoren, en maatschappelijke en ethische aspecten.
 
@@ -329,7 +310,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 --
 
 ---
-### Leeruitkomst 7 Doelgericht interacteren
+## Leeruitkomst 7 Doelgericht interacteren
 
 De student onderhoudt actief de relatie met relevante samenwerkingspartners (denk aan teamleden, opdrachtgevers, eindgebruikers, maatschappelijke organisaties en/of andere stakeholders) door middel van het geven van weloverwogen presentaties die afgestemd zijn op de doelgroep.
 
@@ -390,15 +371,11 @@ Harm:
 ---
 
 
-### Leeruitkomst 8 Persoonlijk leiderschap
+## Leeruitkomst 8 Persoonlijk leiderschap
 
 De student bereidt zich voor op studie- en loopbaankeuzes. De student evalueert hierbij persoonlijke ambities en kwaliteiten in relatie tot de gewenste positionering in het werkveld. De student kan deze effectief communiceren in bv sollicitatie brief of gesprek.
 
-Indicatoren:
-- Sollicitatiebrief
-- Professionaliseringsdocument
 
----
 
 **Leeruitkomst 8 Projectopdrachten:**
 
@@ -412,7 +389,7 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 
 ### Voorbereiding Evaluatiegrespek :
 
-Op basis van mijn voorbereiding heb ik mijn persoonlijke doelen in kaart gebracht, en deze gekoppeld aan het werkveld waarin ik me verder wil ontwikkelen. Ik heb gereflecteerd op mijn rol binnen het project en welke vaardigheden ik verder wil versterken, zoals technisch leiderschap en het duidelijk communiceren van keuzes.
+Ik heb een begin gemaakt aan mijn voorbereiding voor het Evaluatiegesprek dat over een maand plaatsvind. Hierbij heb ik naar wat bronnen gekeken en punten verzamelen om uit te voeren komende periode ter voorbereiding. Verder kijk ik naar Inventarisatie Huidige Situatie,wil ik een kort Marktonderzoek doen om wat sterker in mijn schoenen te staan en Argumentatie Opbouwen voor commentaar dat ik zou krijgen. 
 
 
 ### Plan voor ontwikkeldocument / leerdoelen opgezet : 
@@ -445,7 +422,7 @@ Voor de rest sterke CV. Let wel op spelfouten (broswer? severed?) daar haal je j
 
 ---
 
-### Leeruitkomst 9 Onderzoek probleem oplossen
+## Leeruitkomst 9 Onderzoek probleem oplossen
 
 De student kan een praktijkgericht probleem identificeren en de juiste oplossingsrichting kiezen door wensen van de opdrachtgever centraal te stellen. Gedurende het proces handelt de student onderzoekend, stelt kritische vragen en past verschillende (hbo-ICT) methoden toe om relevante informatie te verzamelen. Hierbij wordt de informatie op gestructureerde en grondige wijze geanalyseerd en worden daarmee keuzes onderbouwt, rekening houdend met maatschappelijke standaarden en ethische aspecten.
 
@@ -479,6 +456,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ### Deep Dive
 
 Tijdens deze deepdive heb ik een praktijkgericht probleem onderzocht, namelijk de geschiktheid van LoRa Mesh als alternatief of aanvulling op LoRaWAN binnen SmartCity-toepassingen. Ik heb de wensen van de opdrachtgever als uitgangspunt genomen, zoals de behoefte aan robuustheid, bereik in stedelijke omgevingen en decentrale communicatie. Door technische documentatie, praktijkvoorbeelden en bronnen over draadloze protocollen te analyseren, heb ik verschillende oplossingsrichtingen vergeleken. Daarbij heb ik onder andere gekeken naar factoren als energieverbruik, netwerktopologie en interoperabiliteit. Door deze informatie systematisch te structureren en kritisch te bevragen, ben ik tot een onderbouwd advies gekomen dat ook rekening houdt met privacyaspecten, onderhoud en schaalbaarheid. Dit vormt de basis voor het maken van bewuste ontwerpkeuzes in het vervolg van het project.
+
 --
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
