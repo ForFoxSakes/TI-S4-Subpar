@@ -1,12 +1,12 @@
 # Voorbereiding Vooruitgangsgesprek 
 
 ## Doelstelling
-opvolging van Robin's consultancy taken, volledige technische overzicht van SmartCity en passend.
+Opvolging van Robin (Manager) bij SmartCity-IoT
 
 ## Voorbereiding
 
 ### Inventarisatie Huidige Situatie
-Een gedegen overzicht van de originele functieomschrijving versus huidige werkzaamheden vormt de basis. 
+Een  overzicht van de originele functieomschrijving versus huidige werkzaamheden vormt de basis. 
 - Documenteer concrete voorbeelden van Robin's taken die  worden uitgevoerd
 - Inventariseer technische verantwoordelijkheden voor SmartCity die zijn overgenomen
 - Verzamel meetbare resultaten en successen van het afgelopen jaar
