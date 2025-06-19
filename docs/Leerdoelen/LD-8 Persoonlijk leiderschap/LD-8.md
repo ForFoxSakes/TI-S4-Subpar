@@ -13,9 +13,13 @@ Indicatoren:
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Sollicitatiebrief` | `Solicitatiebrief geschreven voor de functie van Technisch lead voor Submarine project` | [link](https://github.com/ForFoxSakes/TI-S4-VOS/tree/main/Opdrachten/Solicitatiebrief%20en%20CV) |
-| `Professionaliseringsdocument` | `Professionaliseringsdocument geschreven voor de functie van Technisch lead voor Submarine project` | [link naar ...](http://) |
+| `Voorbereiding Evaluatiegesprek` | `Documentopstelling voor Evaluatiegesprek en vooruitgang` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Voorbereiding%20Evaluatiegesprek.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+### Voorbereiding Evaluatiegrespek 
+
+Op basis van mijn voorbereiding heb ik mijn persoonlijke doelen in kaart gebracht, en deze gekoppeld aan het werkveld waarin ik me verder wil ontwikkelen. Ik heb gereflecteerd op mijn rol binnen het project en welke vaardigheden ik verder wil versterken, zoals technisch leiderschap en het duidelijk communiceren van keuzes. Deze voorbereiding helpt me om gericht het evaluatiegesprek in te gaan en mijn ambities te onderbouwen vanuit concrete ervaringen binnen dit semester. Daarbij wil ik rekening houden met feedback, haalbaarheid en hoe ik mezelf wil positioneren richting toekomstige projecten
 
 --
 

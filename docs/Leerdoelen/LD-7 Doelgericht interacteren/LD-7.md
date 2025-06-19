@@ -43,20 +43,17 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 ### Feedback
 
 ### Deep Dive Presentatie
-Tijdens de presentatie heb ik feedback gekregen van studenten en docenten. \
+Feedback van studenten:
 
-Van Studenten : \
-Iets te veel tekst tijdens de presentatie 
+De presentatie bevatte te veel tekst op de slides\
+De toepassingen van LoRa waren interessant, maar er was behoefte aan meer technische voorbeelden
 
-Leuk om toepassingen van LoRa te zien, zou graag wat technische voorbeelden zien
+Feedback van docenten:
 
-Docenten : 
+Nick Goris: Complimenteerde de opbouw van de presentatie, waarbij ik startte met een probleemstelling, vervolgens een technisch kader opstelde en daarna naar het antwoord toewerkte. Hij merkte wel op dat het jammer was dat de apparatuur ontbrak voor een praktische demonstratie.
 
-Goede presentatie , fijn dat je begon met een probleemstelling en dan een technisch kader opstelde en dan richting je antwoordt werkte. Jammer dat je de apperatuur niet had om te demo te geven - Nick Goris
+Harm:
+ Suggereerde dat er meer aandacht besteed had moeten worden aan de verschillende berichtgevingsklassen van LoRa (klasse A, B en C) en of mesh-netwerken hier wel bij aansluiten.
 
-Er was misschien nog even moeten kijken naar de type berichtgevingen van lora met de A,B,C klassen en of het mesh hier wel in past - Harm
-
-
---
 
 ---
