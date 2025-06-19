@@ -428,8 +428,8 @@ In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Deep Dive` | `problemen identificeren tijdens de deepdive en gepast handelen om dit probleem op te lossen ` | [link naar ...](http://) |
-| `Ontwikkeldocument` | `problemen identificeren in het ontwikkeldocumenten gepast handelen om dit probleem op te lossen ` | [link naar ...](http://) |
+| `Deep Dive` | `problemen identificeren tijdens de deepdive en gepast handelen om dit probleem op te lossen ` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx) |
+| `Ontwikkeldocument` | `problemen identificeren in het ontwikkeldocumenten gepast handelen om dit probleem op te lossen ` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx) |
 
 
 ### Deep Dive
