@@ -49,3 +49,8 @@ Isolatie en vermijding versterken problemen in plaats van ze op te lossen, wat l
 ### Afsluiting
 De kernproblemen en toekomstgerichtte acties zijn samen met tips van chat gpt - met bronaanduiding gevonden. Vervolgens het ik gekeken welke aansluiten bij mijn situatie en welke hopelijk ook effecties kunnen zijn. De volgende stap, zoals ook in de toekomstgerichte acties, is dan ook het document delen in de volgende sessie mijn mijn psychiater.
 
+### Bronnen 
+[Psychology Compass](https://psychologycompass.com/blog/mental-health-in-the-workplace/)
+[Ourmental.health](https://www.ourmental.health/perfectionism/perfectionism-at-work-boosting-performance-or-risking-burnout)
+
+
