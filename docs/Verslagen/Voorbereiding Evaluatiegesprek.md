@@ -1,4 +1,4 @@
-# Voorbereiding Vooruitgangsgesprek - Praktische Gids
+# Voorbereiding Vooruitgangsgesprek 
 
 ## Doelstelling
 opvolging van Robin's consultancy taken, volledige technische overzicht van SmartCity en passend.
