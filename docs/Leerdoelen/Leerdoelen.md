@@ -477,6 +477,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 ### Deep Dive
+
 Tijdens deze deepdive heb ik een praktijkgericht probleem onderzocht, namelijk de geschiktheid van LoRa Mesh als alternatief of aanvulling op LoRaWAN binnen SmartCity-toepassingen. Ik heb de wensen van de opdrachtgever als uitgangspunt genomen, zoals de behoefte aan robuustheid, bereik in stedelijke omgevingen en decentrale communicatie. Door technische documentatie, praktijkvoorbeelden en bronnen over draadloze protocollen te analyseren, heb ik verschillende oplossingsrichtingen vergeleken. Daarbij heb ik onder andere gekeken naar factoren als energieverbruik, netwerktopologie en interoperabiliteit. Door deze informatie systematisch te structureren en kritisch te bevragen, ben ik tot een onderbouwd advies gekomen dat ook rekening houdt met privacyaspecten, onderhoud en schaalbaarheid. Dit vormt de basis voor het maken van bewuste ontwerpkeuzes in het vervolg van het project.
 --
 
