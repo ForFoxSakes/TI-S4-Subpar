@@ -175,7 +175,7 @@ Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedd
 Voor de vision opdrachten is de basis van beelverwerking uitgelegd. Voor de eerste opdracht zijn gaussian filters toegevoegd en Hough lines gebruikt om een flatgebouw te herkennen. Vervolgens is er een begin gemaakt met neurale netwerken op de mnist dataset. De laatste opdracht is niet volledig want het kostte mij te lang om de camera goed werkend te krijgen. Wel zijn de eerste drie assignments gemaakt.
 
 ### ALDS
-Voor ALDS heb ik gewerkt aan algoritmes en datastructuren en onderzocht hoe ze zich gedragen bij verschillende invoer. Ik heb keuzes gemaakt op basis van prestaties en geheugenverbruik, en testgevallen opgesteld om dat te onderbouwen. De uitkomsten van die tests heb ik vastgelegd, zodat duidelijk is wat de invloed was van bijvoorbeeld datastructuur of sorteermethode. Er een begin gemaakt aan het Dijkstra Algoritme met grafen, een interresant onderwerp, maar dit wat ook net voor de valreep niet voltooid.
+Voor ALDS heb ik gewerkt aan algoritmes en datastructuren en onderzocht hoe ze zich gedragen bij verschillende invoer. Ik heb keuzes gemaakt op basis van prestaties en geheugenverbruik, en testgevallen opgesteld om dat te onderbouwen. De uitkomsten van die tests heb ik vastgelegd, zodat duidelijk is wat de invloed was van bijvoorbeeld datastructuur of sorteermethode. Er een begin gemaakt aan het Dijkstra Algoritme met grafen, een interessant onderwerp, maar dit wat ook net voor de valreep niet voltooid.
 
 ### Ontwikkelomgeving (Devcontainer met Docker en debugger)
 In VSCode heb ik een Docker-devcontainer opgezet met Gazebo en een C++-debugger. Ik documenteerde alle stappen en configuraties, zodat het probleem van 'it worked on my device' niet voor hoort te komen.
@@ -237,7 +237,7 @@ Leuk gedaan!
 - Bart Bozon
 
 #### Vision opdracht
-Eerste feedback was dat er nog wat creativiteit ontbrak bij de CSV opgave. Dit heb ik opgelost door een image remapping functie toe te voegen die een lachspiegel effect creeerd, ook heb ik de edge detection die ik initieel toegepast heb in ee nstandaardfunctie van CSV gevonden en toegepast. Deze had een beter effect.
+Eerste feedback was dat er nog wat creativiteit ontbrak bij de CSV opgave. Dit heb ik opgelost door een image remapping functie toe te voegen die een lachspiegel effect creeerd, ook heb ik de edge detection die ik initieel toegepast heb in een standaardfunctie van CSV gevonden en toegepast. Deze had een beter effect.
 
 ---
 
@@ -281,10 +281,10 @@ De student kan een probleem vertalen naar een product door randvoorwaarden en re
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Ontwikkeldocument` | `In het ontwikkeldocument de randvoorwaarden en requirements opgesteld vanuit het problem` | [link](http://) |
+| `Ontwikkeldocument` | `In het ontwikkeldocument de randvoorwaarden en requirements opgesteld vanuit het probleem` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/1.%20Requirement%20Analyse.md) |
 | `KlimaatExamen` | `Klimaatexamen (2 keer) gedaan` | [link]([http://](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-6%20Toekomstgericht%20organiseren/klimaatexamen.png)) |
 | `Sprintverslagen` | `Bijhouden van sprintverslagen als reflectie op de sprints` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/tree/main/docs/Sprints) |
-| `Persoonlijke Reflectie` | `Toekomstegeirchte doelen stellen rondom discipline en herhalende problemen | [link]()|
+| `Persoonlijke Reflectie` | `Toekomstegeirchte doelen stellen rondom discipline en herhalende problemen | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Reflectieverslag.md)|
 
 
 --
@@ -293,7 +293,7 @@ De student kan een probleem vertalen naar een product door randvoorwaarden en re
 Ik heb het klimaatexamen , in alle eerlijkheid, twee keer uitgevoerd. De eerste keer kwam ik uit op een score van 40%, toen ik bij die uitslag terugdacht aan wat de inhoud allemaal was kon ik mij niet veel voor de geest halen. Ik heb hem vervolgens nog een keer gedaan en hierbij ook de vragen hardop voor mijzelf voorgelezen. De klimaatsituatie is niemand onbekend, maar weinig mensen zijn bewust van de details. Een beetje zorgen maken voor het klimaat lijkt ook niet meer genoeg. En deze versie is nog niet eens gericht van de impact van AI op het klimaat. Ik heb hier verder naar gezocht en kwam [dit interresante artikel](https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai) tegen. Hierbij vond ik ook dezelfde hogeschool een vak Sustainable IT wordt gegeven, wat ook weer een aparte wereld zou zijn gok ik.
 
 ### Persoonlijke Reflectie
-#TODO
+In deze persoonlijk reflectie heb ik geprobeerd het probleem en de situatie goed te beschrijven. vervolgens heb ik een realistische aanpak proberen te ontwikkelen met een actielijst om op te volgen.
 
 ---
 
@@ -308,10 +308,10 @@ De student onderhoudt actief de relatie met relevante samenwerkingspartners (den
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Contact met Docenten` | `Gezien de afwijkende stuctuur van mijn opdracht was er veel interactie nodig om een goede structuur te kunnen ontwikkelen voor dit project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Contract.md) |
-| `Repareren van semester` | `Tegen het einde van het project proberen er het beste van te maken` | [link]()|
+| `Repareren van semester` | `Tegen het einde van het project proberen er het beste van te maken` | |
 
 ### Contact met Docenten
-Alhoewel dit een out portfolio item is, laat ik deze nog er in. In de persoonlijke reflectie ga ik er verder op in, maar de Orginele intentie en motivatie was er zeker op het moment dat dit portfolio item is aangemaakt.
+Alhoewel dit een out portfolio item is, laat ik deze nog er in. In de persoonlijke reflectie ga ik er verder op in, maar de orginele intentie en motivatie was er zeker op het moment dat dit portfolio item is aangemaakt.
 
 ### Repareren van semester
 Vanwege redenen die in de persoonlijke reflectie worden beschreven was er een kritieke achterstand opgebouwd tegen 2/3de van het Semester. Zelfstandigheid in dit project was iets waar ik naar streefde maar ik schoot hier tekort. Het spoor bijster is er contact gelegd met Adrie van Doesburg, een docent die mijn persoonlijke situatie redelijk meekreeg. Samen met Adrie is de bal weer gaan rollen, zo  ben ik verder gaan werken aan de opdrachten in de drie weken en ook weer contact met de andere docenten opgezocht. Voor mij draagt dit bij aan een leeruitkomst als ik het vergelijk met de acties die ik eerdere semesters op deze opleiding heb genomen. 
@@ -368,7 +368,6 @@ De student bereidt zich voor op studie- en loopbaankeuzes. De student evalueert 
 | `Voorbereiding Evaluatiegesprek` | `Documentopstelling voor Evaluatiegesprek en vooruitgang` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Voorbereiding%20Evaluatiegesprek.md) |
 | `Plan voor ontwikkeldocument / leerdoelen opgezet` | `Plan opgezet voor het aanvullen van ontwikkeldocument` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/oud/Plan%20voor%20Leerdoelen.md) |
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
 ### Voorbereiding Evaluatiegrespek :
 
@@ -418,8 +417,10 @@ Indicatoren:
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Persoonlijke Reflectie` | `Gereflecteerd op de afgelopen periode om problemen te identificeren en dit mee te nemen` | [link naar ...](http://) |
+| `Persoonlijke Reflectie` | `Gereflecteerd op de afgelopen periode om problemen te identificeren en dit mee te nemen` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Reflectieverslag.md) |
 
+### Persoonlijke Reflectie
+In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren en werken naar een oplossing door systematisch mijn gedragspatronen te analyseren en evidence-based interventiestrategieën toe te passen. Hierbij stel ik kritische vragen over mijn eigen aanpak en ontwikkel ik een gefundeerd actieplan dat zowel persoonlijke groei als professionele ontwikkeling bevordert.
 
 --
 
@@ -432,7 +433,7 @@ Indicatoren:
 
 
 ### Deep Dive
-Initieel was de opzet vna mijn Deepdive gericht naar een oplossing vinden voor de omslachtige manier van het SDFormat voor Gazebo. Uiteindelijk was dit probleem minder groot dan gedacht en was de oplossing te uitgebreid voor de scope. Er is de keuze gemaakt om naar een ander onderwerp te wisselen. Hierbij is gekozen om een mogelijke oplossing te vinden voor de uitdaging met connectiviteit van de LoRaWAN sensoren die wij gebruiken. Alhoewel dit probleem meerdere oplossingen kan hebben, ben ik verder ingedoken in de mogelijkheden van LoRaMESH, de mogelijkheden van deze technologie lijken de uitdagingen van LoRaWAN goed aan te vullen. Ik heb in dit onderzoek beide technologien geanalyseerd en hieruit conclusies getrokken.
+Initieel was de opzet van mijn Deepdive gericht naar een oplossing vinden voor de omslachtige manier van het SDFormat voor Gazebo. Uiteindelijk was dit probleem minder groot dan gedacht en was de oplossing te uitgebreid voor de scope. Er is de keuze gemaakt om naar een ander onderwerp te wisselen. Hierbij is gekozen om een mogelijke oplossing te vinden voor de uitdaging met connectiviteit van de LoRaWAN sensoren die wij gebruiken. Alhoewel dit probleem meerdere oplossingen kan hebben, ben ik verder ingedoken in de mogelijkheden van LoRaMESH, de mogelijkheden van deze technologie lijken de uitdagingen van LoRaWAN goed aan te vullen. Ik heb in dit onderzoek beide technologien geanalyseerd en hieruit conclusies getrokken.
 
 
 
