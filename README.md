@@ -30,7 +30,7 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 
 Bron: Module Design Document【62†source】
 
-## 3. Code & Implementatie
+## 3. Huuidige status Code & Implementatie
 
 Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber.cc`, inclusief hun functionaliteit.
 
