@@ -29,7 +29,7 @@ Communicatieprotocollen: RESTful API's, WebSockets, MQTT, gRPC en JSON
 | Security Manager         | Backend      | `services/auth.js`                            |
 | Data Storage             | Database     | PostgreSQL / InfluxDB config                  |
 
-Bron: Module Design Document【62†source】
+Bron: Module Design Document
 
 ## 3. Code & Implementatie
 
