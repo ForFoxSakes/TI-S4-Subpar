@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cc1958d2-4592-4994-bafc-a9a1e3d50189)## Leeruitkomst 1 Analyseren
+## Leeruitkomst 1 Analyseren
 
 Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffende een 'Digital Twin' van een bestaand embedded systeem. Op basis hiervan en rekening houdend met de mogelijke gebruikers deduceert de student requirements volgens een voorgeschreven methode. Deze requirements dienen na validatie door de opdrachtgever als basis voor het ontwerp.
 
@@ -261,7 +261,6 @@ Student zet een professionele ontwikkelomgeving op voor desktop development. Daa
 Voor de opdracht rondom het opzetten van de ontwikkelomgeving was het doel om een Docker-image te maken waarin de Gazebo-simulatie uitgevoerd kan worden. Ik heb dit verder uitgebreid door Gazebo binnen deze Docker-container te laten draaien en de omgeving in VSCode te onderhouden. Hierbij heb ik de benodigde extensies toegevoegd, zodat bijvoorbeeld SDF-bestanden voor de Gazebo-simulator eenvoudiger kunnen worden beheerd. Daarnaast bevat de Docker-container ook de documentatie, zodat ik op de dagen dat ik hieraan werk (maandag en dinsdag) direct aan de slag kan zonder alles opnieuw in te richten. Dit zorgt ervoor dat ik het project op een professionele en gestructureerde manier kan beheren.
 
 #### Opdrachten debugging/tooling
-
 Voor de opdrachten rondom debugging en tooling heb ik een debuggingomgeving opgezet. De basis staat, maar deze zijn niet intensief gebruikt. 
 
 --
@@ -276,7 +275,6 @@ Zowel de ontwikkelomgeving als de debugging/tooling zijn volgens de opdracht uit
 
 De student kan een probleem vertalen naar een product door randvoorwaarden en requirements op te stellen in overleg met de opdrachtgever. Het project wordt gestructureerd opgezet, uitgevoerd en opgeleverd, met aandacht voor omgevingsfactoren, en maatschappelijke en ethische aspecten.
 
-
 ---
 
 **Leeruitkomst 6 Projectopdrachten:**
@@ -284,27 +282,24 @@ De student kan een probleem vertalen naar een product door randvoorwaarden en re
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Ontwikkeldocument` | `In het ontwikkeldocument de randvoorwaarden en requirements opgesteld vanuit het problem` | [link](http://) |
-| `KlimaatExamen` | `Scrum board bijgehouden tijdens het project` | [link](http://) |
-| `Sprintverslagen` | `Bijhouden van sprintverslagen als reflectie op de sprints` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/tree/main/Documents/Sprint) |
+| `KlimaatExamen` | `Klimaatexamen (2 keer) gedaan` | [link]([http://](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/LD-6%20Toekomstgericht%20organiseren/klimaatexamen.png)) |
+| `Sprintverslagen` | `Bijhouden van sprintverslagen als reflectie op de sprints` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/tree/main/docs/Sprints) |
+| `Persoonlijke Reflectie` | `Toekomstegeirchte doelen stellen rondom discipline en herhalende problemen | [link]()|
 
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
 --
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+### Klimaatexamen 
+Ik heb het klimaatexamen , in alle eerlijkheid, twee keer uitgevoerd. De eerste keer kwam ik uit op een score van 40%, toen ik bij die uitslag terugdacht aan wat de inhoud allemaal was kon ik mij niet veel voor de geest halen. Ik heb hem vervolgens nog een keer gedaan en hierbij ook de vragen hardop voor mijzelf voorgelezen. De klimaatsituatie is niemand onbekend, maar weinig mensen zijn bewust van de details. Een beetje zorgen maken voor het klimaat lijkt ook niet meer genoeg. En deze versie is nog niet eens gericht van de impact van AI op het klimaat. Ik heb hier verder naar gezocht en kwam [dit interresante artikel](https://www.vaia.be/nl/blog/hoe-vervuilend-is-ai) tegen. Hierbij vond ik ook dezelfde hogeschool een vak Sustainable IT wordt gegeven, wat ook weer een aparte wereld zou zijn gok ik.
 
---
+### Persoonlijke Reflectie
+#TODO
 
 ---
+
 ## Leeruitkomst 7 Doelgericht interacteren
 
 De student onderhoudt actief de relatie met relevante samenwerkingspartners (denk aan teamleden, opdrachtgevers, eindgebruikers, maatschappelijke organisaties en/of andere stakeholders) door middel van het geven van weloverwogen presentaties die afgestemd zijn op de doelgroep.
-
-Indicatoren:
-- Onderzoeksverslag(deepdive)
-- Adviespresentatie
-- Sprintverslagen (review)
 
 ---
 
@@ -313,15 +308,13 @@ Indicatoren:
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Contact met Docenten` | `Gezien de afwijkende stuctuur van mijn opdracht was er veel interactie nodig om een goede structuur te kunnen ontwikkelen voor dit project` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Contract.md) |
-| `Salvagen van semester` | `Tegen het einde van het project proberen er het beste van te maken` | [link]()|
+| `Repareren van semester` | `Tegen het einde van het project proberen er het beste van te maken` | [link]()|
 
+### Contact met Docenten
+Alhoewel dit een out portfolio item is, laat ik deze nog er in. In de persoonlijke reflectie ga ik er verder op in, maar de Orginele intentie en motivatie was er zeker op het moment dat dit portfolio item is aangemaakt.
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+### Repareren van semester
+Vanwege redenen die in de persoonlijke reflectie worden beschreven was er een kritieke achterstand opgebouwd tegen 2/3de van het Semester. Zelfstandigheid in dit project was iets waar ik naar streefde maar ik schoot hier tekort. Het spoor bijster is er contact gelegd met Adrie van Doesburg, een docent die mijn persoonlijke situatie redelijk meekreeg. Samen met Adrie is de bal weer gaan rollen, zo  ben ik verder gaan werken aan de opdrachten in de drie weken en ook weer contact met de andere docenten opgezocht. Voor mij draagt dit bij aan een leeruitkomst als ik het vergelijk met de acties die ik eerdere semesters op deze opleiding heb genomen. 
 
 --
 
@@ -329,13 +322,16 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Onderzoeksverslag(deepdive)` | `Tijdens de deepdive in het onderzoeksverslag contact gezocht met specialisten relevant voor het project` | [link naar ...](http://) |
-| `Adviespresentatie` | `Presentatie waarin advies aan de productowner gegeven wordt gebaseerd op de bevindingen` | [link naar ...](http://) |
-| `Deep Dive Presentatie` | `Deep dive van LoraWAN en LoRaMesh presenteren aan groep` | [link]()|
-| `Sprintverslagen (review)` | `Review van de Sprintverslagen` | [link naar ...](http://) |
+| `Lora Mesh onderzoek` | `Tijdens de deepdive in het onderzoeksverslag contact gezocht met Teneo` | -  |
+|`Lora Mesh onderzoek`|  `Onderzoek naar LoRa Mesh voor smart-city, vertaald naar adviesrapport` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
+| `Deep Dive Presentatie` | `Deep dive van LoraWAN en LoRaMesh presenteren aan groep` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx)|
 
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+#### Lora Mesh Onderzoek
+Ik vergeleek LoRa Mesh met LoRaWAN op techniek, toepasbaarheid en schaalbaarheid. De belangrijkste uitkomst is vertaald naar een adviesrapport en uitgegroeid naar een onderzoeksproject richting de mogelijkheden van LoRa Mesh binnen SmartCity-IoT.
+
+Voor meer informatie heb ik ook contact gezocht met Inou Heideman van Teneo. Hierbij verder gekeken welke nodes beschikbaar zijn en of het experiment het waard was om uit te voeren. 
 
 --
 
@@ -369,8 +365,8 @@ De student bereidt zich voor op studie- en loopbaankeuzes. De student evalueert 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Sollicitatiebrief` | `Solicitatiebrief geschreven voor de functie van Technisch lead voor Submarine project` | [link](https://github.com/ForFoxSakes/TI-S4-VOS/tree/main/Opdrachten/Solicitatiebrief%20en%20CV) |
-| `Voorbereiding Evaluatiegesprek` | `Documentopstelling voor Evaluatiegesprek en vooruitgang` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Voorbereiding%20Evaluatiegesprek.md) |
-| `Plan voor ontwikkeldocument / leerdoelen opgezet` | `Plan opgezet voor het aanvullen van ontwikkeldocument` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/oud/Plan%20voor%20Leerdoelen.md) |
+| `Voorbereiding Evaluatiegesprek` | `Documentopstelling voor Evaluatiegesprek en vooruitgang` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Voorbereiding%20Evaluatiegesprek.md) |
+| `Plan voor ontwikkeldocument / leerdoelen opgezet` | `Plan opgezet voor het aanvullen van ontwikkeldocument` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Leerdoelen/oud/Plan%20voor%20Leerdoelen.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -422,13 +418,8 @@ Indicatoren:
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `Persoonlijke Reflectie` | `Gereflecteerd op de afgelopen periode om problemen te identificeren en dit mee te nemen` | [link naar ...](http://) |
 
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
@@ -441,11 +432,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 
 ### Deep Dive
+Initieel was de opzet vna mijn Deepdive gericht naar een oplossing vinden voor de omslachtige manier van het SDFormat voor Gazebo. Uiteindelijk was dit probleem minder groot dan gedacht en was de oplossing te uitgebreid voor de scope. Er is de keuze gemaakt om naar een ander onderwerp te wisselen. Hierbij is gekozen om een mogelijke oplossing te vinden voor de uitdaging met connectiviteit van de LoRaWAN sensoren die wij gebruiken. Alhoewel dit probleem meerdere oplossingen kan hebben, ben ik verder ingedoken in de mogelijkheden van LoRaMESH, de mogelijkheden van deze technologie lijken de uitdagingen van LoRaWAN goed aan te vullen. Ik heb in dit onderzoek beide technologien geanalyseerd en hieruit conclusies getrokken.
 
-Tijdens deze deepdive heb ik een praktijkgericht probleem onderzocht, namelijk de geschiktheid van LoRa Mesh als alternatief of aanvulling op LoRaWAN binnen SmartCity-toepassingen. Ik heb de wensen van de opdrachtgever als uitgangspunt genomen, zoals de behoefte aan robuustheid, bereik in stedelijke omgevingen en decentrale communicatie. Door technische documentatie, praktijkvoorbeelden en bronnen over draadloze protocollen te analyseren, heb ik verschillende oplossingsrichtingen vergeleken. Daarbij heb ik onder andere gekeken naar factoren als energieverbruik, netwerktopologie en interoperabiliteit. Door deze informatie systematisch te structureren en kritisch te bevragen, ben ik tot een onderbouwd advies gekomen dat ook rekening houdt met privacyaspecten, onderhoud en schaalbaarheid. Dit vormt de basis voor het maken van bewuste ontwerpkeuzes in het vervolg van het project.
 
---
 
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
