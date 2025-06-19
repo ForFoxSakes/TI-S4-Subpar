@@ -35,18 +35,18 @@ Bron: Module Design Document【62†source】
 
 Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber.cc`, inclusief hun functionaliteit.
 
-### 3.1 HelloUnderwaterPlugin
-**Locatie:** `simulator/plugins/HelloUnderwaterPlugin.cc`
+### 3.1 GuiPlugin
+**Locatie:** `simulator/plugins/GuiPlugin.cc`
 
-- **Doel:** Basisplugin voor joint-aansturing via topics.
+- **Doel:** Basisplugin voor joint en thruster status via topics.
 - **LoadConfig:** Leest XML-configuratie uit SDF.
 - **Initialize & SubscribeTopics():**  
   - `/subpar/joint1/cmd` → `OnJoint1()`  
   - `/subpar/joint2/cmd` → `OnJoint2()`  
   - `/subpar/thrust/cmd`  → `OnThrust()`
 - **Callbacks:**  
-  - `OnJoint1()/OnJoint2()`: Verwerken hoekcommando’s  
-  - `OnThrust()`: Verwerkt thrust-commando (double) en past kracht toe
+  - `OnJoint1()/OnJoint2()`: Verwerken hoek status en post op GUI
+  - `OnThrust()`: Verwerkt thrust-status (double) en post op GUI
 
 ### 3.2 SubparDronePlugin
 **Locatie:** `simulator/plugins/SubparDronePlugin.cc`
@@ -86,7 +86,7 @@ Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber
 ### 3.4 Subscriber Node
 **Locatie:** `simulator/subscriber/subscriber.cc`
 
-- **Opzet:** C++-subscriber op `/imu_data`.
+- **Opzet:** subscriber op sensor `/imu_data`.
 - **Codevoorbeeld:**
   ```cpp
   gz::transport::Node node;
@@ -100,16 +100,18 @@ Hieronder een overzicht van de belangrijkste bestaande plugins en de `subscriber
   gz::transport::waitForShutdown();
   ```
 
-> **Conclusie:** Deze plugins vormen een gelaagd besturingssysteem: van basis joint-aansturing (HelloUnderwater) tot volledige drone-logica (SubparDrone) en stabilisatie (SubparStabilizer), aangevuld met real-time sensor-uitlezing via de subscriber.
+> **Conclusie:** Deze plugins vormen een basis besturingssysteem: van basis gui posting (GuiPlugin) tot  dronelogica (SubparDrone) en stabilisatie (SubparStabilizer), aangevuld met real-time sensor-uitlezing via de subscriber.
 
 ## 4. Volgende stappen & planning
 
 **Kortetermijn**:
+- GUI Plugin uitwerken om status weer te geven
+- Stabilisatie setup implementeren in huidige simulatie
+
+**Langetermijn**:
 - Firmware Interface implementeren (laden en debuggen).
 - Scenario Manager en ROS-servicekoppelingen uitbreiden.
 - Logging & Analytics integratie voltooien.
-
-**Langetermijn**:
 - Security Manager (authenticatie, autorisatie).
 - Volledige React UI voor visualisatie en besturing.
 - Backend data-opslag en rapportage genereren.
