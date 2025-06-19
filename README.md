@@ -8,7 +8,7 @@ Bronnen: Inleiding en scope uit `0. Inleiding.md` en `5. Requirement Analyse`
 ### 2.1 Systeemarchitectuur (hoog niveau)
 - **Simulatie Engine** (Gazebo)
 - **Hardware Emulator** (virtuele hardware)
-- **User Interface** (React frontend)
+- **User Interface** (QT frontend)
 - **Scenario Manager** (beheer scenario’s)
 - **Firmware Interface** (firmware testen)
 - **Logging & Analytics**
