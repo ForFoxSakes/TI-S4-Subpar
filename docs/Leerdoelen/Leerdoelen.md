@@ -139,6 +139,7 @@ Student adviseert de opdrachtgever, na analyse van de vereisten en doelstellinge
 |--------------------|--------------------------------------------------------|--------------------------|
 |`Smartcity-IoT Analyse` | `Analyse luchtkwaliteit rondom gemeente Hengelo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
 |`Lora Mesh onderzoek`|  `Onderzoek naar LoRa Mesh voor smart-city, vertaald naar adviesrapport` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
+|`Lora Mesh presentatie`|  `Presentatie van het onderzoek naar LoRa Mesh voor smart-city, vertaald naar adviesrapport` |  [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx) |
 |`Advies vervolg project`|  `	Advies opgesteld voor de volgende stappen in het onderzeedrone-project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/presentation_outline.md) |
 
 --- 
@@ -152,6 +153,25 @@ Ik vergeleek LoRa Mesh met LoRaWAN op techniek, toepasbaarheid en schaalbaarheid
 ### Feedback
 Vanuit mijn werk was in overleg na de presentatie interesse getoond in de opstelling, en het argument bij mijn advies was dat het niet diep genoeg was. Dit was ook het geval bij sommige feedback bij de presentatie. Mijn doel was meer dat ik wilde kijken of het een mogelijkheid was en hoe het opweegt tegen LoRaWAN en of het de problemen waar wij bij LoRaWAN tegenaan lopen zou oplossen.
 
+### Deep Dive Presentatie
+Feedback van studenten:
+
+De presentatie bevatte te veel tekst op de slides\
+De toepassingen van LoRa waren interessant, maar er was behoefte aan meer technische voorbeelden
+
+Feedback van docenten:
+
+Nick Goris: Complimenteerde de opbouw van de presentatie, waarbij ik startte met een probleemstelling, vervolgens een technisch kader opstelde en daarna naar het antwoord toewerkte. Hij merkte wel op dat het jammer was dat de apparatuur ontbrak voor een praktische demonstratie.
+
+Harm:
+ Suggereerde dat er meer aandacht besteed had moeten worden aan de verschillende berichtgevingsklassen van LoRa (klasse A, B en C) en of mesh-netwerken hier wel bij aansluiten.
+
+Feedback Bart op rapport. 
+"Geen idee naar de bronnen. APA vewijzingen zorgen dat de lezer veel makkelijker geinformeerd an worden. Het moment dat je meteen een bron geeft neemt de lezer veel sneller aan dat het waar is.
+
+Schrijfstijl is pretting en het is ook echt een advies"
+
+
 ## Leeruitkomst 4 Realiseren
 
 Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedded systeem, inclusief grafische representatie. Hierbij wordt gewerkt volgens een voorgeschreven methode waarin testen centraal staat, ten behoeve van het uitvoeren van tests op verschillende ontwikkelniveaus. Testresultaten, omstandigheden en afhankelijkheden worden helder gedocumenteerd, omwille van het reproduceren van de testresultaten. 
@@ -163,7 +183,8 @@ Student realiseert vanuit het ontwerp een 'Digital Twin' van een bestaand embedd
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Projectcode` | `	Alle code van de onderzee simulator` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/tree/main/subpar/simulator) |
-| `Vision opdrachten` | `Basis beeldverwerking met neuraal netwerk` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision) |
+| `Vision 1` | `Basis beeldverwerking met Guassian blur en andere image filters` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision/Opdracht_1) |
+| `Vision 2` | `Basis beeldverwerking met neuraal netwerk` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/Vision/Vision_with_Ai) |
 | `Standardlibrary C++` | `Opdrachten van STD C++` | [link ](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/CPP) |
 | `ALDS` | `Algoritmes & datastructuren` | [link](https://github.com/ForFoxSakes/TI-S4-opdrachten/tree/main/ALDS) |
 | `Gazebo Opdrachten` | `Modellen en viewerconfiguratie in Gazebo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/tree/main/src) |
@@ -434,5 +455,19 @@ In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren
 ### Deep Dive
 Initieel was de opzet van mijn Deepdive gericht naar een oplossing vinden voor de omslachtige manier van het SDFormat voor Gazebo. Uiteindelijk was dit probleem minder groot dan gedacht en was de oplossing te uitgebreid voor de scope. Er is de keuze gemaakt om naar een ander onderwerp te wisselen. Hierbij is gekozen om een mogelijke oplossing te vinden voor de uitdaging met connectiviteit van de LoRaWAN sensoren die wij gebruiken. Alhoewel dit probleem meerdere oplossingen kan hebben, ben ik verder ingedoken in de mogelijkheden van LoRaMESH, de mogelijkheden van deze technologie lijken de uitdagingen van LoRaWAN goed aan te vullen. Ik heb in dit onderzoek beide technologien geanalyseerd en hieruit conclusies getrokken.
 
+## Feedback 
+
+### Deep Dive Presentatie
+Feedback van studenten:
+
+De presentatie bevatte te veel tekst op de slides\
+De toepassingen van LoRa waren interessant, maar er was behoefte aan meer technische voorbeelden
+
+Feedback van docenten:
+
+Nick Goris: Complimenteerde de opbouw van de presentatie, waarbij ik startte met een probleemstelling, vervolgens een technisch kader opstelde en daarna naar het antwoord toewerkte. Hij merkte wel op dat het jammer was dat de apparatuur ontbrak voor een praktische demonstratie.
+
+Harm:
+ Suggereerde dat er meer aandacht besteed had moeten worden aan de verschillende berichtgevingsklassen van LoRa (klasse A, B en C) en of mesh-netwerken hier wel bij aansluiten.
 
 
