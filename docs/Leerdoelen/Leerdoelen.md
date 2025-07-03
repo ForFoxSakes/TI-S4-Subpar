@@ -126,51 +126,52 @@ Het is belangrijk voor de productowner dat, als deze requirements binnen de afge
 
 
 ---
-
 ## Leeruitkomst 3 Adviseren
 
 Student adviseert de opdrachtgever, na analyse van de vereisten en doelstellingen, over de inzet van een digital twin. Het advies is helder onderbouwd en gepresenteerd, zodat het begrijpelijk is voor alle stakeholders/betrokkenen. Het voorgestelde ontwerp is goed gedocumenteerd en het advies volgt een voorgeschreven methode, zodat de implementatie efficiënt kan worden voortgezet.
 
 ---
 
-## **Leeruitkomst  Persoonlijke opdrachten:**
+## **Leeruitkomst 3 Persoonlijke opdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 |`Smartcity-IoT Analyse` | `Analyse luchtkwaliteit rondom gemeente Hengelo` | [link](https://github.com/ForFoxSakes/TI-S4-DEBUG/blob/main/Documents/Leerdoelen/LD-1%20Analyseren/Data%20analyse%20-%20Impact%20weercondities%20luchtkwaliteit%20Breemarsweg%20Hengelo%2004-03-2025.pdf) |
 |`Lora Mesh onderzoek`|  `Onderzoek naar LoRa Mesh voor smart-city, vertaald naar adviesrapport` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Lora_mesh_achtergrondrappord.md) |
-|`Lora Mesh presentatie`|  `Presentatie van het onderzoek naar LoRa Mesh voor smart-city, vertaald naar adviesrapport` |  [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx) |
-|`Advies vervolg project`|  `	Advies opgesteld voor de volgende stappen in het onderzeedrone-project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/presentation_outline.md) |
+|`Lora Mesh presentatie`|  `Presentatie van het onderzoek naar LoRa Mesh voor smart-city` |  [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx) |
+|`Advies vervolg project`|  `Advies opgesteld voor de volgende stappen in het onderzeedrone-project` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/presentation_outline.md) |
 
 --- 
 
-#### Smartcity-IoT Analyse 
+### Smartcity-IoT Analyse 
 In opdracht van de gemeente heb ik de relatie tussen windrichting en fijnstofconcentraties in Hengelo onderzocht. Op basis van mijn bevindingen heb ik concrete aanbevelingen geformuleerd voor luchtkwaliteitsmonitoring en risicobeperking.
 
-#### Lora Mesh Onderzoek
-Ik vergeleek LoRa Mesh met LoRaWAN op techniek, toepasbaarheid en schaalbaarheid. De belangrijkste uitkomst is vertaald naar een adviesrapport en uitgegroeid naar een onderzoeksproject richting de mogelijkheden van LoRa Mesh binnen SmartCity-IoT.
+### Lora Mesh Onderzoek & Presentatie
+Ik vergeleek LoRa Mesh met LoRaWAN op techniek, toepasbaarheid en schaalbaarheid. De belangrijkste uitkomst is vertaald naar een adviesrapport en gepresenteerd aan collega-studenten en docenten. 
 
-### Feedback
-Vanuit mijn werk was in overleg na de presentatie interesse getoond in de opstelling, en het argument bij mijn advies was dat het niet diep genoeg was. Dit was ook het geval bij sommige feedback bij de presentatie. Mijn doel was meer dat ik wilde kijken of het een mogelijkheid was en hoe het opweegt tegen LoRaWAN en of het de problemen waar wij bij LoRaWAN tegenaan lopen zou oplossen.
+**Feedback van docenten:**
+- **Nick Goris** gaf aan dat de opbouw van de presentatie sterk was (probleemstelling → technisch kader → conclusie), maar miste praktische demonstratie.
+- **Harm** wees op een gemiste kans om in te gaan op berichtklassen A/B/C en hoe mesh daarmee interageert.
+- **Bart Bozon** gaf feedback op het rapport: "De APA-verwijzingen ontbraken, wat het lastiger maakt voor de lezer om informatie te verifiëren. Met correcte bronnen komt een advies geloofwaardiger over." 
+  → **Actie**: Ik heb het rapport herschreven en APA-verwijzingen toegevoegd.
 
-### Deep Dive Presentatie
-Feedback van studenten:
+**Feedback van studenten:**
+- Te veel tekst op slides.
+- Interesse in toepassingen, maar behoefte aan meer technische diepgang.
 
-De presentatie bevatte te veel tekst op de slides\
-De toepassingen van LoRa waren interessant, maar er was behoefte aan meer technische voorbeelden
+**Verwerking feedback:**
+- In een latere versie van de presentatie heb ik slides compacter gemaakt en de nadruk gelegd op de technische werking van mesh-routing.
+- De APA-verwijzingen zijn toegevoegd aan het adviesrapport, zie hoofdstuk 9 van het rapport.
+- De presentatie zelf is toegevoegd aan deze leeruitkomst als apart bewijsstuk.
 
-Feedback van docenten:
+**Toekomstige toepassing:**
+- Ik ben van plan om bij toekomstige adviezen en presentaties direct vanaf de eerste versie met bronverwijzingen te werken.
+- Bij het geven van adviezen zal ik explicieter rekening houden met de verschillende soorten ontvangers (technisch vs niet-technisch publiek).
 
-Nick Goris: Complimenteerde de opbouw van de presentatie, waarbij ik startte met een probleemstelling, vervolgens een technisch kader opstelde en daarna naar het antwoord toewerkte. Hij merkte wel op dat het jammer was dat de apparatuur ontbrak voor een praktische demonstratie.
+### Advies vervolg project
+Op basis van de lessons learned in de mesh-presentatie heb ik een advies geformuleerd over hoe het onderzeedrone-project op een realistische en stapsgewijze manier verder gebracht kan worden. Daarbij heb ik rekening gehouden met technische haalbaarheid, scopebeheersing en de eerdere feedback over prioriteren (Jan Halsema).
 
-Harm:
- Suggereerde dat er meer aandacht besteed had moeten worden aan de verschillende berichtgevingsklassen van LoRa (klasse A, B en C) en of mesh-netwerken hier wel bij aansluiten.
-
-Feedback Bart op rapport. 
-"Geen idee naar de bronnen. APA vewijzingen zorgen dat de lezer veel makkelijker geinformeerd an worden. Het moment dat je meteen een bron geeft neemt de lezer veel sneller aan dat het waar is.
-
-Schrijfstijl is pretting en het is ook echt een advies"
-
+---
 
 ## Leeruitkomst 4 Realiseren
 
@@ -266,6 +267,16 @@ Voor vision 2 , prober de learning curves te analiseren en wanneer deze overfit.
 Reactie op Feedback Bart : 
 In de afbeelding learning_curves.png voor de vision 2 opdracht is te zien dat het medium hidden model iets meer last heeft van overfitting. Hierbij is de test loss hogeer dan de training loss en het verschil groot. Het betelemd dis dat de trainingdata wel goed gleeerd wort maar slecht generaliseert naar nieuwe data. Bij het eerste model "Small" is de training loss hoog en de test loss hoog, en dus is er sprake van underfitting. Het model is te klein of het leert niet goed genoeg.
 
+### Aanvullingen n.a.v. feedback
+- Ik heb **Vision 1** en **Vision 2** nu expliciet gescheiden in de beschrijving en bewijsvoering.
+- **Feedback van Bart** op Vision 2 is verwerkt door een concrete analyse toe te voegen van overfitting/underfitting op basis van de learning curves (zie afbeelding `learning_curves.png`).
+- De feedback dat **KMeans** nog ontbrak is genoteerd. De code is later alsnog toegevoegd aan het repository en in de beschrijving verwerkt.
+
+**Verwerking feedback:**
+- In `Vision 2` is nu opgenomen dat het Medium Hidden model overfit toont (lage training loss, hoge test loss).
+- In `Vision 1` is beknopt uitgelegd dat er sprake was van underfitting (train & test loss beiden hoog).
+- KMeans-sectie is toegevoegd, inclusief de reden waarom dit algoritme relevant was bij clustering in Vision-opdrachten.
+
 ---
 
 
@@ -321,6 +332,15 @@ Ik heb het klimaatexamen , in alle eerlijkheid, twee keer uitgevoerd. De eerste 
 
 ### Persoonlijke Reflectie
 In deze persoonlijk reflectie heb ik geprobeerd het probleem en de situatie goed te beschrijven. vervolgens heb ik een realistische aanpak proberen te ontwikkelen met een actielijst om op te volgen.
+
+**Feedback Bart:**
+- Sprintverslagen zijn te mager.
+- Vraag ook feedback van Teun.
+
+
+**Toekomstige toepassing:**
+- Ik blijf actief feedback vragen tijdens het proces, in plaats van pas achteraf.
+- In komende projecten ga ik sprintdocumentatie gelijk koppelen aan leerdoelen.
 
 ---
 
@@ -409,7 +429,7 @@ Hierin was ook weer de focus om te kijken of ik kan nog bepaalde doelen kan hale
 
 ### Feedback
 
-### Feedback Bart 
+### Feedback Bart Bozon 
 Motivatie brief:
 
 Ik zou het formeler doen, ik mis briefhoofd, aanhef, etc.
@@ -446,13 +466,6 @@ Indicatoren:
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Persoonlijke Reflectie` | `Gereflecteerd op de afgelopen periode om problemen te identificeren en dit mee te nemen` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Reflectieverslag.md) |
 
-### Persoonlijke Reflectie
-In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren en werken naar een oplossing door systematisch mijn gedragspatronen te analyseren en evidence-based interventiestrategieën toe te passen. Hierbij stel ik kritische vragen over mijn eigen aanpak en ontwikkel ik een gefundeerd actieplan dat zowel persoonlijke groei als professionele ontwikkeling bevordert. 
-
-#### Feedback Persoonlijke Reflectie
-Feedback Nick : 
-Even gelezen; het is gewoon vet herkenbaar.
-Ik vind het een sterk stukje reflectie, waar duidelijk zelfkennis in zit. Ook de oplossingen die je aanhaalt kunnen hele effectieve strategieën zijn voor deze specifieke problemen. Fijn om te zien dat je je realiseert dat die schaamte eigenlijk grotendeels onnodig bleek te zijn als je jezelf er eenmaal toe zet. Dat ik gedachte houden is een sleutelpunt. Ik zeg dit niet als expert, maar als ervaringsdeskundige.
 
 --
 
@@ -463,6 +476,13 @@ Ik vind het een sterk stukje reflectie, waar duidelijk zelfkennis in zit. Ook de
 | `Deep Dive` | `problemen identificeren tijdens de deepdive en gepast handelen om dit probleem op te lossen ` | [link](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/LoRaMesh_vs_LoRaWAN_presentatie.pptx) |
 
 
+### Persoonlijke Reflectie
+In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren en werken naar een oplossing door systematisch mijn gedragspatronen te analyseren en evidence-based interventiestrategieën toe te passen. Hierbij stel ik kritische vragen over mijn eigen aanpak en ontwikkel ik een gefundeerd actieplan dat zowel persoonlijke groei als professionele ontwikkeling bevordert. 
+
+#### Feedback Persoonlijke Reflectie
+Feedback Nick : 
+Even gelezen; het is gewoon vet herkenbaar.
+Ik vind het een sterk stukje reflectie, waar duidelijk zelfkennis in zit. Ook de oplossingen die je aanhaalt kunnen hele effectieve strategieën zijn voor deze specifieke problemen. Fijn om te zien dat je je realiseert dat die schaamte eigenlijk grotendeels onnodig bleek te zijn als je jezelf er eenmaal toe zet. Dat ik gedachte houden is een sleutelpunt. Ik zeg dit niet als expert, maar als ervaringsdeskundige.
 ### Deep Dive
 Initieel was de opzet van mijn Deepdive gericht naar een oplossing vinden voor de omslachtige manier van het SDFormat voor Gazebo. Uiteindelijk was dit probleem minder groot dan gedacht en was de oplossing te uitgebreid voor de scope. Er is de keuze gemaakt om naar een ander onderwerp te wisselen. Hierbij is gekozen om een mogelijke oplossing te vinden voor de uitdaging met connectiviteit van de LoRaWAN sensoren die wij gebruiken. Alhoewel dit probleem meerdere oplossingen kan hebben, ben ik verder ingedoken in de mogelijkheden van LoRaMESH, de mogelijkheden van deze technologie lijken de uitdagingen van LoRaWAN goed aan te vullen. Ik heb in dit onderzoek beide technologien geanalyseerd en hieruit conclusies getrokken.
 
@@ -480,5 +500,21 @@ Nick Goris: Complimenteerde de opbouw van de presentatie, waarbij ik startte met
 
 Harm:
  Suggereerde dat er meer aandacht besteed had moeten worden aan de verschillende berichtgevingsklassen van LoRa (klasse A, B en C) en of mesh-netwerken hier wel bij aansluiten.
+
+**Feedback Bart Bozon:**
+- Voeg naast de presentatie ook andere documenten toe aan deze leeruitkomst.
+- Verwerk feedback die je ook bij leeruitkomst 3 hebt ontvangen.
+
+**Aanpassing:**
+- Naast de presentatie heb ik nu ook het adviesrapport opgenomen onder leeruitkomst 9, met expliciete verwijzing naar het onderliggende onderzoek.
+- Feedback van Nick (persoonlijke reflectie) is toegevoegd onder dit leerdoel.
+
+**Verwerking feedback Nick:**
+- Reflectie aangevuld met inzicht dat veel drempels psychologisch waren (schaamte bleek onterecht zodra ik startte).
+- Dit besef neem ik mee in toekomstige projecten waarin ik sneller actie zal ondernemen ondanks eventuele twijfel.
+
+**Toekomstige toepassing:**
+- Bij elk onderzoeksproces leg ik expliciet vast: probleem → hypothese → methodiek → actie → reflectie. Dit patroon bleek goed te werken in deze deep dive.
+- Ik ga meer gebruik maken van APA-verwijzingen en documenteer vanaf de start nauwkeurig, zodat ik beter kan onderbouwen en sneller kan hergebruiken.
 
 
