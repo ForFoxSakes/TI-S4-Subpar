@@ -260,6 +260,12 @@ Leuk gedaan!
 #### Vision opdracht
 Eerste feedback was dat er nog wat creativiteit ontbrak bij de CSV opgave. Dit heb ik opgelost door een image remapping functie toe te voegen die een lachspiegel effect creeerd, ook heb ik de edge detection die ik initieel toegepast heb in een standaardfunctie van CSV gevonden en toegepast. Deze had een beter effect.
 
+Feedback van Bart :
+Voor vision 2 , prober de learning curves te analiseren en wanneer deze overfit. Opdracht 2 is ook in orde.  KMeans moet wel gemaakt worden.
+
+Reactie op Feedback Bart : 
+In de afbeelding learning_curves.png voor de vision 2 opdracht is te zien dat het medium hidden model iets meer last heeft van overfitting. Hierbij is de test loss hogeer dan de training loss en het verschil groot. Het betelemd dis dat de trainingdata wel goed gleeerd wort maar slecht generaliseert naar nieuwe data. Bij het eerste model "Small" is de training loss hoog en de test loss hoog, en dus is er sprake van underfitting. Het model is te klein of het leert niet goed genoeg.
+
 ---
 
 
@@ -441,7 +447,12 @@ Indicatoren:
 | `Persoonlijke Reflectie` | `Gereflecteerd op de afgelopen periode om problemen te identificeren en dit mee te nemen` | [link naar ...](https://github.com/ForFoxSakes/TI-S4-Subpar/blob/main/docs/Verslagen/Reflectieverslag.md) |
 
 ### Persoonlijke Reflectie
-In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren en werken naar een oplossing door systematisch mijn gedragspatronen te analyseren en evidence-based interventiestrategieën toe te passen. Hierbij stel ik kritische vragen over mijn eigen aanpak en ontwikkel ik een gefundeerd actieplan dat zowel persoonlijke groei als professionele ontwikkeling bevordert.
+In mijn persoonlijke reflectie toon ik aan dat ik het probleem kan identificeren en werken naar een oplossing door systematisch mijn gedragspatronen te analyseren en evidence-based interventiestrategieën toe te passen. Hierbij stel ik kritische vragen over mijn eigen aanpak en ontwikkel ik een gefundeerd actieplan dat zowel persoonlijke groei als professionele ontwikkeling bevordert. 
+
+#### Feedback Persoonlijke Reflectie
+Feedback Nick : 
+Even gelezen; het is gewoon vet herkenbaar.
+Ik vind het een sterk stukje reflectie, waar duidelijk zelfkennis in zit. Ook de oplossingen die je aanhaalt kunnen hele effectieve strategieën zijn voor deze specifieke problemen. Fijn om te zien dat je je realiseert dat die schaamte eigenlijk grotendeels onnodig bleek te zijn als je jezelf er eenmaal toe zet. Dat ik gedachte houden is een sleutelpunt. Ik zeg dit niet als expert, maar als ervaringsdeskundige.
 
 --
 
