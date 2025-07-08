@@ -18,7 +18,7 @@ Voor deze analyse heb ik verschillende analyses uitgevoerd op de data die afkoms
 Daarna is de dataset gekoppeld aan winddata per windrichting, en zijn de piekmomenten van de PM-metingen in kaart gebracht. Ook is er een heatmap gemaakt waarin de winddata is afgezet tegen de luchtkwaliteitsmetingen over de meetmaanden.
 Tot slot zijn zowel de hoge PM-waarden als de gemiddelde PM-waarden weergegeven in een windroos om trends te herkennen. Hieruit blijkt dat vooral westelijke en zuidoostelijke winden disproportioneel bijdragen aan verhoogde fijnstofconcentraties en uitschieters.
 
-##### Feedback 
+##### Feedback - Bart Bozon
 19-06-2025 Initieel was er de indruk dat de leeropdracht analyseren ook echt om een analyse ging. Maar na advies van Bart was verwezen dat het meer gaat om het kunnen deduceren van requirements. Ik heb vervolgens de onderbouwing aangepast naar hoe de requirements zijn gehaald uit de vraag van de opdrachtgever hieronder.
 
 ##### Verwerking ontvangen feedback
@@ -206,7 +206,8 @@ In VSCode heb ik een Docker-devcontainer opgezet met Gazebo en een C++-debugger.
 
 ### Feedback
 
-#### ALDS opdracht 1
+#### ALDS opdracht 1 - Nick Goris
+
 De opdracht is correct uitgevoerd zoals bedoeld. Er zijn nettere manieren om dit op te lossen, bijvoorbeeld met behulp van decorators, maar dat viel buiten de opdracht. Hieronder een voorbeeld van een `memoize` decorator ter illustratie:
 
 ```python
@@ -231,13 +232,13 @@ print(fibonacci(10))
 
 
 
-#### ALDS opdracht 2
+#### ALDS opdracht 2 - Nick Goris
 
 De implementatie van de median-pivot lijkt niet helemaal correct. De redenering laat wel zien dat je de aanpak begrijpt en goed kunt uitleggen wat er zou moeten gebeuren. De opdracht is daarmee inhoudelijk behaald, al kan de uitwerking nog iets technischer verbeterd worden.
 
 ---
 
-### CPP
+### CPP - Nick Goris
 
 De code met standaardbibliotheekfuncties ziet er goed uit. Er zijn wel een paar punten waar de efficiëntie verbeterd kan worden, met name bij de grote-O-complexiteit van bepaalde loops.
 
@@ -248,23 +249,22 @@ Kijk eventueel ook naar de `ranges` uit de standaardbibliotheek voor modernere s
 
 ---
 
-### Devcontainer
+### Devcontainer - Nick Goris
 
 De opdracht is goed uitgevoerd en werkt zoals bedoeld. Alles ziet er netjes uit en er zijn geen opvallende problemen.
-\ Nick Goris
 
-#### Gazebo Opdracht 
+
+#### Gazebo Opdracht - Nick Goris
 1 mrt op 12:14
 Leuk gedaan! 
 - Bart Bozon
 
-#### Vision opdracht
+#### Vision opdracht - Back Bozon
 Eerste feedback was dat er nog wat creativiteit ontbrak bij de CSV opgave. Dit heb ik opgelost door een image remapping functie toe te voegen die een lachspiegel effect creeerd, ook heb ik de edge detection die ik initieel toegepast heb in een standaardfunctie van CSV gevonden en toegepast. Deze had een beter effect.
 
-Feedback van Bart :
 Voor vision 2 , prober de learning curves te analiseren en wanneer deze overfit. Opdracht 2 is ook in orde.  KMeans moet wel gemaakt worden.
 
-Reactie op Feedback Bart : 
+#### Reactie op Feedback Bart : 
 In de afbeelding learning_curves.png voor de vision 2 opdracht is te zien dat het medium hidden model iets meer last heeft van overfitting. Hierbij is de test loss hogeer dan de training loss en het verschil groot. Het betelemd dis dat de trainingdata wel goed gleeerd wort maar slecht generaliseert naar nieuwe data. Bij het eerste model "Small" is de training loss hoog en de test loss hoog, en dus is er sprake van underfitting. Het model is te klein of het leert niet goed genoeg.
 
 ### Aanvullingen n.a.v. feedback
@@ -303,7 +303,9 @@ Voor de opdrachten rondom debugging en tooling heb ik een debuggingomgeving opge
 
 --
 
-#### Feedback
+#### Feedback 
+
+#### Opdrachten ontwikkelomgeving 
 18/06 Nick Goris:
 Zowel de ontwikkelomgeving als de debugging/tooling zijn volgens de opdracht uitgevoerd.
 
@@ -333,10 +335,15 @@ Ik heb het klimaatexamen , in alle eerlijkheid, twee keer uitgevoerd. De eerste 
 ### Persoonlijke Reflectie
 In deze persoonlijk reflectie heb ik geprobeerd het probleem en de situatie goed te beschrijven. vervolgens heb ik een realistische aanpak proberen te ontwikkelen met een actielijst om op te volgen.
 
-**Feedback Bart:**
+
+### Feedback - Bart Bozon:
 - Sprintverslagen zijn te mager.
 - Vraag ook feedback van Teun.
 
+#### Feedback Persoonlijke Reflectie - Nick Goris 
+(Herhaald in LU9, )
+Even gelezen; het is gewoon vet herkenbaar.
+Ik vind het een sterk stukje reflectie, waar duidelijk zelfkennis in zit. Ook de oplossingen die je aanhaalt kunnen hele effectieve strategieën zijn voor deze specifieke problemen. Fijn om te zien dat je je realiseert dat die schaamte eigenlijk grotendeels onnodig bleek te zijn als je jezelf er eenmaal toe zet. Dat ik gedachte houden is een sleutelpunt. Ik zeg dit niet als expert, maar als ervaringsdeskundige.
 
 **Toekomstige toepassing:**
 - Ik blijf actief feedback vragen tijdens het proces, in plaats van pas achteraf.
